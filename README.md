@@ -1,7 +1,7 @@
 # ⬡ Radar-Jrmy
 
-![CI](https://github.com/YOUR_USERNAME/Radar-Jrmy/actions/workflows/ci.yml/badge.svg)
-![Dernière collecte](https://github.com/YOUR_USERNAME/Radar-Jrmy/actions/workflows/collect.yml/badge.svg)
+![CI](https://github.com/Alt3k0/Radar-Jrmy/actions/workflows/ci.yml/badge.svg)
+![Dernière collecte](https://github.com/Alt3k0/Radar-Jrmy/actions/workflows/collect.yml/badge.svg)
 
 Radar technologique personnel pour suivre 20 technologies clés sur le chemin vers l'architecture logicielle.
 Données collectées automatiquement toutes les 6h via GitHub Actions, hébergé sur GitHub Pages.
