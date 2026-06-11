@@ -1,33 +1,65 @@
 {
-  "generated_at": "2026-06-11T00:00:00Z",
+  "generated_at": "2026-06-11T02:57:18Z",
   "schema_version": "1.0",
   "technologies": [
     {
       "id": "typescript", "name": "TypeScript", "category": "languages", "position": "adopt",
       "since": "2024-01", "switching_cost": "medium",
       "notes": "Standard de facto pour tout projet Node/web",
-      "pros": ["Typage statique = moins de bugs runtime", "Auto-complétion et refactoring fiables", "Compatible JS — migration progressive"],
-      "cons": ["Build step supplémentaire", "Types complexes (generics imbriqués) verbose", "Fausse sécurité si any/as utilisés"],
-      "use_cases": ["Tout projet Node.js ou frontend en équipe", "APIs GraphQL, NestJS, Next.js", "Librairies partagées nécessitant un contrat fort"],
-      "metrics": {}, "trajectory": "stable"
+      "metrics": {
+        "github": {
+          "stars": 109182,
+          "stars_delta_30d": null,
+          "open_issues": 5039,
+          "last_commit_days_ago": 2,
+          "forks": 13423,
+          "fetched_at": "2026-06-11T02:57:10.969148+00:00"
+        },
+        "npm": {
+          "downloads_weekly": 205759155,
+          "downloads_delta_pct": null,
+          "fetched_at": "2026-06-11T02:57:11.028643+00:00"
+        }
+      },
+      "trajectory": "stable"
     },
     {
       "id": "java", "name": "Java", "category": "languages", "position": "adopt",
       "since": "2024-01", "switching_cost": "high",
       "notes": "Langage backend mature, écosystème Spring solide",
-      "pros": ["JVM mature — performances prévisibles, tooling riche", "Typage fort + refactoring IDE de classe mondiale", "Écosystème Spring Boot / Quarkus très complet"],
-      "cons": ["Verbosité comparée à Kotlin/Go", "Démarrage JVM lent (vs GraalVM native)", "Gestion mémoire heap à configurer en prod"],
-      "use_cases": ["Microservices d'entreprise Spring Boot", "Applications Android (avec Kotlin en priorité)", "Systèmes haute disponibilité bancaires / assurance"],
-      "metrics": {}, "trajectory": "stable"
+      "metrics": {
+        "github": {
+          "stars": 22966,
+          "stars_delta_30d": null,
+          "open_issues": 394,
+          "last_commit_days_ago": 0,
+          "forks": 6351,
+          "fetched_at": "2026-06-11T02:57:11.046231+00:00"
+        }
+      },
+      "trajectory": "stable"
     },
     {
       "id": "python", "name": "Python", "category": "languages", "position": "adopt",
       "since": "2024-01", "switching_cost": "medium",
       "notes": "Scripting, data, ML/AI — polyvalence maximale",
-      "pros": ["Productivité maximale, syntaxe lisible", "Écosystème ML/data science inégalé", "Scripts d'automatisation et glue code rapides"],
-      "cons": ["GIL — pas de vrai parallélisme CPU", "Performances brutes faibles (PyPy/Cython pour critical path)", "Typage dynamique = bugs runtime sans mypy"],
-      "use_cases": ["Data pipelines, ML / LLM fine-tuning", "Scripts DevOps, automatisation CI/CD", "APIs FastAPI / Django pour équipes data"],
-      "metrics": {}, "trajectory": "rising"
+      "metrics": {
+        "github": {
+          "stars": 73168,
+          "stars_delta_30d": null,
+          "open_issues": 9274,
+          "last_commit_days_ago": 0,
+          "forks": 34716,
+          "fetched_at": "2026-06-11T02:57:11.065271+00:00"
+        },
+        "pypi": {
+          "downloads_last_month": 661916754,
+          "downloads_last_week": 148376576,
+          "downloads_delta_pct": null,
+          "fetched_at": "2026-06-11T02:57:11.091980+00:00"
+        }
+      },
+      "trajectory": "stable"
     },
     {
       "id": "go", "name": "Go", "category": "languages", "position": "trial",
@@ -51,19 +83,35 @@
       "id": "react", "name": "React", "category": "frameworks_front", "position": "adopt",
       "since": "2024-01", "switching_cost": "medium",
       "notes": "Dominant en production, écosystème Next.js solide",
-      "pros": ["Écosystème et communauté les plus larges", "React Server Components — full-stack natif avec Next.js", "Hooks + Context — state management flexible"],
-      "cons": ["Bundle size si non optimisé", "JSX — courbe pour les nouveaux développeurs", "Choix de librairies à faire soi-même (pas opinionné)"],
-      "use_cases": ["Applications web complexes en équipe", "Sites e-commerce / marketing avec Next.js (SSR/SSG)", "Dashboards et outils internes"],
-      "metrics": {}, "trajectory": "stable"
+      "metrics": {
+        "npm": {
+          "downloads_weekly": 134410428,
+          "downloads_delta_pct": null,
+          "fetched_at": "2026-06-11T02:57:11.127419+00:00"
+        }
+      },
+      "trajectory": "stable"
     },
     {
       "id": "angular", "name": "Angular", "category": "frameworks_front", "position": "trial",
       "since": "2024-03", "switching_cost": "high",
       "notes": "Framework complet, pertinent pour grandes applications d'entreprise",
-      "pros": ["Framework full-featured opinionné — cohérence en équipe", "Injection de dépendances robuste, RxJS natif", "TypeScript en premier — aucune configuration"],
-      "cons": ["Verbosité et boilerplate important", "Bundle initial lourd si non tree-shaken", "Courbe d'apprentissage élevée pour les débutants"],
-      "use_cases": ["Applications d'entreprise avec équipes larges", "Portails internes nécessitant une architecture stricte", "Migration depuis AngularJS en contexte existant"],
-      "metrics": {}, "trajectory": "stable"
+      "metrics": {
+        "github": {
+          "stars": 100316,
+          "stars_delta_30d": null,
+          "open_issues": 1158,
+          "last_commit_days_ago": 0,
+          "forks": 27177,
+          "fetched_at": "2026-06-11T02:57:11.146257+00:00"
+        },
+        "npm": {
+          "downloads_weekly": 5513617,
+          "downloads_delta_pct": null,
+          "fetched_at": "2026-06-11T02:57:11.163913+00:00"
+        }
+      },
+      "trajectory": "stable"
     },
     {
       "id": "vuejs", "name": "Vue.js", "category": "frameworks_front", "position": "trial",
@@ -96,19 +144,38 @@
       "id": "spring-boot", "name": "Spring Boot", "category": "frameworks_back", "position": "adopt",
       "since": "2024-01", "switching_cost": "high",
       "notes": "Standard Java backend, auto-configuration, large écosystème",
-      "pros": ["Auto-configuration — zéro XML, prêt en quelques minutes", "Écosystème Spring (Security, Data, Cloud) très complet", "Production-ready : Actuator, metrics, health checks"],
-      "cons": ["Démarrage lent (JVM) — améliorer avec GraalVM native", "Consommation mémoire élevée par défaut", "Magie Spring — debug complexe pour les non-experts"],
-      "use_cases": ["Microservices d'entreprise Java", "APIs REST / GraphQL avec Spring Data JPA", "Services d'authentification avec Spring Security + Keycloak"],
-      "metrics": {}, "trajectory": "stable"
+      "metrics": {
+        "github": {
+          "stars": 80866,
+          "stars_delta_30d": null,
+          "open_issues": 503,
+          "last_commit_days_ago": 0,
+          "forks": 41927,
+          "fetched_at": "2026-06-11T02:57:11.181491+00:00"
+        }
+      },
+      "trajectory": "stable"
     },
     {
       "id": "nestjs", "name": "NestJS", "category": "frameworks_back", "position": "trial",
       "since": "2024-03", "switching_cost": "medium",
       "notes": "Architecture modulaire Node.js, TypeScript natif",
-      "pros": ["Architecture Angular-like — familière pour les équipes front", "TypeScript natif, décorateurs, injection de dépendances", "Adapters Fastify / Express, WebSockets, gRPC out-of-the-box"],
-      "cons": ["Overhead de décorateurs — verbose pour des APIs simples", "Performances inférieures à Go/Rust pour le CPU-bound", "Certains patterns Angular trop lourds pour des microservices"],
-      "use_cases": ["APIs REST/GraphQL TypeScript en équipe full-stack", "BFF (Backend For Frontend) dans un monorepo", "Microservices Node.js nécessitant une architecture rigoureuse"],
-      "metrics": {}, "trajectory": "rising"
+      "metrics": {
+        "github": {
+          "stars": 75778,
+          "stars_delta_30d": null,
+          "open_issues": 32,
+          "last_commit_days_ago": 0,
+          "forks": 8313,
+          "fetched_at": "2026-06-11T02:57:11.198999+00:00"
+        },
+        "npm": {
+          "downloads_weekly": 10772173,
+          "downloads_delta_pct": null,
+          "fetched_at": "2026-06-11T02:57:11.216633+00:00"
+        }
+      },
+      "trajectory": "stable"
     },
     {
       "id": "fastapi", "name": "FastAPI", "category": "frameworks_back", "position": "adopt",
@@ -141,19 +208,17 @@
       "id": "flutter", "name": "Flutter", "category": "mobile", "position": "adopt",
       "since": "2024-01", "switching_cost": "high",
       "notes": "Cross-platform iOS/Android/Web avec une seule codebase Dart",
-      "pros": ["UI 100% custom — pixel-perfect sur toutes les plateformes", "Hot reload ultra-rapide en développement", "Performance native via compilation AOT"],
-      "cons": ["Dart — langage à apprendre, pool de développeurs limité", "Bundle size plus lourd qu'une app native", "Accès aux APIs platform-specific nécessite des plugins"],
-      "use_cases": ["Applications mobiles cross-platform avec UI riche", "Apps avec design system fortement customisé", "Équipes cherchant iOS + Android + Web depuis un seul repo"],
-      "metrics": {}, "trajectory": "stable"
-    },
-    {
-      "id": "react-native", "name": "React Native", "category": "mobile", "position": "trial",
-      "since": "2024-06", "switching_cost": "high",
-      "notes": "Mobile cross-platform pour équipes React — partage de code web/mobile",
-      "pros": ["Partage de logique avec les apps React web", "Large communauté, Expo simplifie le setup", "Rendu natif (pas WebView)"],
-      "cons": ["Performances inférieures à Flutter sur les UIs complexes", "Bridge natif — debug parfois ardu", "Dépendances aux librairies natives à maintenir"],
-      "use_cases": ["Apps mobiles pour équipes React souhaitant partager du code", "Applications grand public avec composants natifs standard", "Projets avec budget limité nécessitant iOS + Android"],
-      "metrics": {}, "trajectory": "stable"
+      "metrics": {
+        "github": {
+          "stars": 176890,
+          "stars_delta_30d": null,
+          "open_issues": 12832,
+          "last_commit_days_ago": 0,
+          "forks": 30496,
+          "fetched_at": "2026-06-11T02:57:11.234159+00:00"
+        }
+      },
+      "trajectory": "stable"
     },
     {
       "id": "kotlin-multiplatform", "name": "Kotlin Multiplatform", "category": "mobile", "position": "assess",
@@ -186,19 +251,33 @@
       "id": "postgresql", "name": "PostgreSQL", "category": "databases", "position": "adopt",
       "since": "2024-01", "switching_cost": "high",
       "notes": "SGBDR de référence, JSON natif, fiabilité éprouvée",
-      "pros": ["ACID complet, transactions multi-tables fiables", "JSONB natif — hybride relationnel / document", "Extensions (PostGIS, pgvector, TimescaleDB)"],
-      "cons": ["Scalabilité horizontale en écriture complexe (Citus, Patroni)", "Administration et tuning nécessitent de l'expertise", "Pas conçu pour du analytique OLAP pur"],
-      "use_cases": ["Base de données principale de toute application web", "Données géospatiales avec PostGIS", "Vecteurs AI/ML avec pgvector"],
-      "metrics": {}, "trajectory": "stable"
+      "metrics": {
+        "github": {
+          "stars": 21127,
+          "stars_delta_30d": null,
+          "open_issues": 0,
+          "last_commit_days_ago": 0,
+          "forks": 5693,
+          "fetched_at": "2026-06-11T02:57:11.251652+00:00"
+        }
+      },
+      "trajectory": "stable"
     },
     {
       "id": "redis", "name": "Redis", "category": "databases", "position": "adopt",
       "since": "2024-01", "switching_cost": "medium",
       "notes": "Cache in-memory, pub/sub, sessions — indispensable en production",
-      "pros": ["Latence sub-milliseconde — cache applicatif de référence", "Structures de données riches (sorted sets, streams, HLL)", "Pub/Sub et Redis Streams pour l'event-driven"],
-      "cons": ["Données en RAM — coût mémoire", "Modèle de données limité (pas de requêtes complexes)", "Persistance optionnelle — pas une source de vérité primaire"],
-      "use_cases": ["Cache de sessions et tokens JWT", "Rate limiting et compteurs distribués", "Queues de tâches avec BullMQ / Celery"],
-      "metrics": {}, "trajectory": "stable"
+      "metrics": {
+        "github": {
+          "stars": 74808,
+          "stars_delta_30d": null,
+          "open_issues": 2846,
+          "last_commit_days_ago": 1,
+          "forks": 24663,
+          "fetched_at": "2026-06-11T02:57:11.269146+00:00"
+        }
+      },
+      "trajectory": "stable"
     },
     {
       "id": "mongodb", "name": "MongoDB", "category": "databases", "position": "trial",
@@ -231,28 +310,49 @@
       "id": "docker", "name": "Docker", "category": "devops", "position": "adopt",
       "since": "2024-01", "switching_cost": "low",
       "notes": "Conteneurisation standard, reproductibilité des environnements",
-      "pros": ["Build once, run anywhere — reproductibilité totale", "Isolation des dépendances, multi-stage builds", "Docker Compose pour les environnements de développement locaux"],
-      "cons": ["Overhead réseau/stockage vs processus natifs", "Images non-optimisées = sécurité et taille problématiques", "Rootless et daemon non activés par défaut"],
-      "use_cases": ["Environnements de développement reproductibles", "Build d'artefacts CI/CD déterministes", "Packaging d'applications pour Kubernetes"],
-      "metrics": {}, "trajectory": "stable"
+      "metrics": {
+        "github": {
+          "stars": 5901,
+          "stars_delta_30d": null,
+          "open_issues": 781,
+          "last_commit_days_ago": 0,
+          "forks": 2142,
+          "fetched_at": "2026-06-11T02:57:11.286793+00:00"
+        }
+      },
+      "trajectory": "stable"
     },
     {
       "id": "kubernetes", "name": "Kubernetes", "category": "devops", "position": "trial",
       "since": "2024-03", "switching_cost": "high",
       "notes": "Justifié dès 5+ services. K3s pour environnements légers.",
-      "pros": ["Orchestration déclarative — self-healing, auto-scaling", "Standard industrie — talent disponible", "Écosystème CNCF très riche"],
-      "cons": ["Complexité opérationnelle élevée — overkill < 5 services", "Courbe d'apprentissage longue (RBAC, networking, storage)", "Coût infra : minimum 3 nœuds pour HA"],
-      "use_cases": ["Plateformes microservices en production", "Scalabilité automatique à la demande (HPA)", "Multi-tenancy avec namespaces et RBAC"],
-      "metrics": {}, "trajectory": "stable"
+      "metrics": {
+        "github": {
+          "stars": 122923,
+          "stars_delta_30d": null,
+          "open_issues": 2709,
+          "last_commit_days_ago": 0,
+          "forks": 43182,
+          "fetched_at": "2026-06-11T02:57:11.304190+00:00"
+        }
+      },
+      "trajectory": "stable"
     },
     {
       "id": "terraform", "name": "Terraform", "category": "devops", "position": "trial",
       "since": "2024-03", "switching_cost": "medium",
       "notes": "IaC multi-cloud, alternative OpenTofu à considérer",
-      "pros": ["IaC déclaratif multi-cloud (AWS, GCP, Azure, k8s)", "Plan / Apply — preview des changements avant exécution", "Registre de modules communautaire riche"],
-      "cons": ["State file — source de conflits en équipe sans remote backend", "Licence BSL depuis Hashicorp — alternative : OpenTofu", "Drift infra difficile à détecter sans CI dédié"],
-      "use_cases": ["Provisionnement d'infrastructure cloud reproductible", "Multi-environnements (dev/staging/prod) identiques", "Gestion DNS, certificats, VPCs depuis le code"],
-      "metrics": {}, "trajectory": "stable"
+      "metrics": {
+        "github": {
+          "stars": 48633,
+          "stars_delta_30d": null,
+          "open_issues": 1909,
+          "last_commit_days_ago": 0,
+          "forks": 10369,
+          "fetched_at": "2026-06-11T02:57:11.339498+00:00"
+        }
+      },
+      "trajectory": "stable"
     },
     {
       "id": "github-actions", "name": "GitHub Actions", "category": "devops", "position": "adopt",
@@ -276,55 +376,53 @@
       "id": "prometheus", "name": "Prometheus", "category": "observability", "position": "adopt",
       "since": "2024-01", "switching_cost": "medium",
       "notes": "Standard de facto pour les métriques, intégration Grafana",
-      "pros": ["Pull model — simple à intégrer dans Kubernetes", "PromQL — langage de requêtes expressif pour les métriques", "Écosystème d'exporters très riche"],
-      "cons": ["Pas conçu pour les logs ou les traces", "Rétention limitée — nécessite Thanos ou Cortex pour le long terme", "Haute disponibilité native inexistante"],
-      "use_cases": ["Métriques applicatives (RED: Rate, Errors, Duration)", "Alerting avec AlertManager", "SLO / SLA monitoring en production"],
-      "metrics": {}, "trajectory": "stable"
+      "metrics": {
+        "github": {
+          "stars": 64431,
+          "stars_delta_30d": null,
+          "open_issues": 829,
+          "last_commit_days_ago": 0,
+          "forks": 10491,
+          "fetched_at": "2026-06-11T02:57:11.357135+00:00"
+        }
+      },
+      "trajectory": "stable"
     },
     {
       "id": "grafana", "name": "Grafana", "category": "observability", "position": "adopt",
       "since": "2024-01", "switching_cost": "medium",
       "notes": "Dashboards puissants, supporte Prometheus/Loki/Tempo",
-      "pros": ["Datasources multiples (Prometheus, Loki, ClickHouse, etc.)", "Dashboards partagés et versionnés en JSON/code", "Alerting unifié toutes sources"],
-      "cons": ["Configuration de dashboards complexes chronophage", "Grafana Cloud payant au-delà du free tier", "Grafana Tempo (tracing) moins mature que Jaeger"],
-      "use_cases": ["Dashboards opérationnels et métier unifiés", "Oncall — dashboards de garde liés aux alertes", "Stack complète LGTM : Loki + Grafana + Tempo + Mimir"],
-      "metrics": {}, "trajectory": "stable"
+      "metrics": {
+        "github": {
+          "stars": 74338,
+          "stars_delta_30d": null,
+          "open_issues": 3642,
+          "last_commit_days_ago": 0,
+          "forks": 14049,
+          "fetched_at": "2026-06-11T02:57:11.392629+00:00"
+        }
+      },
+      "trajectory": "stable"
     },
     {
-      "id": "opentelemetry", "name": "OpenTelemetry", "category": "observability", "position": "trial",
-      "since": "2024-03", "switching_cost": "medium",
-      "notes": "Standard émergent pour traces/métriques/logs — vendor-neutral",
-      "pros": ["Vendor-neutral — pas de lock-in Datadog / Dynatrace", "Auto-instrumentation — zéro code pour les frameworks standards", "Unifie traces, métriques et logs dans un seul SDK"],
-      "cons": ["Stabilité variable selon les langages (Python encore en beta pour logs)", "Collector à opérer — un composant de plus", "Documentation encore fragmentée"],
-      "use_cases": ["Observabilité distribuée sans vendor lock-in", "Migration de Jaeger/Zipkin vers un standard ouvert", "Instrumentation automatique des microservices Spring / Node.js"],
-      "metrics": {}, "trajectory": "rising"
-    },
-    {
-      "id": "loki", "name": "Grafana Loki", "category": "observability", "position": "trial",
-      "since": "2024-06", "switching_cost": "medium",
-      "notes": "Centralisation des logs K8s bon marché — intégration Grafana native",
-      "pros": ["Stockage économique — indexe les labels, pas le contenu", "Intégration Grafana native — stack LGTM unifiée", "LogQL proche de PromQL — apprentissage rapide"],
-      "cons": ["Pas de recherche full-text — requêtes sans labels bien définis lentes", "Moins puissant qu'Elasticsearch pour l'analytique complexe", "Requêtes longues sur de grands volumes sans partitionnement"],
-      "use_cases": ["Centralisation des logs Kubernetes", "Stack Grafana unifiée (Loki + Prometheus + Tempo)", "Debug applicatif corrélé aux métriques dans Grafana"],
-      "metrics": {}, "trajectory": "stable"
-    },
-    {
-      "id": "jaeger", "name": "Jaeger", "category": "observability", "position": "adopt",
-      "since": "2024-03", "switching_cost": "medium",
-      "notes": "Tracing distribué CNCF graduated — visualisation des call graphs microservices",
-      "pros": ["CNCF graduated — standard éprouvé pour le tracing distribué", "Visualisation des flamegraphs et call graphs", "Compatible OpenTelemetry nativement"],
-      "cons": ["Stockage des traces coûteux en volume", "Sampling à configurer soigneusement (100% = coûteux)", "UI fonctionnelle mais moins riche que les solutions cloud"],
-      "use_cases": ["Debug des latences dans les chaînes microservices", "Root cause analysis sur des erreurs distribuées", "Analyse de la propagation des requêtes end-to-end"],
-      "metrics": {}, "trajectory": "stable"
-    },
-    {
-      "id": "keycloak", "name": "Keycloak", "category": "security", "position": "trial",
-      "since": "2024-03", "switching_cost": "high",
-      "notes": "IAM open-source, OAuth2/OIDC, SSO — alternative souveraine à Auth0",
-      "pros": ["IAM complet : OAuth2, OIDC, SAML, SSO, MFA", "Open-source — aucun coût de licence, hébergement maîtrisé", "Admin UI et API de gestion complètes"],
-      "cons": ["Complexité opérationnelle — HA non trivial", "Configuration avancée nécessite expertise", "Upgrade versions parfois cassants"],
-      "use_cases": ["SSO multi-applications en entreprise", "Authentification microservices avec JWT", "Alternative RGPD à Auth0 / Okta"],
-      "metrics": {}, "trajectory": "stable"
+      "id": "keycloak",
+      "name": "Keycloak",
+      "category": "security",
+      "position": "trial",
+      "since": "2024-03",
+      "switching_cost": "high",
+      "notes": "IAM open-source, OAuth2/OIDC, SSO — alternative à Auth0",
+      "metrics": {
+        "github": {
+          "stars": 34839,
+          "stars_delta_30d": null,
+          "open_issues": 2806,
+          "last_commit_days_ago": 0,
+          "forks": 8461,
+          "fetched_at": "2026-06-11T02:57:11.410382+00:00"
+        }
+      },
+      "trajectory": "stable"
     },
     {
       "id": "vault", "name": "HashiCorp Vault", "category": "security", "position": "trial",
@@ -366,91 +464,62 @@
       "id": "kafka", "name": "Apache Kafka", "category": "messaging", "position": "assess",
       "since": "2024-06", "switching_cost": "high",
       "notes": "Event streaming haute performance, complexité opérationnelle à évaluer",
-      "pros": ["Débit massif — millions d'événements/seconde", "Rétention configurable — replay des événements", "Event sourcing et CQRS natifs"],
-      "cons": ["Complexité opérationnelle élevée (ZooKeeper/KRaft, partition tuning)", "Overkill pour des systèmes < 10k messages/s", "Consumer groups et offsets à gérer soigneusement"],
-      "use_cases": ["Event streaming inter-microservices à grande échelle", "Ingestion de données temps réel (logs, IoT, analytics)", "Event sourcing avec replay d'historique"],
-      "metrics": {}, "trajectory": "stable"
+      "metrics": {
+        "github": {
+          "stars": 32776,
+          "stars_delta_30d": null,
+          "open_issues": 414,
+          "last_commit_days_ago": 0,
+          "forks": 15264,
+          "fetched_at": "2026-06-11T02:57:11.428659+00:00"
+        }
+      },
+      "trajectory": "stable"
     },
     {
-      "id": "rabbitmq", "name": "RabbitMQ", "category": "messaging", "position": "adopt",
-      "since": "2024-01", "switching_cost": "medium",
-      "notes": "Broker de messages AMQP mature — référence pour les queues de tâches",
-      "pros": ["Protocole AMQP mature et éprouvé", "Routing flexible (direct, topic, fanout, headers)", "Management UI claire, DLQ (Dead Letter Queue) natif"],
-      "cons": ["Pas conçu pour le replay d'événements (contrairement à Kafka)", "Scalabilité limitée à très haut volume", "Complexité des exchanges et bindings pour les débutants"],
-      "use_cases": ["Queues de tâches asynchrones (envoi d'emails, notifications)", "RPC asynchrone entre microservices", "Découplage de services sans besoin de replay"],
-      "metrics": {}, "trajectory": "stable"
+      "id": "opentelemetry",
+      "name": "OpenTelemetry",
+      "category": "observability",
+      "position": "trial",
+      "since": "2024-03",
+      "switching_cost": "medium",
+      "notes": "Standard émergent pour traces/métriques/logs, vendor-neutral",
+      "metrics": {
+        "github": {
+          "stars": 7120,
+          "stars_delta_30d": null,
+          "open_issues": 699,
+          "last_commit_days_ago": 0,
+          "forks": 2101,
+          "fetched_at": "2026-06-11T02:57:11.446534+00:00"
+        }
+      },
+      "trajectory": "stable"
     },
     {
-      "id": "nats", "name": "NATS", "category": "messaging", "position": "trial",
-      "since": "2024-06", "switching_cost": "medium",
-      "notes": "Messagerie ultra-légère haute performance — pub/sub, queue groups, JetStream",
-      "pros": ["Ultra-léger (<20 MB) et latence sub-milliseconde", "Pub/Sub + Queue Groups + Streaming (JetStream) en un seul système", "Multi-cloud et edge natif — CNCF incubating"],
-      "cons": ["JetStream (persistance) encore moins mature que Kafka", "Communauté plus petite — moins de ressources", "Moins d'outillage que RabbitMQ ou Kafka"],
-      "use_cases": ["Microservices nécessitant une latence minimale", "IoT et edge computing", "Remplaçant léger de Redis Pub/Sub"],
-      "metrics": {}, "trajectory": "rising"
-    },
-    {
-      "id": "grpc", "name": "gRPC", "category": "messaging", "position": "adopt",
-      "since": "2024-01", "switching_cost": "medium",
-      "notes": "Communication inter-services haute performance avec contrat Protobuf fort",
-      "pros": ["Contrat Protobuf fort — breaking changes détectés à la compilation", "Streaming bidirectionnel natif", "Multi-langage — un seul .proto pour tous les clients"],
-      "cons": ["Debug difficile (binaire Protobuf — pas lisible via curl)", "Courbe d'apprentissage Protobuf et génération de code", "Moins adapté aux APIs publiques (REST/OpenAPI plus accessibles)"],
-      "use_cases": ["Communication interne entre microservices", "APIs haute performance avec streaming", "BFF mobile (protocole compact sur réseau mobile)"],
-      "metrics": {}, "trajectory": "stable"
-    },
-    {
-      "id": "pulsar", "name": "Apache Pulsar", "category": "messaging", "position": "assess",
-      "since": "2024-09", "switching_cost": "high",
-      "notes": "Alternative Kafka avec séparation compute/storage et multi-tenancy native",
-      "pros": ["Séparation compute (broker) / storage (BookKeeper) — scalabilité indépendante", "Multi-tenancy native — namespaces et quotas par tenant", "Geo-replication intégrée"],
-      "cons": ["Complexité opérationnelle très élevée (ZooKeeper + BookKeeper + Brokers)", "Écosystème plus petit que Kafka", "Moins de talent disponible sur le marché"],
-      "use_cases": ["Plateformes multi-tenant nécessitant l'isolation", "Event streaming avec geo-replication transparente", "Évaluation comme alternative Kafka pour les nouveaux projets"],
-      "metrics": {}, "trajectory": "stable"
-    },
-    {
-      "id": "ollama", "name": "Ollama / OpenAI SDK", "category": "ai", "position": "assess",
-      "since": "2024-06", "switching_cost": "low",
+      "id": "ollama",
+      "name": "Ollama / OpenAI",
+      "category": "ai",
+      "position": "assess",
+      "since": "2024-06",
+      "switching_cost": "low",
       "notes": "LLMs locaux (Ollama) et API cloud (OpenAI) — écosystème en évolution rapide",
-      "pros": ["OpenAI API — standard de facto, compatible avec la plupart des LLMs", "Ollama — exécution locale, zéro coût, RGPD", "Prototypage d'applications LLM en quelques lignes"],
-      "cons": ["Coûts API cloud peuvent exploser sans monitoring", "Hallucinations — ne pas utiliser pour des données critiques sans validation", "Évolution rapide — APIs et modèles changent fréquemment"],
-      "use_cases": ["Génération de contenu et assistants conversationnels", "Extraction d'informations structurées depuis du texte", "Code review et génération de code assistée"],
-      "metrics": {}, "trajectory": "rising"
-    },
-    {
-      "id": "langchain", "name": "LangChain", "category": "ai", "position": "trial",
-      "since": "2024-06", "switching_cost": "medium",
-      "notes": "Framework d'orchestration LLM — RAG, agents et chaînes de prompts",
-      "pros": ["Abstractions LLM universelles — swap de provider en une ligne", "RAG et agents prêts à l'emploi", "LangSmith pour le debug et monitoring des chaînes"],
-      "cons": ["Abstraction parfois trop lourde — debug complexe", "Breaking changes fréquents entre versions majeures", "Peut être remplacé par du code direct pour les cas simples"],
-      "use_cases": ["Applications RAG (Question/Réponse sur documents)", "Agents autonomes multi-steps", "Pipelines de traitement LLM complexes"],
-      "metrics": {}, "trajectory": "rising"
-    },
-    {
-      "id": "huggingface", "name": "Hugging Face Transformers", "category": "ai", "position": "trial",
-      "since": "2024-06", "switching_cost": "medium",
-      "notes": "Hub de modèles ML open-source — fine-tuning et inférence locale",
-      "pros": ["Accès à tous les modèles open-source (Llama, Mistral, Falcon, etc.)", "Fine-tuning simplifié avec PEFT / LoRA", "Hub communautaire — datasets et modèles partagés"],
-      "cons": ["GPU nécessaire pour les grands modèles", "Dépendances lourdes (PyTorch, CUDA)", "Inférence CPU lente sur les modèles > 7B paramètres"],
-      "use_cases": ["Fine-tuning de modèles sur des données métier", "NLP : classification, extraction, résumé", "Déploiement de modèles open-source on-premise"],
-      "metrics": {}, "trajectory": "rising"
-    },
-    {
-      "id": "mistral-ai", "name": "Mistral AI", "category": "ai", "position": "assess",
-      "since": "2024-09", "switching_cost": "low",
-      "notes": "LLMs européens — excellent rapport performance/coût, API compatible OpenAI",
-      "pros": ["Hébergement européen — conformité RGPD facilitée", "Excellent rapport performance/coût (Mistral Small, Large)", "API compatible OpenAI — migration sans réécriture"],
-      "cons": ["Moins de modèles spécialisés qu'OpenAI", "Communauté et écosystème plus jeunes", "Mixtral (open weights) nécessite une infrastructure GPU"],
-      "use_cases": ["Alternative OpenAI souveraine pour les données sensibles", "LLM on-premise avec Mixtral 8x7B", "Applications nécessitant une conformité RGPD stricte"],
-      "metrics": {}, "trajectory": "rising"
-    },
-    {
-      "id": "llamaindex", "name": "LlamaIndex", "category": "ai", "position": "assess",
-      "since": "2024-09", "switching_cost": "medium",
-      "notes": "Framework spécialisé RAG — indexation et interrogation de bases de connaissances",
-      "pros": ["Spécialisé RAG — connecteurs pour PDF, Notion, bases de données", "Orchestration avancée pour les pipelines d'ingestion", "LlamaCloud pour le déploiement managé"],
-      "cons": ["Overlap avec LangChain — choix difficile", "API en évolution rapide — migration entre versions", "Documentation moins mature que LangChain"],
-      "use_cases": ["Bases de connaissances augmentées (Q&A sur documents internes)", "RAG production-grade avec sources hétérogènes", "Agents d'analyse documentaire"],
-      "metrics": {}, "trajectory": "rising"
+      "metrics": {
+        "github": {
+          "stars": 173807,
+          "stars_delta_30d": null,
+          "open_issues": 3382,
+          "last_commit_days_ago": 1,
+          "forks": 16547,
+          "fetched_at": "2026-06-11T02:57:11.481251+00:00"
+        },
+        "npm": {
+          "downloads_weekly": 24753917,
+          "downloads_delta_pct": null,
+          "fetched_at": "2026-06-11T02:57:11.498822+00:00"
+        }
+      },
+      "trajectory": "stable"
     }
   ]
 }
