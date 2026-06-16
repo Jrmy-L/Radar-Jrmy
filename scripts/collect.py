@@ -121,6 +121,49 @@ async def collect_technology(tech: dict, prev_tech: dict | None) -> dict:
     }
 
 
+def _set_position_hold(tech_id: str, content: str) -> str:
+    """Replace the position field with 'hold' for a given tech ID, preserving YAML formatting."""
+    lines = content.split("\n")
+    in_target = False
+    result = []
+    for line in lines:
+        stripped = line.strip()
+        if stripped.startswith("- id:"):
+            in_target = stripped.split(":", 1)[1].strip() == tech_id
+        if in_target and stripped.startswith("position:"):
+            indent = len(line) - len(line.lstrip())
+            result.append(" " * indent + "position: hold")
+            in_target = False
+        else:
+            result.append(line)
+    return "\n".join(result)
+
+
+def auto_hold_archived(collected: list[dict]) -> list[str]:
+    """
+    Move to 'hold' any tech whose GitHub repo is archived.
+    Updates both technologies.yaml and the collected results in-place.
+    Returns the list of tech IDs that were changed.
+    """
+    to_hold = [
+        t for t in collected
+        if t.get("metrics", {}).get("github", {}).get("archived")
+        and t["position"] != "hold"
+    ]
+    if not to_hold:
+        return []
+
+    content = TECH_FILE.read_text(encoding="utf-8")
+    for tech in to_hold:
+        content = _set_position_hold(tech["id"], content)
+        tech["position"] = "hold"  # keep data.json consistent
+        logger.warning("Auto-hold: %s — GitHub repo is archived", tech["id"])
+
+    TECH_FILE.write_text(content, encoding="utf-8")
+    logger.info("technologies.yaml updated — %d auto-hold(s)", len(to_hold))
+    return [t["id"] for t in to_hold]
+
+
 async def main() -> int:
     logger.info("Starting metrics collection")
     technologies = load_technologies()
@@ -147,6 +190,10 @@ async def main() -> int:
                 source_count,
                 result["trajectory"],
             )
+
+    held = auto_hold_archived(collected)
+    if held:
+        logger.info("Auto-held: %s", ", ".join(held))
 
     total = len(technologies)
     failure_rate = failed / total if total > 0 else 0

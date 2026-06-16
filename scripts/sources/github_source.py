@@ -50,5 +50,6 @@ async def fetch_github_metrics(repo: str, previous: dict | None = None) -> dict[
         "open_issues": repo_data.get("open_issues_count", 0),
         "last_commit_days_ago": last_commit_days_ago,
         "forks": repo_data.get("forks_count", 0),
+        "archived": repo_data.get("archived", False),
         "fetched_at": fetched_at,
     }
