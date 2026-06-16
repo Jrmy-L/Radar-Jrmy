@@ -18,9 +18,9 @@ const RINGS = [
 const RING_INDEX = { adopt: 0, trial: 1, assess: 2, hold: 3 };
 
 const CATEGORIES = [
-  'languages', 'frameworks_front', 'frameworks_back',
-  'mobile', 'databases', 'devops',
-  'observability', 'security', 'messaging', 'ai',
+  'Languages', 'Frameworks_front', 'Frameworks_back',
+  'Mobile', 'Databases', 'Devops',
+  'Observability', 'Security', 'Messaging', 'IA',
 ];
 
 let allTechs = [];

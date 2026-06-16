@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +12,12 @@
       flex-direction: column;
       align-items: center;
     }
-    #radar-svg { display: block; max-width: 100%; height: auto; }
+
+    #radar-svg {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
 
     /* ── Légende des anneaux ── */
     .ring-legend {
@@ -40,10 +46,25 @@
       flex-shrink: 0;
     }
 
-    .ring-legend-adopt  .ring-legend-swatch { background: #F29F52; box-shadow: 0 0 8px rgba(242,159,82,.5); }
-    .ring-legend-trial  .ring-legend-swatch { background: #FDE892; box-shadow: 0 0 8px rgba(253,232,146,.4); }
-    .ring-legend-assess .ring-legend-swatch { background: #CEC4E5; box-shadow: 0 0 8px rgba(206,196,229,.4); }
-    .ring-legend-hold   .ring-legend-swatch { background: #5E5483; box-shadow: 0 0 8px rgba(94,84,131,.4); }
+    .ring-legend-adopt .ring-legend-swatch {
+      background: #F29F52;
+      box-shadow: 0 0 8px rgba(242, 159, 82, .5);
+    }
+
+    .ring-legend-trial .ring-legend-swatch {
+      background: #FDE892;
+      box-shadow: 0 0 8px rgba(253, 232, 146, .4);
+    }
+
+    .ring-legend-assess .ring-legend-swatch {
+      background: #CEC4E5;
+      box-shadow: 0 0 8px rgba(206, 196, 229, .4);
+    }
+
+    .ring-legend-hold .ring-legend-swatch {
+      background: #5E5483;
+      box-shadow: 0 0 8px rgba(94, 84, 131, .4);
+    }
 
     .ring-legend-label {
       font-size: 11px;
@@ -52,10 +73,21 @@
       text-transform: uppercase;
     }
 
-    .ring-legend-adopt  .ring-legend-label { color: #F29F52; }
-    .ring-legend-trial  .ring-legend-label { color: #C8B830; }
-    .ring-legend-assess .ring-legend-label { color: #CEC4E5; }
-    .ring-legend-hold   .ring-legend-label { color: #9B95BE; }
+    .ring-legend-adopt .ring-legend-label {
+      color: #F29F52;
+    }
+
+    .ring-legend-trial .ring-legend-label {
+      color: #C8B830;
+    }
+
+    .ring-legend-assess .ring-legend-label {
+      color: #CEC4E5;
+    }
+
+    .ring-legend-hold .ring-legend-label {
+      color: #9B95BE;
+    }
 
     .ring-legend-desc {
       font-size: 11px;
@@ -64,6 +96,7 @@
     }
   </style>
 </head>
+
 <body>
   <nav>
     <a class="brand" href="index.html">⬡ Tech Radar</a>
@@ -78,6 +111,15 @@
   <main>
     <h1>Radar Technologique</h1>
     <p class="page-subtitle">Vue radar — chaque point représente une technologie positionnée sur 4 anneaux</p>
+
+    <div class="category-filters" id="category-filters"></div>
+
+    <div id="radar-wrapper">
+      <div id="radar-container">
+        <svg id="radar-svg"></svg>
+        <div class="loading" id="loading-msg"></div>
+      </div>
+    </div>
 
     <!-- Légende des anneaux -->
     <div class="ring-legend">
@@ -110,15 +152,6 @@
         </div>
       </div>
     </div>
-
-    <div class="category-filters" id="category-filters"></div>
-
-    <div id="radar-wrapper">
-      <div id="radar-container">
-        <svg id="radar-svg"></svg>
-        <div class="loading" id="loading-msg"></div>
-      </div>
-    </div>
   </main>
 
   <div class="tooltip" id="tooltip"></div>
@@ -128,7 +161,8 @@
   <script type="module">
     import { loadData } from './js/data-loader.js';
     import { initAlerts } from './js/alerts.js';
-    loadData().then(data => initAlerts(data)).catch(() => {});
+    loadData().then(data => initAlerts(data)).catch(() => { });
   </script>
 </body>
+
 </html>
