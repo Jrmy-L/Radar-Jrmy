@@ -24,7 +24,7 @@ const CATEGORIES = [
 ];
 
 let allTechs = [];
-let activeCategories = new Set(CATEGORIES);
+const activeCategories = new Set(CATEGORIES);
 let tooltip = null;
 
 function ringInner(idx) {
@@ -85,7 +85,7 @@ function buildSvg() {
 
   const dotsG = svg.append('g').attr('class', 'dots');
 
-  visible.forEach((tech, i) => {
+  visible.forEach((tech) => {
     const pos = placeDot(tech, allTechs.indexOf(tech));
     const color = getCategoryColor(tech.category);
     const g = dotsG.append('g')

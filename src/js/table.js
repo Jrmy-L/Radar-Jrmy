@@ -108,7 +108,7 @@ function getFilteredSorted() {
   const posFilter = document.getElementById('filter-position').value;
   const catFilter = document.getElementById('filter-category').value;
 
-  let result = allTechs.filter(t => {
+  const result = allTechs.filter(t => {
     const matchText = !query || t.name.toLowerCase().includes(query) || (t.notes || '').toLowerCase().includes(query);
     const matchPos = !posFilter || t.position === posFilter;
     const matchCat = !catFilter || t.category === catFilter;
