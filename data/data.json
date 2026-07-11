@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T13:44:34Z",
+  "generated_at": "2026-07-11T19:18:52Z",
   "schema_version": "1.0",
   "technologies": [
     {
@@ -28,8 +28,8 @@
       "metrics": {
         "npm": {
           "downloads_weekly": 223564696,
-          "downloads_delta_pct": 3.3,
-          "fetched_at": "2026-07-11T13:44:25.155823+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-07-11T19:16:49.308291+00:00"
         }
       },
       "trajectory": "stable"
@@ -88,7 +88,7 @@
           "downloads_last_month": 608448320,
           "downloads_last_week": 139604674,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-11T13:44:25.199091+00:00"
+          "fetched_at": "2026-07-11T19:16:49.360938+00:00"
         }
       },
       "trajectory": "stable"
@@ -171,8 +171,8 @@
       "metrics": {
         "npm": {
           "downloads_weekly": 150758816,
-          "downloads_delta_pct": 3.18,
-          "fetched_at": "2026-07-11T13:44:25.256717+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-07-11T19:16:49.432431+00:00"
         }
       },
       "trajectory": "stable"
@@ -203,11 +203,11 @@
       "metrics": {
         "npm": {
           "downloads_weekly": 4572668,
-          "downloads_delta_pct": -16.44,
-          "fetched_at": "2026-07-11T13:44:25.285594+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-07-11T19:16:49.468294+00:00"
         }
       },
-      "trajectory": "declining"
+      "trajectory": "stable"
     },
     {
       "id": "vuejs",
@@ -235,8 +235,8 @@
       "metrics": {
         "npm": {
           "downloads_weekly": 13274279,
-          "downloads_delta_pct": 3.15,
-          "fetched_at": "2026-07-11T13:44:25.314291+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-07-11T19:16:49.503630+00:00"
         }
       },
       "trajectory": "stable"
@@ -267,8 +267,8 @@
       "metrics": {
         "npm": {
           "downloads_weekly": 43727593,
-          "downloads_delta_pct": 4.55,
-          "fetched_at": "2026-07-11T13:44:25.343074+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-07-11T19:16:49.539610+00:00"
         }
       },
       "trajectory": "stable"
@@ -299,11 +299,11 @@
       "metrics": {
         "npm": {
           "downloads_weekly": 5195354,
-          "downloads_delta_pct": 5.68,
-          "fetched_at": "2026-07-11T13:44:25.371744+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-07-11T19:16:49.575158+00:00"
         }
       },
-      "trajectory": "rising"
+      "trajectory": "stable"
     },
     {
       "id": "spring-boot",
@@ -357,11 +357,11 @@
       "metrics": {
         "npm": {
           "downloads_weekly": 9767741,
-          "downloads_delta_pct": -14.87,
-          "fetched_at": "2026-07-11T13:44:25.414778+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-07-11T19:16:49.628722+00:00"
         }
       },
-      "trajectory": "declining"
+      "trajectory": "stable"
     },
     {
       "id": "fastapi",
@@ -391,7 +391,7 @@
           "downloads_last_month": 496632360,
           "downloads_last_week": 113130733,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-11T13:44:25.443534+00:00"
+          "fetched_at": "2026-07-11T19:16:49.664122+00:00"
         }
       },
       "trajectory": "stable"
@@ -448,8 +448,8 @@
       "metrics": {
         "npm": {
           "downloads_weekly": 112562186,
-          "downloads_delta_pct": 3.12,
-          "fetched_at": "2026-07-11T13:44:25.486555+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-07-11T19:16:49.717437+00:00"
         }
       },
       "trajectory": "stable"
@@ -506,8 +506,8 @@
       "metrics": {
         "npm": {
           "downloads_weekly": 9801971,
-          "downloads_delta_pct": 1.74,
-          "fetched_at": "2026-07-11T13:44:25.529486+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-07-11T19:16:49.770484+00:00"
         }
       },
       "trajectory": "stable"
@@ -564,11 +564,11 @@
       "metrics": {
         "npm": {
           "downloads_weekly": 2608021,
-          "downloads_delta_pct": -15.06,
-          "fetched_at": "2026-07-11T13:44:25.572845+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-07-11T19:16:49.823356+00:00"
         }
       },
-      "trajectory": "declining"
+      "trajectory": "stable"
     },
     {
       "id": "ionic",
@@ -596,11 +596,11 @@
       "metrics": {
         "npm": {
           "downloads_weekly": 322311,
-          "downloads_delta_pct": -17.69,
-          "fetched_at": "2026-07-11T13:44:25.601797+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-07-11T19:16:49.858228+00:00"
         }
       },
-      "trajectory": "declining"
+      "trajectory": "stable"
     },
     {
       "id": "postgresql",
@@ -1096,8 +1096,8 @@
       "metrics": {
         "npm": {
           "downloads_weekly": 623611,
-          "downloads_delta_pct": 1.19,
-          "fetched_at": "2026-07-11T13:44:25.947671+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-07-11T19:16:50.279084+00:00"
         }
       },
       "trajectory": "stable"
@@ -1232,8 +1232,8 @@
       "metrics": {
         "npm": {
           "downloads_weekly": 43278364,
-          "downloads_delta_pct": 3.81,
-          "fetched_at": "2026-07-11T13:44:26.047906+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-07-11T19:16:50.402454+00:00"
         }
       },
       "trajectory": "stable"
@@ -1290,8 +1290,8 @@
       "metrics": {
         "npm": {
           "downloads_weekly": 28309809,
-          "downloads_delta_pct": 3.8,
-          "fetched_at": "2026-07-11T13:44:26.106384+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-07-11T19:16:50.474223+00:00"
         }
       },
       "trajectory": "stable"
@@ -1322,14 +1322,14 @@
       "metrics": {
         "npm": {
           "downloads_weekly": 2596651,
-          "downloads_delta_pct": 3.0,
-          "fetched_at": "2026-07-11T13:44:26.136575+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-07-11T19:16:50.509706+00:00"
         },
         "pypi": {
           "downloads_last_month": 325574506,
           "downloads_last_week": 74281655,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-11T13:44:26.150958+00:00"
+          "fetched_at": "2026-07-11T19:16:50.527305+00:00"
         }
       },
       "trajectory": "stable"
@@ -1362,7 +1362,7 @@
           "downloads_last_month": 170623910,
           "downloads_last_week": 39616907,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-11T13:44:26.180402+00:00"
+          "fetched_at": "2026-07-11T19:16:50.563019+00:00"
         }
       },
       "trajectory": "stable"
@@ -1393,11 +1393,11 @@
       "metrics": {
         "npm": {
           "downloads_weekly": 4280500,
-          "downloads_delta_pct": -17.98,
-          "fetched_at": "2026-07-11T13:44:26.209103+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-07-11T19:16:50.598440+00:00"
         }
       },
-      "trajectory": "declining"
+      "trajectory": "stable"
     },
     {
       "id": "llamaindex",
@@ -1427,7 +1427,7 @@
           "downloads_last_month": 7442963,
           "downloads_last_week": 1610808,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-11T13:44:26.237693+00:00"
+          "fetched_at": "2026-07-11T19:16:50.634078+00:00"
         }
       },
       "trajectory": "stable"
