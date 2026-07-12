@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T03:44:51Z",
+  "generated_at": "2026-07-12T08:30:35Z",
   "schema_version": "1.0",
   "technologies": [
     {
@@ -27,9 +27,9 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 223564696,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-12T03:42:49.592657+00:00"
+          "downloads_weekly": 226101664,
+          "downloads_delta_pct": 1.13,
+          "fetched_at": "2026-07-12T08:28:32.069324+00:00"
         }
       },
       "trajectory": "stable"
@@ -87,8 +87,8 @@
         "pypi": {
           "downloads_last_month": 594334753,
           "downloads_last_week": 138484738,
-          "downloads_delta_pct": -0.8,
-          "fetched_at": "2026-07-12T03:42:49.631137+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-07-12T08:28:32.124339+00:00"
         }
       },
       "trajectory": "stable"
@@ -170,9 +170,9 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 150758816,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-12T03:42:49.682395+00:00"
+          "downloads_weekly": 153316909,
+          "downloads_delta_pct": 1.7,
+          "fetched_at": "2026-07-12T08:28:32.196733+00:00"
         }
       },
       "trajectory": "stable"
@@ -202,9 +202,9 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 4572668,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-12T03:42:49.707779+00:00"
+          "downloads_weekly": 4594646,
+          "downloads_delta_pct": 0.48,
+          "fetched_at": "2026-07-12T08:28:32.233141+00:00"
         }
       },
       "trajectory": "stable"
@@ -234,9 +234,9 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 13274279,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-12T03:42:49.733426+00:00"
+          "downloads_weekly": 13391741,
+          "downloads_delta_pct": 0.88,
+          "fetched_at": "2026-07-12T08:28:32.270307+00:00"
         }
       },
       "trajectory": "stable"
@@ -266,9 +266,9 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 43727593,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-12T03:42:49.758859+00:00"
+          "downloads_weekly": 44699800,
+          "downloads_delta_pct": 2.22,
+          "fetched_at": "2026-07-12T08:28:32.306383+00:00"
         }
       },
       "trajectory": "stable"
@@ -298,9 +298,9 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 5195354,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-12T03:42:49.784345+00:00"
+          "downloads_weekly": 5287580,
+          "downloads_delta_pct": 1.78,
+          "fetched_at": "2026-07-12T08:28:32.343783+00:00"
         }
       },
       "trajectory": "stable"
@@ -356,9 +356,9 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 9767741,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-12T03:42:49.822510+00:00"
+          "downloads_weekly": 9931832,
+          "downloads_delta_pct": 1.68,
+          "fetched_at": "2026-07-12T08:28:32.398516+00:00"
         }
       },
       "trajectory": "stable"
@@ -386,7 +386,14 @@
         "Microservices Python haute performance",
         "Prototypes rapides avec documentation API gratuite"
       ],
-      "metrics": {},
+      "metrics": {
+        "pypi": {
+          "downloads_last_month": 489831335,
+          "downloads_last_week": 113201877,
+          "downloads_delta_pct": null,
+          "fetched_at": "2026-07-12T08:28:32.435106+00:00"
+        }
+      },
       "trajectory": "stable"
     },
     {
@@ -440,9 +447,9 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 112562186,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-12T03:42:49.886161+00:00"
+          "downloads_weekly": 113709424,
+          "downloads_delta_pct": 1.02,
+          "fetched_at": "2026-07-12T08:28:32.496347+00:00"
         }
       },
       "trajectory": "stable"
@@ -498,9 +505,9 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 9801971,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-12T03:42:49.924428+00:00"
+          "downloads_weekly": 9874720,
+          "downloads_delta_pct": 0.74,
+          "fetched_at": "2026-07-12T08:28:32.550895+00:00"
         }
       },
       "trajectory": "stable"
@@ -556,9 +563,9 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 2608021,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-12T03:42:49.962704+00:00"
+          "downloads_weekly": 2650625,
+          "downloads_delta_pct": 1.63,
+          "fetched_at": "2026-07-12T08:28:32.612680+00:00"
         }
       },
       "trajectory": "stable"
@@ -588,9 +595,9 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 322311,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-12T03:42:49.988335+00:00"
+          "downloads_weekly": 319389,
+          "downloads_delta_pct": -0.91,
+          "fetched_at": "2026-07-12T08:28:32.648910+00:00"
         }
       },
       "trajectory": "stable"
@@ -1088,9 +1095,9 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 623611,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-12T03:42:50.294405+00:00"
+          "downloads_weekly": 618254,
+          "downloads_delta_pct": -0.86,
+          "fetched_at": "2026-07-12T08:28:33.089534+00:00"
         }
       },
       "trajectory": "stable"
@@ -1224,9 +1231,9 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 43278364,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-12T03:42:50.383492+00:00"
+          "downloads_weekly": 43854240,
+          "downloads_delta_pct": 1.33,
+          "fetched_at": "2026-07-12T08:28:33.215553+00:00"
         }
       },
       "trajectory": "stable"
@@ -1282,9 +1289,9 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 28309809,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-12T03:42:50.435199+00:00"
+          "downloads_weekly": 28489723,
+          "downloads_delta_pct": 0.64,
+          "fetched_at": "2026-07-12T08:28:33.288955+00:00"
         }
       },
       "trajectory": "stable"
@@ -1314,9 +1321,15 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 2596651,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-12T03:42:50.460565+00:00"
+          "downloads_weekly": 2624144,
+          "downloads_delta_pct": 1.06,
+          "fetched_at": "2026-07-12T08:28:33.324798+00:00"
+        },
+        "pypi": {
+          "downloads_last_month": 323918330,
+          "downloads_last_week": 74420704,
+          "downloads_delta_pct": null,
+          "fetched_at": "2026-07-12T08:28:33.342768+00:00"
         }
       },
       "trajectory": "stable"
@@ -1348,8 +1361,8 @@
         "pypi": {
           "downloads_last_month": 168206349,
           "downloads_last_week": 39280759,
-          "downloads_delta_pct": -0.85,
-          "fetched_at": "2026-07-12T03:42:50.498907+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-07-12T08:28:33.378679+00:00"
         }
       },
       "trajectory": "stable"
@@ -1379,9 +1392,9 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 4280500,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-12T03:42:50.524336+00:00"
+          "downloads_weekly": 4155725,
+          "downloads_delta_pct": -2.91,
+          "fetched_at": "2026-07-12T08:28:33.414721+00:00"
         }
       },
       "trajectory": "stable"
@@ -1413,8 +1426,8 @@
         "pypi": {
           "downloads_last_month": 7302713,
           "downloads_last_week": 1624541,
-          "downloads_delta_pct": 0.85,
-          "fetched_at": "2026-07-12T03:42:50.549720+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-07-12T08:28:33.450788+00:00"
         }
       },
       "trajectory": "stable"
