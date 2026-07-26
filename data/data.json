@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T13:48:10Z",
+  "generated_at": "2026-07-26T19:25:09Z",
   "schema_version": "1.0",
   "technologies": [
     {
@@ -29,7 +29,7 @@
         "npm": {
           "downloads_weekly": 244837253,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-26T13:46:08.071892+00:00"
+          "fetched_at": "2026-07-26T19:23:06.887168+00:00"
         }
       },
       "trajectory": "stable"
@@ -88,7 +88,7 @@
           "downloads_last_month": 571292852,
           "downloads_last_week": 132362198,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-26T13:46:08.125388+00:00"
+          "fetched_at": "2026-07-26T19:23:06.943795+00:00"
         }
       },
       "trajectory": "stable"
@@ -172,7 +172,7 @@
         "npm": {
           "downloads_weekly": 162709618,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-26T13:46:08.196268+00:00"
+          "fetched_at": "2026-07-26T19:23:07.018445+00:00"
         }
       },
       "trajectory": "stable"
@@ -204,7 +204,7 @@
         "npm": {
           "downloads_weekly": 5985131,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-26T13:46:08.231868+00:00"
+          "fetched_at": "2026-07-26T19:23:07.055753+00:00"
         }
       },
       "trajectory": "stable"
@@ -236,7 +236,7 @@
         "npm": {
           "downloads_weekly": 14437565,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-26T13:46:08.267234+00:00"
+          "fetched_at": "2026-07-26T19:23:07.093185+00:00"
         }
       },
       "trajectory": "stable"
@@ -268,7 +268,7 @@
         "npm": {
           "downloads_weekly": 51961254,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-26T13:46:08.302648+00:00"
+          "fetched_at": "2026-07-26T19:23:07.130681+00:00"
         }
       },
       "trajectory": "stable"
@@ -300,7 +300,7 @@
         "npm": {
           "downloads_weekly": 5247336,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-26T13:46:08.338430+00:00"
+          "fetched_at": "2026-07-26T19:23:07.168431+00:00"
         }
       },
       "trajectory": "stable"
@@ -358,7 +358,7 @@
         "npm": {
           "downloads_weekly": 12909630,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-26T13:46:08.392887+00:00"
+          "fetched_at": "2026-07-26T19:23:07.224370+00:00"
         }
       },
       "trajectory": "stable"
@@ -386,7 +386,14 @@
         "Microservices Python haute performance",
         "Prototypes rapides avec documentation API gratuite"
       ],
-      "metrics": {},
+      "metrics": {
+        "pypi": {
+          "downloads_last_month": 512490513,
+          "downloads_last_week": 128425039,
+          "downloads_delta_pct": null,
+          "fetched_at": "2026-07-26T19:23:07.261601+00:00"
+        }
+      },
       "trajectory": "stable"
     },
     {
@@ -442,7 +449,7 @@
         "npm": {
           "downloads_weekly": 122913839,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-26T13:46:08.481304+00:00"
+          "fetched_at": "2026-07-26T19:23:07.317273+00:00"
         }
       },
       "trajectory": "stable"
@@ -500,7 +507,7 @@
         "npm": {
           "downloads_weekly": 10429740,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-26T13:46:08.534578+00:00"
+          "fetched_at": "2026-07-26T19:23:07.372859+00:00"
         }
       },
       "trajectory": "stable"
@@ -558,7 +565,7 @@
         "npm": {
           "downloads_weekly": 3495447,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-26T13:46:08.587968+00:00"
+          "fetched_at": "2026-07-26T19:23:07.428772+00:00"
         }
       },
       "trajectory": "stable"
@@ -590,7 +597,7 @@
         "npm": {
           "downloads_weekly": 438621,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-26T13:46:08.623254+00:00"
+          "fetched_at": "2026-07-26T19:23:07.466436+00:00"
         }
       },
       "trajectory": "stable"
@@ -1090,7 +1097,7 @@
         "npm": {
           "downloads_weekly": 648397,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-26T13:46:09.047916+00:00"
+          "fetched_at": "2026-07-26T19:23:07.912910+00:00"
         }
       },
       "trajectory": "stable"
@@ -1226,7 +1233,7 @@
         "npm": {
           "downloads_weekly": 46882144,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-26T13:46:09.171786+00:00"
+          "fetched_at": "2026-07-26T19:23:08.042874+00:00"
         }
       },
       "trajectory": "stable"
@@ -1284,7 +1291,7 @@
         "npm": {
           "downloads_weekly": 30291536,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-26T13:46:09.245084+00:00"
+          "fetched_at": "2026-07-26T19:23:08.118005+00:00"
         }
       },
       "trajectory": "stable"
@@ -1316,13 +1323,7 @@
         "npm": {
           "downloads_weekly": 2743448,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-26T13:46:09.280931+00:00"
-        },
-        "pypi": {
-          "downloads_last_month": 311101038,
-          "downloads_last_week": 67795250,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-26T13:46:09.298919+00:00"
+          "fetched_at": "2026-07-26T19:23:08.155087+00:00"
         }
       },
       "trajectory": "stable"
@@ -1355,7 +1356,7 @@
           "downloads_last_month": 174581617,
           "downloads_last_week": 40841871,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-26T13:46:09.334459+00:00"
+          "fetched_at": "2026-07-26T19:23:08.211148+00:00"
         }
       },
       "trajectory": "stable"
@@ -1387,7 +1388,7 @@
         "npm": {
           "downloads_weekly": 5868067,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-26T13:46:09.369853+00:00"
+          "fetched_at": "2026-07-26T19:23:08.248436+00:00"
         }
       },
       "trajectory": "stable"
@@ -1420,7 +1421,7 @@
           "downloads_last_month": 7007279,
           "downloads_last_week": 1709724,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-26T13:46:09.405602+00:00"
+          "fetched_at": "2026-07-26T19:23:08.285594+00:00"
         }
       },
       "trajectory": "stable"
