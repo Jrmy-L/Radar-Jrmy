@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T09:14:56Z",
+  "generated_at": "2026-07-31T14:29:02Z",
   "schema_version": "1.0",
   "technologies": [
     {
@@ -27,9 +27,9 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 250686863,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-31T09:12:53.448291+00:00"
+          "downloads_weekly": 252816576,
+          "downloads_delta_pct": 0.85,
+          "fetched_at": "2026-07-31T14:27:00.590888+00:00"
         }
       },
       "trajectory": "stable"
@@ -83,14 +83,7 @@
         "Scripts DevOps, automatisation CI/CD",
         "APIs FastAPI / Django pour équipes data"
       ],
-      "metrics": {
-        "pypi": {
-          "downloads_last_month": 590051051,
-          "downloads_last_week": 141206557,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-31T09:12:53.499584+00:00"
-        }
-      },
+      "metrics": {},
       "trajectory": "stable"
     },
     {
@@ -170,9 +163,9 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 162687688,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-31T09:12:53.567424+00:00"
+          "downloads_weekly": 162571068,
+          "downloads_delta_pct": -0.07,
+          "fetched_at": "2026-07-31T14:27:00.713349+00:00"
         }
       },
       "trajectory": "stable"
@@ -202,9 +195,9 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 5881020,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-31T09:12:53.601204+00:00"
+          "downloads_weekly": 5854588,
+          "downloads_delta_pct": -0.45,
+          "fetched_at": "2026-07-31T14:27:00.751219+00:00"
         }
       },
       "trajectory": "stable"
@@ -234,9 +227,9 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 14134042,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-31T09:12:53.635114+00:00"
+          "downloads_weekly": 14205716,
+          "downloads_delta_pct": 0.51,
+          "fetched_at": "2026-07-31T14:27:00.791443+00:00"
         }
       },
       "trajectory": "stable"
@@ -266,9 +259,9 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 54833206,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-31T09:12:53.668849+00:00"
+          "downloads_weekly": 54989373,
+          "downloads_delta_pct": 0.28,
+          "fetched_at": "2026-07-31T14:27:00.826704+00:00"
         }
       },
       "trajectory": "stable"
@@ -298,9 +291,9 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 5300212,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-31T09:12:53.702765+00:00"
+          "downloads_weekly": 5306828,
+          "downloads_delta_pct": 0.12,
+          "fetched_at": "2026-07-31T14:27:00.862204+00:00"
         }
       },
       "trajectory": "stable"
@@ -356,9 +349,9 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 12894852,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-31T09:12:53.753551+00:00"
+          "downloads_weekly": 13027014,
+          "downloads_delta_pct": 1.02,
+          "fetched_at": "2026-07-31T14:27:00.915150+00:00"
         }
       },
       "trajectory": "stable"
@@ -386,14 +379,7 @@
         "Microservices Python haute performance",
         "Prototypes rapides avec documentation API gratuite"
       ],
-      "metrics": {
-        "pypi": {
-          "downloads_last_month": 541519292,
-          "downloads_last_week": 140471317,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-31T09:12:53.787575+00:00"
-        }
-      },
+      "metrics": {},
       "trajectory": "stable"
     },
     {
@@ -447,9 +433,9 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 125244975,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-31T09:12:53.838372+00:00"
+          "downloads_weekly": 126125592,
+          "downloads_delta_pct": 0.7,
+          "fetched_at": "2026-07-31T14:27:01.003182+00:00"
         }
       },
       "trajectory": "stable"
@@ -505,9 +491,9 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 10914193,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-31T09:12:53.889163+00:00"
+          "downloads_weekly": 10965404,
+          "downloads_delta_pct": 0.47,
+          "fetched_at": "2026-07-31T14:27:01.055789+00:00"
         }
       },
       "trajectory": "stable"
@@ -563,9 +549,9 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 3615156,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-31T09:12:53.940006+00:00"
+          "downloads_weekly": 3626318,
+          "downloads_delta_pct": 0.31,
+          "fetched_at": "2026-07-31T14:27:01.108535+00:00"
         }
       },
       "trajectory": "stable"
@@ -595,9 +581,9 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 449703,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-31T09:12:53.973719+00:00"
+          "downloads_weekly": 440793,
+          "downloads_delta_pct": -1.98,
+          "fetched_at": "2026-07-31T14:27:01.143494+00:00"
         }
       },
       "trajectory": "stable"
@@ -1095,9 +1081,9 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 679507,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-31T09:12:54.381813+00:00"
+          "downloads_weekly": 678519,
+          "downloads_delta_pct": -0.15,
+          "fetched_at": "2026-07-31T14:27:01.566351+00:00"
         }
       },
       "trajectory": "stable"
@@ -1231,9 +1217,9 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 47570365,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-31T09:12:54.500394+00:00"
+          "downloads_weekly": 47868147,
+          "downloads_delta_pct": 0.63,
+          "fetched_at": "2026-07-31T14:27:01.689560+00:00"
         }
       },
       "trajectory": "stable"
@@ -1289,9 +1275,9 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 31424108,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-31T09:12:54.572425+00:00"
+          "downloads_weekly": 31773657,
+          "downloads_delta_pct": 1.11,
+          "fetched_at": "2026-07-31T14:27:01.761273+00:00"
         }
       },
       "trajectory": "stable"
@@ -1321,9 +1307,9 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 2756228,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-31T09:12:54.606429+00:00"
+          "downloads_weekly": 2767733,
+          "downloads_delta_pct": 0.42,
+          "fetched_at": "2026-07-31T14:27:01.796549+00:00"
         }
       },
       "trajectory": "stable"
@@ -1356,7 +1342,7 @@
           "downloads_last_month": 179565199,
           "downloads_last_week": 43362660,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-31T09:12:54.657104+00:00"
+          "fetched_at": "2026-07-31T14:27:01.849767+00:00"
         }
       },
       "trajectory": "stable"
@@ -1386,9 +1372,9 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 6262346,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-07-31T09:12:54.691124+00:00"
+          "downloads_weekly": 6312300,
+          "downloads_delta_pct": 0.8,
+          "fetched_at": "2026-07-31T14:27:01.885157+00:00"
         }
       },
       "trajectory": "stable"
