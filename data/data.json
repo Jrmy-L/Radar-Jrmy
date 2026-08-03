@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T15:10:07Z",
+  "generated_at": "2026-08-03T19:49:47Z",
   "schema_version": "1.0",
   "technologies": [
     {
@@ -29,7 +29,7 @@
         "npm": {
           "downloads_weekly": 259496252,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-03T15:08:05.297373+00:00"
+          "fetched_at": "2026-08-03T19:47:44.986601+00:00"
         }
       },
       "trajectory": "stable"
@@ -83,7 +83,14 @@
         "Scripts DevOps, automatisation CI/CD",
         "APIs FastAPI / Django pour équipes data"
       ],
-      "metrics": {},
+      "metrics": {
+        "pypi": {
+          "downloads_last_month": 593309576,
+          "downloads_last_week": 162060709,
+          "downloads_delta_pct": null,
+          "fetched_at": "2026-08-03T19:47:45.039804+00:00"
+        }
+      },
       "trajectory": "stable"
     },
     {
@@ -165,7 +172,7 @@
         "npm": {
           "downloads_weekly": 162587700,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-03T15:08:05.426042+00:00"
+          "fetched_at": "2026-08-03T19:47:45.111423+00:00"
         }
       },
       "trajectory": "stable"
@@ -197,7 +204,7 @@
         "npm": {
           "downloads_weekly": 5821732,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-03T15:08:05.463582+00:00"
+          "fetched_at": "2026-08-03T19:47:45.146950+00:00"
         }
       },
       "trajectory": "stable"
@@ -229,7 +236,7 @@
         "npm": {
           "downloads_weekly": 14306616,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-03T15:08:05.499955+00:00"
+          "fetched_at": "2026-08-03T19:47:45.182442+00:00"
         }
       },
       "trajectory": "stable"
@@ -261,7 +268,7 @@
         "npm": {
           "downloads_weekly": 54828969,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-03T15:08:05.536060+00:00"
+          "fetched_at": "2026-08-03T19:47:45.218093+00:00"
         }
       },
       "trajectory": "stable"
@@ -293,7 +300,7 @@
         "npm": {
           "downloads_weekly": 5347067,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-03T15:08:05.572417+00:00"
+          "fetched_at": "2026-08-03T19:47:45.253894+00:00"
         }
       },
       "trajectory": "stable"
@@ -351,7 +358,7 @@
         "npm": {
           "downloads_weekly": 13199180,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-03T15:08:05.626874+00:00"
+          "fetched_at": "2026-08-03T19:47:45.307045+00:00"
         }
       },
       "trajectory": "stable"
@@ -383,8 +390,8 @@
         "pypi": {
           "downloads_last_month": 539172617,
           "downloads_last_week": 145684954,
-          "downloads_delta_pct": null,
-          "fetched_at": "2026-08-03T15:08:05.663547+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-08-03T19:47:45.342623+00:00"
         }
       },
       "trajectory": "stable"
@@ -442,7 +449,7 @@
         "npm": {
           "downloads_weekly": 128292323,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-03T15:08:05.717880+00:00"
+          "fetched_at": "2026-08-03T19:47:45.395877+00:00"
         }
       },
       "trajectory": "stable"
@@ -500,7 +507,7 @@
         "npm": {
           "downloads_weekly": 11210532,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-03T15:08:05.772099+00:00"
+          "fetched_at": "2026-08-03T19:47:45.449158+00:00"
         }
       },
       "trajectory": "stable"
@@ -558,7 +565,7 @@
         "npm": {
           "downloads_weekly": 3725023,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-03T15:08:05.826239+00:00"
+          "fetched_at": "2026-08-03T19:47:45.502739+00:00"
         }
       },
       "trajectory": "stable"
@@ -590,7 +597,7 @@
         "npm": {
           "downloads_weekly": 419958,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-03T15:08:05.862569+00:00"
+          "fetched_at": "2026-08-03T19:47:45.538201+00:00"
         }
       },
       "trajectory": "stable"
@@ -1090,7 +1097,7 @@
         "npm": {
           "downloads_weekly": 677756,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-03T15:08:06.297033+00:00"
+          "fetched_at": "2026-08-03T19:47:45.968236+00:00"
         }
       },
       "trajectory": "stable"
@@ -1226,7 +1233,7 @@
         "npm": {
           "downloads_weekly": 48351112,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-03T15:08:06.423385+00:00"
+          "fetched_at": "2026-08-03T19:47:46.093065+00:00"
         }
       },
       "trajectory": "stable"
@@ -1284,7 +1291,7 @@
         "npm": {
           "downloads_weekly": 32728731,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-03T15:08:06.496785+00:00"
+          "fetched_at": "2026-08-03T19:47:46.165045+00:00"
         }
       },
       "trajectory": "stable"
@@ -1316,7 +1323,13 @@
         "npm": {
           "downloads_weekly": 2765067,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-03T15:08:06.532855+00:00"
+          "fetched_at": "2026-08-03T19:47:46.200518+00:00"
+        },
+        "pypi": {
+          "downloads_last_month": 299315310,
+          "downloads_last_week": 64502198,
+          "downloads_delta_pct": null,
+          "fetched_at": "2026-08-03T19:47:46.218240+00:00"
         }
       },
       "trajectory": "stable"
@@ -1374,7 +1387,7 @@
         "npm": {
           "downloads_weekly": 6757305,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-03T15:08:06.623350+00:00"
+          "fetched_at": "2026-08-03T19:47:46.289197+00:00"
         }
       },
       "trajectory": "stable"
@@ -1406,8 +1419,8 @@
         "pypi": {
           "downloads_last_month": 6971774,
           "downloads_last_week": 1643077,
-          "downloads_delta_pct": null,
-          "fetched_at": "2026-08-03T15:08:06.659545+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-08-03T19:47:46.324827+00:00"
         }
       },
       "trajectory": "stable"
