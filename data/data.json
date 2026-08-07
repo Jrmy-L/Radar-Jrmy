@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T00:11:46Z",
+  "generated_at": "2026-08-07T07:38:20Z",
   "schema_version": "1.0",
   "technologies": [
     {
@@ -29,7 +29,7 @@
         "npm": {
           "downloads_weekly": 265177341,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-07T00:09:44.277546+00:00"
+          "fetched_at": "2026-08-07T07:36:17.693153+00:00"
         }
       },
       "trajectory": "stable"
@@ -83,7 +83,14 @@
         "Scripts DevOps, automatisation CI/CD",
         "APIs FastAPI / Django pour équipes data"
       ],
-      "metrics": {},
+      "metrics": {
+        "pypi": {
+          "downloads_last_month": 642546942,
+          "downloads_last_week": 188923373,
+          "downloads_delta_pct": null,
+          "fetched_at": "2026-08-07T07:36:17.746562+00:00"
+        }
+      },
       "trajectory": "stable"
     },
     {
@@ -165,7 +172,7 @@
         "npm": {
           "downloads_weekly": 163919885,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-07T00:09:44.381915+00:00"
+          "fetched_at": "2026-08-07T07:36:17.817596+00:00"
         }
       },
       "trajectory": "stable"
@@ -197,7 +204,7 @@
         "npm": {
           "downloads_weekly": 5937163,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-07T00:09:44.411549+00:00"
+          "fetched_at": "2026-08-07T07:36:17.853008+00:00"
         }
       },
       "trajectory": "stable"
@@ -229,7 +236,7 @@
         "npm": {
           "downloads_weekly": 14504579,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-07T00:09:44.441070+00:00"
+          "fetched_at": "2026-08-07T07:36:17.888441+00:00"
         }
       },
       "trajectory": "stable"
@@ -261,7 +268,7 @@
         "npm": {
           "downloads_weekly": 53712712,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-07T00:09:44.470701+00:00"
+          "fetched_at": "2026-08-07T07:36:17.924134+00:00"
         }
       },
       "trajectory": "stable"
@@ -293,7 +300,7 @@
         "npm": {
           "downloads_weekly": 5401131,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-07T00:09:44.500449+00:00"
+          "fetched_at": "2026-08-07T07:36:17.959794+00:00"
         }
       },
       "trajectory": "stable"
@@ -351,7 +358,7 @@
         "npm": {
           "downloads_weekly": 13340189,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-07T00:09:44.544786+00:00"
+          "fetched_at": "2026-08-07T07:36:18.012818+00:00"
         }
       },
       "trajectory": "stable"
@@ -379,7 +386,14 @@
         "Microservices Python haute performance",
         "Prototypes rapides avec documentation API gratuite"
       ],
-      "metrics": {},
+      "metrics": {
+        "pypi": {
+          "downloads_last_month": 570935337,
+          "downloads_last_week": 144201831,
+          "downloads_delta_pct": null,
+          "fetched_at": "2026-08-07T07:36:18.048354+00:00"
+        }
+      },
       "trajectory": "stable"
     },
     {
@@ -435,7 +449,7 @@
         "npm": {
           "downloads_weekly": 130006647,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-07T00:09:44.620291+00:00"
+          "fetched_at": "2026-08-07T07:36:18.101547+00:00"
         }
       },
       "trajectory": "stable"
@@ -493,7 +507,7 @@
         "npm": {
           "downloads_weekly": 11403972,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-07T00:09:44.664442+00:00"
+          "fetched_at": "2026-08-07T07:36:18.154587+00:00"
         }
       },
       "trajectory": "stable"
@@ -551,7 +565,7 @@
         "npm": {
           "downloads_weekly": 3822835,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-07T00:09:44.708548+00:00"
+          "fetched_at": "2026-08-07T07:36:18.208127+00:00"
         }
       },
       "trajectory": "stable"
@@ -583,7 +597,7 @@
         "npm": {
           "downloads_weekly": 411775,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-07T00:09:44.737932+00:00"
+          "fetched_at": "2026-08-07T07:36:18.243579+00:00"
         }
       },
       "trajectory": "stable"
@@ -1083,7 +1097,7 @@
         "npm": {
           "downloads_weekly": 690836,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-07T00:09:45.091181+00:00"
+          "fetched_at": "2026-08-07T07:36:18.671321+00:00"
         }
       },
       "trajectory": "stable"
@@ -1219,7 +1233,7 @@
         "npm": {
           "downloads_weekly": 49273981,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-07T00:09:45.194208+00:00"
+          "fetched_at": "2026-08-07T07:36:18.795438+00:00"
         }
       },
       "trajectory": "stable"
@@ -1277,7 +1291,7 @@
         "npm": {
           "downloads_weekly": 33382428,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-07T00:09:45.253746+00:00"
+          "fetched_at": "2026-08-07T07:36:18.873488+00:00"
         }
       },
       "trajectory": "stable"
@@ -1309,7 +1323,7 @@
         "npm": {
           "downloads_weekly": 2840836,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-07T00:09:45.283198+00:00"
+          "fetched_at": "2026-08-07T07:36:18.908982+00:00"
         }
       },
       "trajectory": "stable"
@@ -1339,10 +1353,10 @@
       ],
       "metrics": {
         "pypi": {
-          "downloads_last_month": 184828023,
-          "downloads_last_week": 47044776,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-07T00:09:45.327333+00:00"
+          "downloads_last_month": 185157484,
+          "downloads_last_week": 46186885,
+          "downloads_delta_pct": -1.82,
+          "fetched_at": "2026-08-07T07:36:18.961921+00:00"
         }
       },
       "trajectory": "stable"
@@ -1374,7 +1388,7 @@
         "npm": {
           "downloads_weekly": 6949534,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-07T00:09:45.356961+00:00"
+          "fetched_at": "2026-08-07T07:36:18.997207+00:00"
         }
       },
       "trajectory": "stable"
