@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T07:09:33Z",
+  "generated_at": "2026-08-09T13:09:13Z",
   "schema_version": "1.0",
   "technologies": [
     {
@@ -28,8 +28,8 @@
       "metrics": {
         "npm": {
           "downloads_weekly": 260663609,
-          "downloads_delta_pct": 0.42,
-          "fetched_at": "2026-08-09T07:07:31.593285+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-08-09T13:07:10.839237+00:00"
         }
       },
       "trajectory": "stable"
@@ -88,7 +88,7 @@
           "downloads_last_month": 647844692,
           "downloads_last_week": 193193875,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-09T07:07:31.646559+00:00"
+          "fetched_at": "2026-08-09T13:07:10.894709+00:00"
         }
       },
       "trajectory": "stable"
@@ -171,8 +171,8 @@
       "metrics": {
         "npm": {
           "downloads_weekly": 162776333,
-          "downloads_delta_pct": 1.03,
-          "fetched_at": "2026-08-09T07:07:31.717769+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-08-09T13:07:10.968004+00:00"
         }
       },
       "trajectory": "stable"
@@ -203,8 +203,8 @@
       "metrics": {
         "npm": {
           "downloads_weekly": 5963427,
-          "downloads_delta_pct": 1.33,
-          "fetched_at": "2026-08-09T07:07:31.754324+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-08-09T13:07:11.003999+00:00"
         }
       },
       "trajectory": "stable"
@@ -235,8 +235,8 @@
       "metrics": {
         "npm": {
           "downloads_weekly": 14500663,
-          "downloads_delta_pct": 1.69,
-          "fetched_at": "2026-08-09T07:07:31.789880+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-08-09T13:07:11.040023+00:00"
         }
       },
       "trajectory": "stable"
@@ -267,8 +267,8 @@
       "metrics": {
         "npm": {
           "downloads_weekly": 52322903,
-          "downloads_delta_pct": 0.14,
-          "fetched_at": "2026-08-09T07:07:31.826068+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-08-09T13:07:11.075910+00:00"
         }
       },
       "trajectory": "stable"
@@ -299,8 +299,8 @@
       "metrics": {
         "npm": {
           "downloads_weekly": 5292578,
-          "downloads_delta_pct": 0.81,
-          "fetched_at": "2026-08-09T07:07:31.861621+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-08-09T13:07:11.111944+00:00"
         }
       },
       "trajectory": "stable"
@@ -357,8 +357,8 @@
       "metrics": {
         "npm": {
           "downloads_weekly": 13448070,
-          "downloads_delta_pct": 3.02,
-          "fetched_at": "2026-08-09T07:07:31.914814+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-08-09T13:07:11.165778+00:00"
         }
       },
       "trajectory": "stable"
@@ -391,7 +391,7 @@
           "downloads_last_month": 574547884,
           "downloads_last_week": 146836556,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-09T07:07:31.950245+00:00"
+          "fetched_at": "2026-08-09T13:07:11.201632+00:00"
         }
       },
       "trajectory": "stable"
@@ -448,8 +448,8 @@
       "metrics": {
         "npm": {
           "downloads_weekly": 127283732,
-          "downloads_delta_pct": 0.44,
-          "fetched_at": "2026-08-09T07:07:32.003396+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-08-09T13:07:11.255599+00:00"
         }
       },
       "trajectory": "stable"
@@ -506,8 +506,8 @@
       "metrics": {
         "npm": {
           "downloads_weekly": 11386632,
-          "downloads_delta_pct": 1.34,
-          "fetched_at": "2026-08-09T07:07:32.056712+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-08-09T13:07:11.309685+00:00"
         }
       },
       "trajectory": "stable"
@@ -564,8 +564,8 @@
       "metrics": {
         "npm": {
           "downloads_weekly": 3819889,
-          "downloads_delta_pct": 1.65,
-          "fetched_at": "2026-08-09T07:07:32.109770+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-08-09T13:07:11.363719+00:00"
         }
       },
       "trajectory": "stable"
@@ -596,11 +596,11 @@
       "metrics": {
         "npm": {
           "downloads_weekly": 433136,
-          "downloads_delta_pct": 5.18,
-          "fetched_at": "2026-08-09T07:07:32.145074+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-08-09T13:07:11.400277+00:00"
         }
       },
-      "trajectory": "rising"
+      "trajectory": "stable"
     },
     {
       "id": "postgresql",
@@ -1096,8 +1096,8 @@
       "metrics": {
         "npm": {
           "downloads_weekly": 722163,
-          "downloads_delta_pct": 4.01,
-          "fetched_at": "2026-08-09T07:07:32.571610+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-08-09T13:07:11.833162+00:00"
         }
       },
       "trajectory": "stable"
@@ -1232,8 +1232,8 @@
       "metrics": {
         "npm": {
           "downloads_weekly": 48735412,
-          "downloads_delta_pct": 1.71,
-          "fetched_at": "2026-08-09T07:07:32.695704+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-08-09T13:07:11.961149+00:00"
         }
       },
       "trajectory": "stable"
@@ -1290,8 +1290,8 @@
       "metrics": {
         "npm": {
           "downloads_weekly": 32126877,
-          "downloads_delta_pct": -0.8,
-          "fetched_at": "2026-08-09T07:07:32.767774+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-08-09T13:07:12.035366+00:00"
         }
       },
       "trajectory": "stable"
@@ -1322,14 +1322,14 @@
       "metrics": {
         "npm": {
           "downloads_weekly": 2850509,
-          "downloads_delta_pct": 2.52,
-          "fetched_at": "2026-08-09T07:07:32.803505+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-08-09T13:07:12.071336+00:00"
         },
         "pypi": {
           "downloads_last_month": 289926492,
           "downloads_last_week": 62004668,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-09T07:07:32.821200+00:00"
+          "fetched_at": "2026-08-09T13:07:12.089239+00:00"
         }
       },
       "trajectory": "stable"
@@ -1357,7 +1357,14 @@
         "NLP : classification, extraction, résumé",
         "Déploiement de modèles open-source on-premise"
       ],
-      "metrics": {},
+      "metrics": {
+        "pypi": {
+          "downloads_last_month": 185316670,
+          "downloads_last_week": 47242393,
+          "downloads_delta_pct": null,
+          "fetched_at": "2026-08-09T13:07:12.125155+00:00"
+        }
+      },
       "trajectory": "stable"
     },
     {
@@ -1386,8 +1393,8 @@
       "metrics": {
         "npm": {
           "downloads_weekly": 6609196,
-          "downloads_delta_pct": -3.85,
-          "fetched_at": "2026-08-09T07:07:32.892190+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-08-09T13:07:12.161026+00:00"
         }
       },
       "trajectory": "stable"
@@ -1420,7 +1427,7 @@
           "downloads_last_month": 7123143,
           "downloads_last_week": 1684429,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-09T07:07:32.927514+00:00"
+          "fetched_at": "2026-08-09T13:07:12.196841+00:00"
         }
       },
       "trajectory": "stable"
