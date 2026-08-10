@@ -1227,10 +1227,16 @@ technologies:
     notes: "Langage bas niveau incontournable pour les systèmes embarqués, noyaux et bibliothèques critiques."
     pros:
       - "Contrôle précis de la mémoire et excellente portabilité."
+      - "Écosystème d’outillage mature pour compiler, analyser et maintenir du code C."
+      - "Interopérabilité utile avec les plateformes et bibliothèques de son environnement."
     cons:
       - "Sécurité mémoire manuelle et risque élevé de comportements indéfinis."
+      - "La maîtrise de C demande des conventions strictes et une pratique régulière."
+      - "Le choix du langage engage durablement le recrutement, l’outillage et la maintenance."
     use_cases:
       - "Firmware, pilotes et composants système contraints."
+      - "Prototype comparatif pour mesurer performances, maintenabilité et disponibilité des compétences."
+      - "Composants où le typage, l’intégration native ou la maîtrise des ressources sont déterminants."
     sources:
       github: gcc-mirror/gcc
 
@@ -1243,10 +1249,16 @@ technologies:
     notes: "Langage système performant adapté aux moteurs, applications natives et infrastructures à faible latence."
     pros:
       - "Performances natives et écosystème industriel très mature."
+      - "Écosystème d’outillage mature pour compiler, analyser et maintenir du code C++."
+      - "Interopérabilité utile avec les plateformes et bibliothèques de son environnement."
     cons:
       - "Complexité élevée, compilation lente et sécurité mémoire manuelle."
+      - "La maîtrise de C++ demande des conventions strictes et une pratique régulière."
+      - "Le choix du langage engage durablement le recrutement, l’outillage et la maintenance."
     use_cases:
       - "Moteurs, logiciels natifs et traitements temps réel."
+      - "Prototype comparatif pour mesurer performances, maintenabilité et disponibilité des compétences."
+      - "Composants où le typage, l’intégration native ou la maîtrise des ressources sont déterminants."
     sources:
       github: llvm/llvm-project
 
@@ -1259,10 +1271,16 @@ technologies:
     notes: "Langage polyvalent de l’écosystème .NET, particulièrement solide pour les applications d’entreprise."
     pros:
       - "Typage robuste, excellent outillage et runtime performant."
+      - "Écosystème d’outillage mature pour compiler, analyser et maintenir du code C#."
+      - "Interopérabilité utile avec les plateformes et bibliothèques de son environnement."
     cons:
       - "Dépendance forte à l’écosystème .NET et modèles parfois complexes."
+      - "La maîtrise de C# demande des conventions strictes et une pratique régulière."
+      - "Le choix du langage engage durablement le recrutement, l’outillage et la maintenance."
     use_cases:
       - "APIs, applications métier et services cloud Azure."
+      - "Prototype comparatif pour mesurer performances, maintenabilité et disponibilité des compétences."
+      - "Composants où le typage, l’intégration native ou la maîtrise des ressources sont déterminants."
     sources:
       github: dotnet/roslyn
 
@@ -1275,10 +1293,16 @@ technologies:
     notes: "Langage JVM moderne, concis et interopérable avec Java, également privilégié sur Android."
     pros:
       - "Null-safety et interopérabilité Java facilitant les migrations progressives."
+      - "Écosystème d’outillage mature pour compiler, analyser et maintenir du code Kotlin."
+      - "Interopérabilité utile avec les plateformes et bibliothèques de son environnement."
     cons:
       - "Temps de compilation et complexité des coroutines à maîtriser."
+      - "La maîtrise de Kotlin demande des conventions strictes et une pratique régulière."
+      - "Le choix du langage engage durablement le recrutement, l’outillage et la maintenance."
     use_cases:
       - "Applications Android et backends JVM modernes."
+      - "Prototype comparatif pour mesurer performances, maintenabilité et disponibilité des compétences."
+      - "Composants où le typage, l’intégration native ou la maîtrise des ressources sont déterminants."
     sources:
       github: JetBrains/kotlin
 
@@ -1291,10 +1315,16 @@ technologies:
     notes: "Langage principal de l’écosystème Apple, conçu pour la sécurité et les performances natives."
     pros:
       - "Typage sûr et intégration native avec les plateformes Apple."
+      - "Écosystème d’outillage mature pour compiler, analyser et maintenir du code Swift."
+      - "Interopérabilité utile avec les plateformes et bibliothèques de son environnement."
     cons:
       - "Écosystème principalement centré sur Apple et migrations de versions parfois coûteuses."
+      - "La maîtrise de Swift demande des conventions strictes et une pratique régulière."
+      - "Le choix du langage engage durablement le recrutement, l’outillage et la maintenance."
     use_cases:
       - "Applications iOS, macOS et services Swift natifs."
+      - "Prototype comparatif pour mesurer performances, maintenabilité et disponibilité des compétences."
+      - "Composants où le typage, l’intégration native ou la maîtrise des ressources sont déterminants."
     sources:
       github: swiftlang/swift
 
@@ -1307,10 +1337,16 @@ technologies:
     notes: "Framework orienté contenu qui limite le JavaScript client grâce à son architecture en îlots."
     pros:
       - "Très bonnes performances initiales et intégration de plusieurs frameworks UI."
+      - "Composants réutilisables et outillage moderne favorisant une interface cohérente."
+      - "S’intègre aux pratiques actuelles de build, tests et livraison front-end."
     cons:
       - "Moins adapté aux applications fortement interactives côté client."
+      - "L’écosystème de Astro évolue vite et impose une veille sur les dépendances."
+      - "SSR, hydratation et état client peuvent complexifier le diagnostic en production."
     use_cases:
       - "Sites éditoriaux, documentation et vitrines performantes."
+      - "Évaluer Astro sur un parcours réel avec budget de performance mesuré."
+      - "Construire un design system ou une interface modulaire maintenue en équipe."
     sources:
       github: withastro/astro
       npm_package: "astro"
@@ -1324,10 +1360,16 @@ technologies:
     notes: "Outil de développement et de build moderne devenu une base courante des projets front-end."
     pros:
       - "Démarrage rapide, HMR efficace et configuration légère."
+      - "Composants réutilisables et outillage moderne favorisant une interface cohérente."
+      - "S’intègre aux pratiques actuelles de build, tests et livraison front-end."
     cons:
       - "Les besoins avancés exposent encore la complexité de Rollup ou des plugins."
+      - "L’écosystème de Vite évolue vite et impose une veille sur les dépendances."
+      - "SSR, hydratation et état client peuvent complexifier le diagnostic en production."
     use_cases:
       - "SPAs, bibliothèques front-end et prototypes rapides."
+      - "Évaluer Vite sur un parcours réel avec budget de performance mesuré."
+      - "Construire un design system ou une interface modulaire maintenue en équipe."
     sources:
       github: vitejs/vite
       npm_package: "vite"
@@ -1341,10 +1383,16 @@ technologies:
     notes: "Bibliothèque réactive sans Virtual DOM, proche de React dans sa syntaxe mais plus fine à l’exécution."
     pros:
       - "Réactivité granulaire et faible coût runtime."
+      - "Composants réutilisables et outillage moderne favorisant une interface cohérente."
+      - "S’intègre aux pratiques actuelles de build, tests et livraison front-end."
     cons:
       - "Écosystème et disponibilité des compétences plus réduits que React."
+      - "L’écosystème de SolidJS évolue vite et impose une veille sur les dépendances."
+      - "SSR, hydratation et état client peuvent complexifier le diagnostic en production."
     use_cases:
       - "Interfaces très interactives sensibles aux performances."
+      - "Évaluer SolidJS sur un parcours réel avec budget de performance mesuré."
+      - "Construire un design system ou une interface modulaire maintenue en équipe."
     sources:
       github: solidjs/solid
       npm_package: "solid-js"
@@ -1358,10 +1406,16 @@ technologies:
     notes: "Framework conçu autour de la résumabilité afin de réduire le JavaScript exécuté au chargement."
     pros:
       - "Excellent potentiel de démarrage sur les pages riches."
+      - "Composants réutilisables et outillage moderne favorisant une interface cohérente."
+      - "S’intègre aux pratiques actuelles de build, tests et livraison front-end."
     cons:
       - "Modèle mental spécifique et écosystème encore jeune."
+      - "L’écosystème de Qwik évolue vite et impose une veille sur les dépendances."
+      - "SSR, hydratation et état client peuvent complexifier le diagnostic en production."
     use_cases:
       - "Applications web complexes où le temps d’interactivité est critique."
+      - "Évaluer Qwik sur un parcours réel avec budget de performance mesuré."
+      - "Construire un design system ou une interface modulaire maintenue en équipe."
     sources:
       github: QwikDev/qwik
       npm_package: "@builder.io/qwik"
@@ -1375,10 +1429,16 @@ technologies:
     notes: "Framework web full-stack centré sur les standards du Web, les formulaires et le rendu serveur."
     pros:
       - "Gestion cohérente des données, erreurs et mutations côté serveur."
+      - "Composants réutilisables et outillage moderne favorisant une interface cohérente."
+      - "S’intègre aux pratiques actuelles de build, tests et livraison front-end."
     cons:
       - "Choix d’hébergement et évolution de l’écosystème à surveiller."
+      - "L’écosystème de Remix évolue vite et impose une veille sur les dépendances."
+      - "SSR, hydratation et état client peuvent complexifier le diagnostic en production."
     use_cases:
       - "Applications React transactionnelles avec rendu serveur."
+      - "Évaluer Remix sur un parcours réel avec budget de performance mesuré."
+      - "Construire un design system ou une interface modulaire maintenue en équipe."
     sources:
       github: remix-run/remix
       npm_package: "@remix-run/react"
@@ -1392,10 +1452,16 @@ technologies:
     notes: "Framework Python complet intégrant ORM, administration, sécurité et conventions de projet."
     pros:
       - "Productivité élevée et nombreuses protections sécuritaires par défaut."
+      - "Écosystème de bibliothèques facilitant sécurité, persistance et intégrations."
+      - "Conventions permettant de structurer les responsabilités d’une application serveur."
     cons:
       - "Architecture monolithique et ORM parfois contraignant à grande échelle."
+      - "Le framework peut créer un verrouillage architectural et des migrations coûteuses."
+      - "Les performances et le comportement opérationnel doivent être validés sous charge."
     use_cases:
       - "Applications métier, portails et back-offices."
+      - "API métier avec contrats, authentification, tests et observabilité dès la conception."
+      - "Prototype d’architecture modulaire avant adoption sur un système durable."
     sources:
       github: django/django
       pypi_package: "Django"
@@ -1409,10 +1475,16 @@ technologies:
     notes: "Microframework Python minimal laissant à l’équipe le choix de son architecture et de ses extensions."
     pros:
       - "Prise en main simple et grande flexibilité."
+      - "Écosystème de bibliothèques facilitant sécurité, persistance et intégrations."
+      - "Conventions permettant de structurer les responsabilités d’une application serveur."
     cons:
       - "Risque d’architectures incohérentes sans conventions d’équipe explicites."
+      - "Le framework peut créer un verrouillage architectural et des migrations coûteuses."
+      - "Les performances et le comportement opérationnel doivent être validés sous charge."
     use_cases:
       - "Petites APIs, prototypes et services Python ciblés."
+      - "API métier avec contrats, authentification, tests et observabilité dès la conception."
+      - "Prototype d’architecture modulaire avant adoption sur un système durable."
     sources:
       github: pallets/flask
       pypi_package: "Flask"
@@ -1426,10 +1498,16 @@ technologies:
     notes: "Framework PHP complet privilégiant la productivité, les conventions et un écosystème intégré."
     pros:
       - "Développement rapide avec ORM, files, événements et outillage mature."
+      - "Écosystème de bibliothèques facilitant sécurité, persistance et intégrations."
+      - "Conventions permettant de structurer les responsabilités d’une application serveur."
     cons:
       - "Abstractions nombreuses pouvant masquer les coûts SQL ou runtime."
+      - "Le framework peut créer un verrouillage architectural et des migrations coûteuses."
+      - "Les performances et le comportement opérationnel doivent être validés sous charge."
     use_cases:
       - "Applications métier, APIs et plateformes web PHP."
+      - "API métier avec contrats, authentification, tests et observabilité dès la conception."
+      - "Prototype d’architecture modulaire avant adoption sur un système durable."
     sources:
       github: laravel/framework
 
@@ -1442,10 +1520,16 @@ technologies:
     notes: "Framework Ruby conventionnel optimisé pour livrer rapidement des applications web cohérentes."
     pros:
       - "Conventions fortes et productivité élevée sur les domaines CRUD."
+      - "Écosystème de bibliothèques facilitant sécurité, persistance et intégrations."
+      - "Conventions permettant de structurer les responsabilités d’une application serveur."
     cons:
       - "Performances et montée en charge demandent une discipline opérationnelle."
+      - "Le framework peut créer un verrouillage architectural et des migrations coûteuses."
+      - "Les performances et le comportement opérationnel doivent être validés sous charge."
     use_cases:
       - "Produits SaaS, back-offices et applications métier."
+      - "API métier avec contrats, authentification, tests et observabilité dès la conception."
+      - "Prototype d’architecture modulaire avant adoption sur un système durable."
     sources:
       github: rails/rails
 
@@ -1458,10 +1542,16 @@ technologies:
     notes: "Approche déclarative native d’Apple pour construire des interfaces sur ses plateformes."
     pros:
       - "Intégration système forte et partage d’UI entre plateformes Apple."
+      - "Accès structuré aux capacités natives et aux cycles de vie des plateformes."
+      - "Outillage adapté à la construction, au test et à la distribution d’applications."
     cons:
       - "Compatibilité liée aux versions des systèmes Apple et contrôle fin parfois limité."
+      - "Les différences iOS, Android et desktop exigent des tests sur appareils réels."
+      - "Les chaînes de publication et dépendances natives augmentent le coût opérationnel."
     use_cases:
       - "Applications iOS et macOS natives modernes."
+      - "Application terrain nécessitant mode hors ligne, notifications ou accès matériel."
+      - "Prototype multiplateforme comparant qualité native, coût et vitesse de livraison."
     sources:
       github: SwiftUIX/SwiftUIX
 
@@ -1474,10 +1564,16 @@ technologies:
     notes: "Toolkit déclaratif recommandé pour les interfaces Android modernes en Kotlin."
     pros:
       - "État UI cohérent, composants réutilisables et intégration Android native."
+      - "Accès structuré aux capacités natives et aux cycles de vie des plateformes."
+      - "Outillage adapté à la construction, au test et à la distribution d’applications."
     cons:
       - "Recomposition et gestion d’état exigent une bonne compréhension du runtime."
+      - "Les différences iOS, Android et desktop exigent des tests sur appareils réels."
+      - "Les chaînes de publication et dépendances natives augmentent le coût opérationnel."
     use_cases:
       - "Applications Android natives maintenables."
+      - "Application terrain nécessitant mode hors ligne, notifications ou accès matériel."
+      - "Prototype multiplateforme comparant qualité native, coût et vitesse de livraison."
     sources:
       github: androidx/androidx
 
@@ -1490,10 +1586,16 @@ technologies:
     notes: "Framework .NET pour mutualiser interfaces et logique sur mobile et desktop."
     pros:
       - "Partage de code C# et accès aux APIs natives."
+      - "Accès structuré aux capacités natives et aux cycles de vie des plateformes."
+      - "Outillage adapté à la construction, au test et à la distribution d’applications."
     cons:
       - "Écosystème plus restreint et comportements variables selon les plateformes."
+      - "Les différences iOS, Android et desktop exigent des tests sur appareils réels."
+      - "Les chaînes de publication et dépendances natives augmentent le coût opérationnel."
     use_cases:
       - "Applications d’entreprise multiplateformes dans un SI .NET."
+      - "Application terrain nécessitant mode hors ligne, notifications ou accès matériel."
+      - "Prototype multiplateforme comparant qualité native, coût et vitesse de livraison."
     sources:
       github: dotnet/maui
 
@@ -1506,10 +1608,16 @@ technologies:
     notes: "Plateforme autour de React Native simplifiant build, mises à jour et accès aux fonctionnalités mobiles."
     pros:
       - "Expérience développeur rapide et services de build intégrés."
+      - "Accès structuré aux capacités natives et aux cycles de vie des plateformes."
+      - "Outillage adapté à la construction, au test et à la distribution d’applications."
     cons:
       - "Dépendance aux services Expo et limites possibles pour le natif très spécifique."
+      - "Les différences iOS, Android et desktop exigent des tests sur appareils réels."
+      - "Les chaînes de publication et dépendances natives augmentent le coût opérationnel."
     use_cases:
       - "Applications mobiles React Native et prototypes produits."
+      - "Application terrain nécessitant mode hors ligne, notifications ou accès matériel."
+      - "Prototype multiplateforme comparant qualité native, coût et vitesse de livraison."
     sources:
       github: expo/expo
       npm_package: "expo"
@@ -1523,10 +1631,16 @@ technologies:
     notes: "Framework desktop utilisant un front web avec un backend Rust et le WebView système."
     pros:
       - "Binaires plus légers qu’Electron et surface native contrôlable."
+      - "Accès structuré aux capacités natives et aux cycles de vie des plateformes."
+      - "Outillage adapté à la construction, au test et à la distribution d’applications."
     cons:
       - "Variations entre WebViews et apprentissage de Rust pour les extensions."
+      - "Les différences iOS, Android et desktop exigent des tests sur appareils réels."
+      - "Les chaînes de publication et dépendances natives augmentent le coût opérationnel."
     use_cases:
       - "Applications desktop légères à interface web."
+      - "Application terrain nécessitant mode hors ligne, notifications ou accès matériel."
+      - "Prototype multiplateforme comparant qualité native, coût et vitesse de livraison."
     sources:
       github: tauri-apps/tauri
       npm_package: "@tauri-apps/api"
@@ -1540,10 +1654,16 @@ technologies:
     notes: "SGBDR très répandu, robuste pour les applications transactionnelles classiques."
     pros:
       - "Écosystème mature, réplication éprouvée et large disponibilité des compétences."
+      - "Mécanismes éprouvés de requête, d’indexation et de conservation des données."
+      - "Écosystème d’intégration compatible avec les architectures applicatives modernes."
     cons:
       - "Certaines fonctions avancées et contraintes diffèrent de PostgreSQL."
+      - "Sauvegarde, restauration, supervision et capacité doivent être conçues avant la production."
+      - "Le modèle de données crée un coût de migration et un verrouillage durable."
     use_cases:
       - "Applications web transactionnelles et systèmes existants."
+      - "Benchmark avec volumétrie, concurrence et profils de requêtes représentatifs."
+      - "Stockage spécialisé retenu après validation des besoins de cohérence et disponibilité."
     sources:
       github: mysql/mysql-server
 
@@ -1556,10 +1676,16 @@ technologies:
     notes: "Base relationnelle embarquée sans serveur, stockée dans un fichier unique."
     pros:
       - "Déploiement nul, fiabilité élevée et excellent support local."
+      - "Mécanismes éprouvés de requête, d’indexation et de conservation des données."
+      - "Écosystème d’intégration compatible avec les architectures applicatives modernes."
     cons:
       - "Écritures concurrentes limitées et absence de serveur multi-utilisateur."
+      - "Sauvegarde, restauration, supervision et capacité doivent être conçues avant la production."
+      - "Le modèle de données crée un coût de migration et un verrouillage durable."
     use_cases:
       - "Applications mobiles, desktop, edge et caches locaux."
+      - "Benchmark avec volumétrie, concurrence et profils de requêtes représentatifs."
+      - "Stockage spécialisé retenu après validation des besoins de cohérence et disponibilité."
     sources:
       github: sqlite/sqlite
 
@@ -1572,10 +1698,16 @@ technologies:
     notes: "Fork communautaire de MySQL maintenant une forte compatibilité avec son écosystème."
     pros:
       - "Migration souvent simple depuis MySQL et gouvernance ouverte."
+      - "Mécanismes éprouvés de requête, d’indexation et de conservation des données."
+      - "Écosystème d’intégration compatible avec les architectures applicatives modernes."
     cons:
       - "Divergences croissantes avec MySQL et choix de moteurs à maîtriser."
+      - "Sauvegarde, restauration, supervision et capacité doivent être conçues avant la production."
+      - "Le modèle de données crée un coût de migration et un verrouillage durable."
     use_cases:
       - "Applications LAMP et remplacement de MySQL autohébergé."
+      - "Benchmark avec volumétrie, concurrence et profils de requêtes représentatifs."
+      - "Stockage spécialisé retenu après validation des besoins de cohérence et disponibilité."
     sources:
       github: MariaDB/server
 
@@ -1588,10 +1720,16 @@ technologies:
     notes: "Base SQL distribuée visant cohérence forte, réplication et tolérance aux pannes."
     pros:
       - "SQL familier et résilience multi-nœuds intégrée."
+      - "Mécanismes éprouvés de requête, d’indexation et de conservation des données."
+      - "Écosystème d’intégration compatible avec les architectures applicatives modernes."
     cons:
       - "Coût opérationnel élevé et latences liées au consensus distribué."
+      - "Sauvegarde, restauration, supervision et capacité doivent être conçues avant la production."
+      - "Le modèle de données crée un coût de migration et un verrouillage durable."
     use_cases:
       - "Applications critiques distribuées sur plusieurs régions."
+      - "Benchmark avec volumétrie, concurrence et profils de requêtes représentatifs."
+      - "Stockage spécialisé retenu après validation des besoins de cohérence et disponibilité."
     sources:
       github: cockroachdb/cockroach
 
@@ -1604,10 +1742,16 @@ technologies:
     notes: "Base distribuée orientée colonnes conçue pour de très gros volumes et une haute disponibilité."
     pros:
       - "Scalabilité horizontale et absence de point unique de panne."
+      - "Mécanismes éprouvés de requête, d’indexation et de conservation des données."
+      - "Écosystème d’intégration compatible avec les architectures applicatives modernes."
     cons:
       - "Modélisation guidée par les requêtes et exploitation complexe."
+      - "Sauvegarde, restauration, supervision et capacité doivent être conçues avant la production."
+      - "Le modèle de données crée un coût de migration et un verrouillage durable."
     use_cases:
       - "Écritures massives, séries temporelles et systèmes géodistribués."
+      - "Benchmark avec volumétrie, concurrence et profils de requêtes représentatifs."
+      - "Stockage spécialisé retenu après validation des besoins de cohérence et disponibilité."
     sources:
       github: apache/cassandra
 
@@ -1620,10 +1764,16 @@ technologies:
     notes: "Outil d’automatisation déclarative sans agent pour configurer serveurs et déploiements."
     pros:
       - "Adoption simple via SSH et playbooks lisibles."
+      - "Automatisation reproductible réduisant les opérations manuelles et les écarts d’environnement."
+      - "Historique versionné facilitant audit, revue et reprise par une autre équipe."
     cons:
       - "Idempotence dépendante des modules et performances limitées sur de grands parcs."
+      - "Secrets, permissions et droits d’exécution exigent une gouvernance rigoureuse."
+      - "Les versions, plugins et dépendances peuvent introduire une dette opérationnelle."
     use_cases:
       - "Configuration système, provisioning et opérations répétables."
+      - "Standardiser la livraison d’un service depuis le poste local jusqu’à la production."
+      - "Industrialiser une plateforme avec contrôles, rollback et responsabilités documentées."
     sources:
       github: ansible/ansible
       pypi_package: "ansible-core"
@@ -1637,10 +1787,16 @@ technologies:
     notes: "Infrastructure as Code utilisant des langages généralistes plutôt qu’un DSL dédié."
     pros:
       - "Abstractions réutilisables, tests et outillage des langages existants."
+      - "Automatisation reproductible réduisant les opérations manuelles et les écarts d’environnement."
+      - "Historique versionné facilitant audit, revue et reprise par une autre équipe."
     cons:
       - "Risque de complexifier l’infrastructure avec du code trop impératif."
+      - "Secrets, permissions et droits d’exécution exigent une gouvernance rigoureuse."
+      - "Les versions, plugins et dépendances peuvent introduire une dette opérationnelle."
     use_cases:
       - "Provisionnement cloud pour équipes fortement orientées développement."
+      - "Standardiser la livraison d’un service depuis le poste local jusqu’à la production."
+      - "Industrialiser une plateforme avec contrôles, rollback et responsabilités documentées."
     sources:
       github: pulumi/pulumi
       npm_package: "@pulumi/pulumi"
@@ -1654,10 +1810,16 @@ technologies:
     notes: "Gestionnaire de paquets Kubernetes basé sur des charts et des templates YAML."
     pros:
       - "Distribution et paramétrage standardisés des applications Kubernetes."
+      - "Automatisation reproductible réduisant les opérations manuelles et les écarts d’environnement."
+      - "Historique versionné facilitant audit, revue et reprise par une autre équipe."
     cons:
       - "Templates difficiles à déboguer et dette possible dans les valeurs imbriquées."
+      - "Secrets, permissions et droits d’exécution exigent une gouvernance rigoureuse."
+      - "Les versions, plugins et dépendances peuvent introduire une dette opérationnelle."
     use_cases:
       - "Packaging et déploiement reproductible sur Kubernetes."
+      - "Standardiser la livraison d’un service depuis le poste local jusqu’à la production."
+      - "Industrialiser une plateforme avec contrôles, rollback et responsabilités documentées."
     sources:
       github: helm/helm
 
@@ -1670,10 +1832,16 @@ technologies:
     notes: "Outil GitOps Kubernetes réconciliant automatiquement l’état du cluster avec Git."
     pros:
       - "Traçabilité, déploiements déclaratifs et récupération continue de la dérive."
+      - "Automatisation reproductible réduisant les opérations manuelles et les écarts d’environnement."
+      - "Historique versionné facilitant audit, revue et reprise par une autre équipe."
     cons:
       - "Diagnostic plus indirect et forte dépendance à une bonne organisation Git."
+      - "Secrets, permissions et droits d’exécution exigent une gouvernance rigoureuse."
+      - "Les versions, plugins et dépendances peuvent introduire une dette opérationnelle."
     use_cases:
       - "Déploiements Kubernetes GitOps et gestion multi-clusters."
+      - "Standardiser la livraison d’un service depuis le poste local jusqu’à la production."
+      - "Industrialiser une plateforme avec contrôles, rollback et responsabilités documentées."
     sources:
       github: fluxcd/flux2
 
@@ -1686,10 +1854,16 @@ technologies:
     notes: "Serveur CI historique extrêmement extensible, surtout présent dans les SI existants."
     pros:
       - "Écosystème immense et grande flexibilité d’intégration."
+      - "Automatisation reproductible réduisant les opérations manuelles et les écarts d’environnement."
+      - "Historique versionné facilitant audit, revue et reprise par une autre équipe."
     cons:
       - "Maintenance lourde, plugins fragiles et dette de configuration fréquente."
+      - "Secrets, permissions et droits d’exécution exigent une gouvernance rigoureuse."
+      - "Les versions, plugins et dépendances peuvent introduire une dette opérationnelle."
     use_cases:
       - "Pipelines historiques nécessitant des intégrations très spécifiques."
+      - "Standardiser la livraison d’un service depuis le poste local jusqu’à la production."
+      - "Industrialiser une plateforme avec contrôles, rollback et responsabilités documentées."
     sources:
       github: jenkinsci/jenkins
 
@@ -1702,10 +1876,16 @@ technologies:
     notes: "Base de métriques compatible Prometheus visant efficacité, rétention et montée en charge."
     pros:
       - "Compression efficace et exploitation relativement simple."
+      - "Améliore la détection et le diagnostic des incidents grâce à des signaux centralisés."
+      - "Permet de relier santé technique, objectifs de service et expérience utilisateur."
     cons:
       - "Écosystème plus petit et certaines capacités réservées à l’édition entreprise."
+      - "Volumes, cardinalité et rétention peuvent générer des coûts importants."
+      - "Sans conventions et seuils utiles, les tableaux de bord produisent du bruit plutôt que des décisions."
     use_cases:
       - "Stockage longue durée de métriques Prometheus."
+      - "Construire des SLI/SLO et des alertes reliées à des actions opérationnelles."
+      - "Instrumenter un parcours critique et vérifier la capacité de diagnostic de bout en bout."
     sources:
       github: VictoriaMetrics/VictoriaMetrics
 
@@ -1718,10 +1898,16 @@ technologies:
     notes: "Plateforme intégrée de supervision d’infrastructure avec collecte, alertes et inventaire."
     pros:
       - "Solution complète et mature pour serveurs et équipements réseau."
+      - "Améliore la détection et le diagnostic des incidents grâce à des signaux centralisés."
+      - "Permet de relier santé technique, objectifs de service et expérience utilisateur."
     cons:
       - "Configuration dense et approche moins cloud-native que Prometheus."
+      - "Volumes, cardinalité et rétention peuvent générer des coûts importants."
+      - "Sans conventions et seuils utiles, les tableaux de bord produisent du bruit plutôt que des décisions."
     use_cases:
       - "Supervision d’infrastructures, réseaux et environnements hybrides."
+      - "Construire des SLI/SLO et des alertes reliées à des actions opérationnelles."
+      - "Instrumenter un parcours critique et vérifier la capacité de diagnostic de bout en bout."
     sources:
       github: zabbix/zabbix
 
@@ -1734,10 +1920,16 @@ technologies:
     notes: "Plateforme de suivi d’erreurs et de performances orientée contexte applicatif."
     pros:
       - "Diagnostic rapide grâce aux traces, releases et informations utilisateur."
+      - "Améliore la détection et le diagnostic des incidents grâce à des signaux centralisés."
+      - "Permet de relier santé technique, objectifs de service et expérience utilisateur."
     cons:
       - "Coûts et volumes d’événements à contrôler attentivement."
+      - "Volumes, cardinalité et rétention peuvent générer des coûts importants."
+      - "Sans conventions et seuils utiles, les tableaux de bord produisent du bruit plutôt que des décisions."
     use_cases:
       - "Surveillance d’erreurs front-end, mobile et backend."
+      - "Construire des SLI/SLO et des alertes reliées à des actions opérationnelles."
+      - "Instrumenter un parcours critique et vérifier la capacité de diagnostic de bout en bout."
     sources:
       github: getsentry/sentry
       npm_package: "@sentry/node"
@@ -1751,10 +1943,16 @@ technologies:
     notes: "Plateforme d’observabilité open source fondée sur OpenTelemetry."
     pros:
       - "Traces, métriques et logs réunis avec une base ouverte."
+      - "Améliore la détection et le diagnostic des incidents grâce à des signaux centralisés."
+      - "Permet de relier santé technique, objectifs de service et expérience utilisateur."
     cons:
       - "Exploitation de la plateforme et stockage ClickHouse à dimensionner."
+      - "Volumes, cardinalité et rétention peuvent générer des coûts importants."
+      - "Sans conventions et seuils utiles, les tableaux de bord produisent du bruit plutôt que des décisions."
     use_cases:
       - "Observabilité unifiée autohébergée avec OpenTelemetry."
+      - "Construire des SLI/SLO et des alertes reliées à des actions opérationnelles."
+      - "Instrumenter un parcours critique et vérifier la capacité de diagnostic de bout en bout."
     sources:
       github: SigNoz/signoz
 
@@ -1767,10 +1965,16 @@ technologies:
     notes: "Backend distribué de traces conçu pour s’intégrer à Grafana et OpenTelemetry."
     pros:
       - "Stockage objet économique et intégration native à l’écosystème Grafana."
+      - "Améliore la détection et le diagnostic des incidents grâce à des signaux centralisés."
+      - "Permet de relier santé technique, objectifs de service et expérience utilisateur."
     cons:
       - "Recherche de traces moins riche sans métadonnées et corrélations bien conçues."
+      - "Volumes, cardinalité et rétention peuvent générer des coûts importants."
+      - "Sans conventions et seuils utiles, les tableaux de bord produisent du bruit plutôt que des décisions."
     use_cases:
       - "Traçage distribué à grande échelle."
+      - "Construire des SLI/SLO et des alertes reliées à des actions opérationnelles."
+      - "Instrumenter un parcours critique et vérifier la capacité de diagnostic de bout en bout."
     sources:
       github: grafana/tempo
 
@@ -1783,10 +1987,16 @@ technologies:
     notes: "Moteur de politiques généraliste séparant les règles d’autorisation du code applicatif."
     pros:
       - "Politiques centralisées, testables et réutilisables avec Rego."
+      - "Automatise des contrôles reproductibles et traçables dans le cycle de livraison."
+      - "Réduit la dépendance aux vérifications manuelles et améliore la visibilité sur les risques."
     cons:
       - "Langage Rego et diagnostic des décisions demandent un apprentissage."
+      - "Les faux positifs et règles mal calibrées peuvent ralentir inutilement les équipes."
+      - "L’intégration exige une gestion claire des exceptions, responsabilités et mises à jour."
     use_cases:
       - "Autorisation, admission Kubernetes et conformité d’infrastructure."
+      - "Ajouter des contrôles de sécurité continus dans CI/CD et en production."
+      - "Formaliser des politiques vérifiables pour audit, conformité et réponse aux incidents."
     sources:
       github: open-policy-agent/opa
 
@@ -1799,10 +2009,16 @@ technologies:
     notes: "Détection runtime cloud-native observant les comportements système et conteneurs."
     pros:
       - "Alertes comportementales proches du noyau et règles extensibles."
+      - "Automatise des contrôles reproductibles et traçables dans le cycle de livraison."
+      - "Réduit la dépendance aux vérifications manuelles et améliore la visibilité sur les risques."
     cons:
       - "Bruit important sans ajustement des règles et contraintes bas niveau."
+      - "Les faux positifs et règles mal calibrées peuvent ralentir inutilement les équipes."
+      - "L’intégration exige une gestion claire des exceptions, responsabilités et mises à jour."
     use_cases:
       - "Détection d’intrusions sur hôtes Linux et clusters Kubernetes."
+      - "Ajouter des contrôles de sécurité continus dans CI/CD et en production."
+      - "Formaliser des politiques vérifiables pour audit, conformité et réponse aux incidents."
     sources:
       github: falcosecurity/falco
 
@@ -1815,10 +2031,16 @@ technologies:
     notes: "Moteur de politiques Kubernetes utilisant des ressources YAML natives."
     pros:
       - "Prise en main accessible aux équipes Kubernetes sans nouveau langage."
+      - "Automatise des contrôles reproductibles et traçables dans le cycle de livraison."
+      - "Réduit la dépendance aux vérifications manuelles et améliore la visibilité sur les risques."
     cons:
       - "Couplage fort à Kubernetes et performances à surveiller avec beaucoup de règles."
+      - "Les faux positifs et règles mal calibrées peuvent ralentir inutilement les équipes."
+      - "L’intégration exige une gestion claire des exceptions, responsabilités et mises à jour."
     use_cases:
       - "Validation, mutation et génération de ressources Kubernetes."
+      - "Ajouter des contrôles de sécurité continus dans CI/CD et en production."
+      - "Formaliser des politiques vérifiables pour audit, conformité et réponse aux incidents."
     sources:
       github: kyverno/kyverno
 
@@ -1831,10 +2053,16 @@ technologies:
     notes: "Réseau, sécurité et observabilité Kubernetes fondés sur eBPF."
     pros:
       - "Visibilité réseau fine et politiques performantes jusqu’à la couche applicative."
+      - "Automatise des contrôles reproductibles et traçables dans le cycle de livraison."
+      - "Réduit la dépendance aux vérifications manuelles et améliore la visibilité sur les risques."
     cons:
       - "Complexité eBPF et diagnostic réseau avancé exigeant."
+      - "Les faux positifs et règles mal calibrées peuvent ralentir inutilement les équipes."
+      - "L’intégration exige une gestion claire des exceptions, responsabilités et mises à jour."
     use_cases:
       - "CNI Kubernetes, segmentation réseau et observabilité des flux."
+      - "Ajouter des contrôles de sécurité continus dans CI/CD et en production."
+      - "Formaliser des politiques vérifiables pour audit, conformité et réponse aux incidents."
     sources:
       github: cilium/cilium
 
@@ -1847,10 +2075,16 @@ technologies:
     notes: "Outil de signature et vérification d’artefacts de supply chain logicielle."
     pros:
       - "Signature sans clé persistante et intégration aux registres OCI."
+      - "Automatise des contrôles reproductibles et traçables dans le cycle de livraison."
+      - "Réduit la dépendance aux vérifications manuelles et améliore la visibilité sur les risques."
     cons:
       - "Gestion des politiques de confiance et adoption organisationnelle nécessaires."
+      - "Les faux positifs et règles mal calibrées peuvent ralentir inutilement les équipes."
+      - "L’intégration exige une gestion claire des exceptions, responsabilités et mises à jour."
     use_cases:
       - "Signature d’images conteneur et attestations de build."
+      - "Ajouter des contrôles de sécurité continus dans CI/CD et en production."
+      - "Formaliser des politiques vérifiables pour audit, conformité et réponse aux incidents."
     sources:
       github: sigstore/cosign
 
@@ -1863,10 +2097,16 @@ technologies:
     notes: "Broker de messages mature compatible JMS et plusieurs protocoles."
     pros:
       - "Bonne intégration Java et large compatibilité protocolaire."
+      - "Découple producteurs et consommateurs et absorbe les variations de charge."
+      - "Améliore la résilience grâce aux files, reprises et traitements asynchrones."
     cons:
       - "Architecture plus ancienne et exploitation moins adaptée aux très gros flux."
+      - "Ordre, duplication, reprise et idempotence complexifient la logique métier."
+      - "Le broker devient un composant critique à superviser, sauvegarder et dimensionner."
     use_cases:
       - "Intégration d’applications d’entreprise et files JMS."
+      - "Intégration asynchrone entre services ayant des cycles de disponibilité différents."
+      - "Pipeline événementiel validant débit, latence et garanties de livraison attendues."
     sources:
       github: apache/activemq
 
@@ -1879,10 +2119,16 @@ technologies:
     notes: "Plateforme de streaming compatible Kafka conçue sans JVM ni ZooKeeper."
     pros:
       - "Déploiement simplifié et performances élevées avec compatibilité Kafka."
+      - "Découple producteurs et consommateurs et absorbe les variations de charge."
+      - "Améliore la résilience grâce aux files, reprises et traitements asynchrones."
     cons:
       - "Écosystème plus jeune et certaines fonctions avancées commerciales."
+      - "Ordre, duplication, reprise et idempotence complexifient la logique métier."
+      - "Le broker devient un composant critique à superviser, sauvegarder et dimensionner."
     use_cases:
       - "Streaming événementiel compatible Kafka avec exploitation réduite."
+      - "Intégration asynchrone entre services ayant des cycles de disponibilité différents."
+      - "Pipeline événementiel validant débit, latence et garanties de livraison attendues."
     sources:
       github: redpanda-data/redpanda
 
@@ -1895,10 +2141,16 @@ technologies:
     notes: "Broker MQTT léger très utilisé pour l’IoT et les environnements contraints."
     pros:
       - "Faible consommation, simplicité et excellente compatibilité MQTT."
+      - "Découple producteurs et consommateurs et absorbe les variations de charge."
+      - "Améliore la résilience grâce aux files, reprises et traitements asynchrones."
     cons:
       - "Fonctionnalités de cluster et gouvernance limitées seules."
+      - "Ordre, duplication, reprise et idempotence complexifient la logique métier."
+      - "Le broker devient un composant critique à superviser, sauvegarder et dimensionner."
     use_cases:
       - "Capteurs, équipements embarqués et passerelles IoT."
+      - "Intégration asynchrone entre services ayant des cycles de disponibilité différents."
+      - "Pipeline événementiel validant débit, latence et garanties de livraison attendues."
     sources:
       github: eclipse-mosquitto/mosquitto
 
@@ -1911,10 +2163,16 @@ technologies:
     notes: "Broker MQTT distribué orienté IoT massif et intégrations de données."
     pros:
       - "Clustering, règles et nombreuses intégrations prêtes à l’emploi."
+      - "Découple producteurs et consommateurs et absorbe les variations de charge."
+      - "Améliore la résilience grâce aux files, reprises et traitements asynchrones."
     cons:
       - "Plateforme plus lourde et frontière open source commerciale à examiner."
+      - "Ordre, duplication, reprise et idempotence complexifient la logique métier."
+      - "Le broker devient un composant critique à superviser, sauvegarder et dimensionner."
     use_cases:
       - "Flottes IoT, télémétrie et messagerie MQTT à grande échelle."
+      - "Intégration asynchrone entre services ayant des cycles de disponibilité différents."
+      - "Pipeline événementiel validant débit, latence et garanties de livraison attendues."
     sources:
       github: emqx/emqx
 
@@ -1927,10 +2185,16 @@ technologies:
     notes: "Moteur d’orchestration durable pour workflows longs et distribués."
     pros:
       - "Reprises automatiques, état durable et logique métier testable."
+      - "Découple producteurs et consommateurs et absorbe les variations de charge."
+      - "Améliore la résilience grâce aux files, reprises et traitements asynchrones."
     cons:
       - "Nouveau modèle mental et plateforme supplémentaire à exploiter."
+      - "Ordre, duplication, reprise et idempotence complexifient la logique métier."
+      - "Le broker devient un composant critique à superviser, sauvegarder et dimensionner."
     use_cases:
       - "Processus métier longs, sagas et tâches distribuées fiables."
+      - "Intégration asynchrone entre services ayant des cycles de disponibilité différents."
+      - "Pipeline événementiel validant débit, latence et garanties de livraison attendues."
     sources:
       github: temporalio/temporal
 
@@ -1943,10 +2207,16 @@ technologies:
     notes: "Framework de deep learning flexible dominant dans la recherche et très présent en production."
     pros:
       - "API Python expressive, écosystème riche et accélération GPU mature."
+      - "Écosystème actif de modèles, accélérateurs et outils d’expérimentation."
+      - "Permet de passer du prototype à une chaîne d’entraînement ou d’inférence mesurable."
     cons:
       - "Dépendances lourdes et optimisation de production spécialisée."
+      - "Coûts GPU, non-déterminisme et dépendances lourdes compliquent l’exploitation."
+      - "Qualité, sécurité des données et dérive doivent être évaluées continuellement."
     use_cases:
       - "Entraînement, fine-tuning et inférence de modèles neuronaux."
+      - "Prototype avec jeu d’évaluation, métriques qualité et budget de calcul explicites."
+      - "Service d’inférence supervisé avec limites, observabilité et stratégie de repli."
     sources:
       github: pytorch/pytorch
       pypi_package: "torch"
@@ -1960,10 +2230,16 @@ technologies:
     notes: "Plateforme ML complète couvrant entraînement, déploiement et périphériques."
     pros:
       - "Écosystème de production mature avec Serving, Lite et outils associés."
+      - "Écosystème actif de modèles, accélérateurs et outils d’expérimentation."
+      - "Permet de passer du prototype à une chaîne d’entraînement ou d’inférence mesurable."
     cons:
       - "API vaste, complexité élevée et dynamique communautaire moins forte qu’avant."
+      - "Coûts GPU, non-déterminisme et dépendances lourdes compliquent l’exploitation."
+      - "Qualité, sécurité des données et dérive doivent être évaluées continuellement."
     use_cases:
       - "Pipelines ML industriels et inférence mobile ou embarquée."
+      - "Prototype avec jeu d’évaluation, métriques qualité et budget de calcul explicites."
+      - "Service d’inférence supervisé avec limites, observabilité et stratégie de repli."
     sources:
       github: tensorflow/tensorflow
       pypi_package: "tensorflow"
@@ -1977,10 +2253,16 @@ technologies:
     notes: "Bibliothèque de calcul numérique différentiable compilée avec XLA."
     pros:
       - "Vectorisation, transformations fonctionnelles et performances accélérées."
+      - "Écosystème actif de modèles, accélérateurs et outils d’expérimentation."
+      - "Permet de passer du prototype à une chaîne d’entraînement ou d’inférence mesurable."
     cons:
       - "Modèle fonctionnel exigeant et écosystème plus spécialisé."
+      - "Coûts GPU, non-déterminisme et dépendances lourdes compliquent l’exploitation."
+      - "Qualité, sécurité des données et dérive doivent être évaluées continuellement."
     use_cases:
       - "Recherche ML, calcul scientifique et modèles haute performance."
+      - "Prototype avec jeu d’évaluation, métriques qualité et budget de calcul explicites."
+      - "Service d’inférence supervisé avec limites, observabilité et stratégie de repli."
     sources:
       github: jax-ml/jax
       pypi_package: "jax"
@@ -1994,10 +2276,16 @@ technologies:
     notes: "Moteur d’inférence LLM optimisé pour le débit et l’utilisation mémoire GPU."
     pros:
       - "Serving compatible OpenAI et gestion efficace du cache KV."
+      - "Écosystème actif de modèles, accélérateurs et outils d’expérimentation."
+      - "Permet de passer du prototype à une chaîne d’entraînement ou d’inférence mesurable."
     cons:
       - "Besoins GPU importants et réglages dépendants des modèles."
+      - "Coûts GPU, non-déterminisme et dépendances lourdes compliquent l’exploitation."
+      - "Qualité, sécurité des données et dérive doivent être évaluées continuellement."
     use_cases:
       - "Exposition de modèles open weights à fort trafic."
+      - "Prototype avec jeu d’évaluation, métriques qualité et budget de calcul explicites."
+      - "Service d’inférence supervisé avec limites, observabilité et stratégie de repli."
     sources:
       github: vllm-project/vllm
       pypi_package: "vllm"
@@ -2011,10 +2299,16 @@ technologies:
     notes: "Framework de workflows d’agents sous forme de graphes avec état et contrôle explicite."
     pros:
       - "Orchestration inspectable, persistance et boucles humain-dans-la-boucle."
+      - "Écosystème actif de modèles, accélérateurs et outils d’expérimentation."
+      - "Permet de passer du prototype à une chaîne d’entraînement ou d’inférence mesurable."
     cons:
       - "Écosystème très mouvant et complexité inutile pour les agents simples."
+      - "Coûts GPU, non-déterminisme et dépendances lourdes compliquent l’exploitation."
+      - "Qualité, sécurité des données et dérive doivent être évaluées continuellement."
     use_cases:
       - "Agents multi-étapes, workflows supervisés et processus LLM durables."
+      - "Prototype avec jeu d’évaluation, métriques qualité et budget de calcul explicites."
+      - "Service d’inférence supervisé avec limites, observabilité et stratégie de repli."
     sources:
       github: langchain-ai/langgraph
       pypi_package: "langgraph"
