@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-06-16T17:18:32Z",
-  "schema_version": "1.0",
+  "schema_version": "1.2",
   "technologies": [
     {
       "id": "typescript",
@@ -9,6 +9,10 @@
       "position": "adopt",
       "since": "2024-01",
       "switching_cost": "medium",
+      "experience": "operated",
+      "evidence": [
+        "Vill'Âge Jeunes : backend TypeScript déployé et exploité personnellement sur VPS"
+      ],
       "notes": "Standard de facto pour tout projet Node/web",
       "pros": [
         "Typage statique = moins de bugs runtime",
@@ -40,7 +44,10 @@
           "fetched_at": "2026-06-16T17:16:29.858686+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "complete"
     },
     {
       "id": "java",
@@ -49,6 +56,8 @@
       "position": "adopt",
       "since": "2024-01",
       "switching_cost": "high",
+      "experience": "unassessed",
+      "evidence": [],
       "notes": "Langage backend mature, écosystème Spring solide",
       "pros": [
         "JVM mature — performances prévisibles, tooling riche",
@@ -75,7 +84,10 @@
           "fetched_at": "2026-06-16T17:16:29.876179+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "complete"
     },
     {
       "id": "python",
@@ -84,6 +96,10 @@
       "position": "adopt",
       "since": "2024-01",
       "switching_cost": "medium",
+      "experience": "operated",
+      "evidence": [
+        "Système d'affichage dynamique : backend Python et automatisation crontab exploités"
+      ],
       "notes": "Scripting, data, ML/AI — polyvalence maximale",
       "pros": [
         "Productivité maximale, syntaxe lisible",
@@ -110,7 +126,10 @@
           "fetched_at": "2026-06-16T17:16:29.893522+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "partial"
     },
     {
       "id": "go",
@@ -119,6 +138,8 @@
       "position": "trial",
       "since": "2024-06",
       "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
       "notes": "Langage de choix pour les outils cloud-native et microservices légers",
       "pros": [
         "Goroutines légères — concurrence native et simple",
@@ -145,7 +166,10 @@
           "fetched_at": "2026-06-16T17:16:29.928471+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "complete"
     },
     {
       "id": "rust",
@@ -154,6 +178,8 @@
       "position": "assess",
       "since": "2024-09",
       "switching_cost": "high",
+      "experience": "unassessed",
+      "evidence": [],
       "notes": "Sécurité mémoire sans GC — pertinent pour les couches critiques de performance",
       "pros": [
         "Memory safety garantie à la compilation (borrow checker)",
@@ -180,7 +206,10 @@
           "fetched_at": "2026-06-16T17:16:29.946146+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "complete"
     },
     {
       "id": "react",
@@ -189,6 +218,10 @@
       "position": "adopt",
       "since": "2024-01",
       "switching_cost": "medium",
+      "experience": "studied",
+      "evidence": [
+        "Bases React acquises, sans preuve de livraison en production recensée"
+      ],
       "notes": "Dominant en production, écosystème Next.js solide",
       "pros": [
         "Écosystème et communauté les plus larges",
@@ -212,7 +245,10 @@
           "fetched_at": "2026-06-16T17:16:29.982193+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "partial"
     },
     {
       "id": "angular",
@@ -221,6 +257,8 @@
       "position": "trial",
       "since": "2024-03",
       "switching_cost": "high",
+      "experience": "unassessed",
+      "evidence": [],
       "notes": "Framework complet, pertinent pour grandes applications d'entreprise",
       "pros": [
         "Framework full-featured opinionné — cohérence en équipe",
@@ -252,7 +290,10 @@
           "fetched_at": "2026-06-16T17:16:30.017864+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "complete"
     },
     {
       "id": "vuejs",
@@ -261,6 +302,8 @@
       "position": "trial",
       "since": "2024-06",
       "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
       "notes": "Alternative React plus accessible, Composition API élégante",
       "pros": [
         "Courbe d'apprentissage douce — idéal pour onboarder des juniors",
@@ -292,7 +335,10 @@
           "fetched_at": "2026-06-16T17:16:30.052921+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "complete"
     },
     {
       "id": "nextjs",
@@ -301,6 +347,8 @@
       "position": "adopt",
       "since": "2024-03",
       "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
       "notes": "Standard pour le SSR/SSG React — full-stack en un seul framework",
       "pros": [
         "SSR, SSG, ISR en un seul framework sans config",
@@ -332,7 +380,10 @@
           "fetched_at": "2026-06-16T17:16:30.087642+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "complete"
     },
     {
       "id": "svelte",
@@ -341,6 +392,8 @@
       "position": "assess",
       "since": "2024-09",
       "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
       "notes": "Compilateur plutôt que runtime — bundle minimal, DX excellent",
       "pros": [
         "Compilation à la build — pas de Virtual DOM en runtime",
@@ -372,7 +425,10 @@
           "fetched_at": "2026-06-16T17:16:30.122606+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "complete"
     },
     {
       "id": "spring-boot",
@@ -381,6 +437,8 @@
       "position": "adopt",
       "since": "2024-01",
       "switching_cost": "high",
+      "experience": "unassessed",
+      "evidence": [],
       "notes": "Standard Java backend, auto-configuration, large écosystème",
       "pros": [
         "Auto-configuration — zéro XML, prêt en quelques minutes",
@@ -407,7 +465,43 @@
           "fetched_at": "2026-06-16T17:16:30.140065+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "complete"
+    },
+    {
+      "id": "fastify",
+      "name": "Fastify",
+      "category": "frameworks_back",
+      "position": "adopt",
+      "since": "2024-01",
+      "switching_cost": "low",
+      "experience": "operated",
+      "evidence": [
+        "Vill'Âge Jeunes : API Fastify v5 déployée et exploitée personnellement sur VPS"
+      ],
+      "notes": "Framework Node.js rapide, sobre et extensible, utilisé sur le projet de référence",
+      "pros": [
+        "Validation et sérialisation JSON Schema intégrées",
+        "Architecture par plugins avec encapsulation explicite",
+        "Bonnes performances sans sacrifier la lisibilité"
+      ],
+      "cons": [
+        "Écosystème plus réduit qu'Express",
+        "L'encapsulation des plugins demande un apprentissage spécifique",
+        "Moins structurant que NestJS pour les très grandes équipes"
+      ],
+      "use_cases": [
+        "APIs TypeScript performantes et maintenables",
+        "Backends modulaires avec validation de contrats",
+        "Services Node.js nécessitant peu d'abstraction"
+      ],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
     },
     {
       "id": "nestjs",
@@ -416,6 +510,10 @@
       "position": "trial",
       "since": "2024-03",
       "switching_cost": "medium",
+      "experience": "studied",
+      "evidence": [
+        "Apprentissage en cours, sans projet livré recensé"
+      ],
       "notes": "Architecture modulaire Node.js, TypeScript natif",
       "pros": [
         "Architecture Angular-like — familière pour les équipes front",
@@ -447,7 +545,10 @@
           "fetched_at": "2026-06-16T17:16:30.174701+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "complete"
     },
     {
       "id": "fastapi",
@@ -456,6 +557,8 @@
       "position": "adopt",
       "since": "2024-03",
       "switching_cost": "low",
+      "experience": "unassessed",
+      "evidence": [],
       "notes": "Référence Python async — OpenAPI auto-généré, Pydantic natif",
       "pros": [
         "OpenAPI / Swagger auto-généré à partir des types",
@@ -488,7 +591,10 @@
           "fetched_at": "2026-06-16T17:16:30.209434+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "complete"
     },
     {
       "id": "quarkus",
@@ -497,6 +603,8 @@
       "position": "trial",
       "since": "2024-06",
       "switching_cost": "high",
+      "experience": "unassessed",
+      "evidence": [],
       "notes": "Java cloud-native — démarrage sub-seconde avec GraalVM native image",
       "pros": [
         "Démarrage ultra-rapide (~10ms en mode native)",
@@ -523,7 +631,10 @@
           "fetched_at": "2026-06-16T17:16:30.227016+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "complete"
     },
     {
       "id": "expressjs",
@@ -532,6 +643,8 @@
       "position": "adopt",
       "since": "2024-01",
       "switching_cost": "low",
+      "experience": "unassessed",
+      "evidence": [],
       "notes": "Framework Node.js minimaliste — référence pour les APIs simples",
       "pros": [
         "Minimaliste et flexible — aucun avis imposé",
@@ -563,7 +676,10 @@
           "fetched_at": "2026-06-16T17:16:30.261811+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "complete"
     },
     {
       "id": "flutter",
@@ -572,6 +688,10 @@
       "position": "adopt",
       "since": "2024-01",
       "switching_cost": "high",
+      "experience": "practiced",
+      "evidence": [
+        "Système d'affichage dynamique : première architecture Flutter prototypée avant pivot ESP32"
+      ],
       "notes": "Cross-platform iOS/Android/Web avec une seule codebase Dart",
       "pros": [
         "UI 100% custom — pixel-perfect sur toutes les plateformes",
@@ -598,7 +718,10 @@
           "fetched_at": "2026-06-16T17:16:30.279127+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "complete"
     },
     {
       "id": "react-native",
@@ -607,6 +730,8 @@
       "position": "trial",
       "since": "2024-06",
       "switching_cost": "high",
+      "experience": "unassessed",
+      "evidence": [],
       "notes": "Mobile cross-platform pour équipes React — partage de code web/mobile",
       "pros": [
         "Partage de logique avec les apps React web",
@@ -630,7 +755,10 @@
           "fetched_at": "2026-06-16T17:16:30.313825+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "partial"
     },
     {
       "id": "kotlin-multiplatform",
@@ -639,6 +767,8 @@
       "position": "assess",
       "since": "2024-06",
       "switching_cost": "high",
+      "experience": "unassessed",
+      "evidence": [],
       "notes": "Partage de la logique business entre Android et iOS — UI reste native",
       "pros": [
         "UI native sur chaque plateforme (pas de compromis)",
@@ -665,7 +795,10 @@
           "fetched_at": "2026-06-16T17:16:30.331124+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "complete"
     },
     {
       "id": "capacitor",
@@ -674,6 +807,8 @@
       "position": "assess",
       "since": "2024-09",
       "switching_cost": "low",
+      "experience": "unassessed",
+      "evidence": [],
       "notes": "Wrapper natif pour apps web — déploiement sur stores depuis une PWA",
       "pros": [
         "Compatible avec n'importe quel framework JS (React, Vue, Angular)",
@@ -705,7 +840,10 @@
           "fetched_at": "2026-06-16T17:16:30.366064+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "complete"
     },
     {
       "id": "ionic",
@@ -714,6 +852,8 @@
       "position": "hold",
       "since": "2024-06",
       "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
       "notes": "UI components hybrides — pertinence en recul face à Flutter et React Native",
       "pros": [
         "Bibliothèque de composants UI riches",
@@ -745,7 +885,10 @@
           "fetched_at": "2026-06-16T17:16:30.400689+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "complete"
     },
     {
       "id": "postgresql",
@@ -754,6 +897,10 @@
       "position": "adopt",
       "since": "2024-01",
       "switching_cost": "high",
+      "experience": "operated",
+      "evidence": [
+        "Vill'Âge Jeunes : plus de 30 modèles Prisma, migrations et exploitation sur VPS"
+      ],
       "notes": "SGBDR de référence, JSON natif, fiabilité éprouvée",
       "pros": [
         "ACID complet, transactions multi-tables fiables",
@@ -780,7 +927,10 @@
           "fetched_at": "2026-06-16T17:16:30.417994+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "complete"
     },
     {
       "id": "redis",
@@ -789,6 +939,10 @@
       "position": "adopt",
       "since": "2024-01",
       "switching_cost": "medium",
+      "experience": "studied",
+      "evidence": [
+        "Notions acquises, sans usage en production recensé"
+      ],
       "notes": "Cache in-memory, pub/sub, sessions — indispensable en production",
       "pros": [
         "Latence sub-milliseconde — cache applicatif de référence",
@@ -815,7 +969,10 @@
           "fetched_at": "2026-06-16T17:16:30.435279+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "complete"
     },
     {
       "id": "mongodb",
@@ -824,6 +981,8 @@
       "position": "trial",
       "since": "2024-06",
       "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
       "notes": "Base documentaire flexible — pertinente pour les schémas évolutifs",
       "pros": [
         "Schéma flexible — idéal pour les données non-structurées",
@@ -850,7 +1009,10 @@
           "fetched_at": "2026-06-16T17:16:30.453028+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "complete"
     },
     {
       "id": "elasticsearch",
@@ -859,6 +1021,8 @@
       "position": "trial",
       "since": "2024-06",
       "switching_cost": "high",
+      "experience": "unassessed",
+      "evidence": [],
       "notes": "Moteur de recherche full-text + analytics — cœur de la stack ELK",
       "pros": [
         "Recherche full-text ultra-rapide avec scoring de pertinence",
@@ -885,7 +1049,10 @@
           "fetched_at": "2026-06-16T17:16:30.470602+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "complete"
     },
     {
       "id": "clickhouse",
@@ -894,6 +1061,8 @@
       "position": "assess",
       "since": "2024-09",
       "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
       "notes": "Base OLAP colonnes ultra-rapide — analytics temps réel sur milliards de lignes",
       "pros": [
         "Performances analytiques 100x supérieures à PostgreSQL sur agrégats",
@@ -920,7 +1089,10 @@
           "fetched_at": "2026-06-16T17:16:30.487968+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "complete"
     },
     {
       "id": "docker",
@@ -929,6 +1101,11 @@
       "position": "adopt",
       "since": "2024-01",
       "switching_cost": "low",
+      "experience": "delivered",
+      "evidence": [
+        "Calendrier du Pôle Jeunesse : deux conteneurs non-root livrés à la DSI",
+        "Exploitation finale reprise par la DSI, sans opération personnelle en production"
+      ],
       "notes": "Conteneurisation standard, reproductibilité des environnements",
       "pros": [
         "Build once, run anywhere — reproductibilité totale",
@@ -955,7 +1132,10 @@
           "fetched_at": "2026-06-16T17:16:30.505365+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "complete"
     },
     {
       "id": "kubernetes",
@@ -964,6 +1144,10 @@
       "position": "trial",
       "since": "2024-03",
       "switching_cost": "high",
+      "experience": "observed",
+      "evidence": [
+        "Déploiement Kubernetes/GitOps préparé puis pris en charge par la DSI"
+      ],
       "notes": "Justifié dès 5+ services. K3s pour environnements légers.",
       "pros": [
         "Orchestration déclarative — self-healing, auto-scaling",
@@ -990,7 +1174,10 @@
           "fetched_at": "2026-06-16T17:16:30.522745+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "partial"
     },
     {
       "id": "terraform",
@@ -999,6 +1186,8 @@
       "position": "trial",
       "since": "2024-03",
       "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
       "notes": "IaC multi-cloud, alternative OpenTofu à considérer",
       "pros": [
         "IaC déclaratif multi-cloud (AWS, GCP, Azure, k8s)",
@@ -1025,7 +1214,10 @@
           "fetched_at": "2026-06-16T17:16:30.557320+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "complete"
     },
     {
       "id": "github-actions",
@@ -1034,6 +1226,10 @@
       "position": "adopt",
       "since": "2024-01",
       "switching_cost": "medium",
+      "experience": "practiced",
+      "evidence": [
+        "Workflows CI/CD réalisés sur plusieurs projets, apprentissage opérationnel encore actif"
+      ],
       "notes": "CI/CD natif GitHub, marketplace d'actions riche",
       "pros": [
         "Intégration GitHub native — zéro configuration initiale",
@@ -1051,7 +1247,10 @@
         "Déploiement sur GitHub Pages, AWS, GCP, Azure"
       ],
       "metrics": {},
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "no_source"
     },
     {
       "id": "argocd",
@@ -1060,6 +1259,8 @@
       "position": "trial",
       "since": "2024-06",
       "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
       "notes": "GitOps pour Kubernetes — le repo Git est la source de vérité des déploiements",
       "pros": [
         "GitOps natif — rollback = revert Git",
@@ -1086,7 +1287,10 @@
           "fetched_at": "2026-06-16T17:16:30.574660+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "partial"
     },
     {
       "id": "prometheus",
@@ -1095,6 +1299,10 @@
       "position": "adopt",
       "since": "2024-01",
       "switching_cost": "medium",
+      "experience": "observed",
+      "evidence": [
+        "Présent au radar, pas encore pratiqué"
+      ],
       "notes": "Standard de facto pour les métriques, intégration Grafana",
       "pros": [
         "Pull model — simple à intégrer dans Kubernetes",
@@ -1121,7 +1329,10 @@
           "fetched_at": "2026-06-16T17:16:30.609423+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "partial"
     },
     {
       "id": "grafana",
@@ -1130,6 +1341,10 @@
       "position": "adopt",
       "since": "2024-01",
       "switching_cost": "medium",
+      "experience": "observed",
+      "evidence": [
+        "Présent au radar, pas encore pratiqué"
+      ],
       "notes": "Dashboards puissants, supporte Prometheus/Loki/Tempo",
       "pros": [
         "Datasources multiples (Prometheus, Loki, ClickHouse, etc.)",
@@ -1156,7 +1371,10 @@
           "fetched_at": "2026-06-16T17:16:30.644115+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "complete"
     },
     {
       "id": "opentelemetry",
@@ -1165,6 +1383,10 @@
       "position": "trial",
       "since": "2024-03",
       "switching_cost": "medium",
+      "experience": "observed",
+      "evidence": [
+        "Présent au radar, pas encore pratiqué"
+      ],
       "notes": "Standard émergent pour traces/métriques/logs — vendor-neutral",
       "pros": [
         "Vendor-neutral — pas de lock-in Datadog / Dynatrace",
@@ -1191,7 +1413,10 @@
           "fetched_at": "2026-06-16T17:16:30.661561+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "partial"
     },
     {
       "id": "loki",
@@ -1200,6 +1425,8 @@
       "position": "trial",
       "since": "2024-06",
       "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
       "notes": "Centralisation des logs K8s bon marché — intégration Grafana native",
       "pros": [
         "Stockage économique — indexe les labels, pas le contenu",
@@ -1226,7 +1453,10 @@
           "fetched_at": "2026-06-16T17:16:30.696358+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "complete"
     },
     {
       "id": "jaeger",
@@ -1235,6 +1465,8 @@
       "position": "adopt",
       "since": "2024-03",
       "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
       "notes": "Tracing distribué CNCF graduated — visualisation des call graphs microservices",
       "pros": [
         "CNCF graduated — standard éprouvé pour le tracing distribué",
@@ -1261,7 +1493,10 @@
           "fetched_at": "2026-06-16T17:16:30.713707+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "partial"
     },
     {
       "id": "keycloak",
@@ -1270,6 +1505,8 @@
       "position": "trial",
       "since": "2024-03",
       "switching_cost": "high",
+      "experience": "unassessed",
+      "evidence": [],
       "notes": "IAM open-source, OAuth2/OIDC, SSO — alternative souveraine à Auth0",
       "pros": [
         "IAM complet : OAuth2, OIDC, SAML, SSO, MFA",
@@ -1296,7 +1533,10 @@
           "fetched_at": "2026-06-16T17:16:30.748748+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "complete"
     },
     {
       "id": "vault",
@@ -1305,6 +1545,10 @@
       "position": "trial",
       "since": "2024-06",
       "switching_cost": "high",
+      "experience": "operated",
+      "evidence": [
+        "Vill'Âge Jeunes : Transit, secrets et blind indexes HMAC exploités sur VPS"
+      ],
       "notes": "Gestion centralisée des secrets — rotation automatique, audit complet",
       "pros": [
         "Secrets dynamiques (DB, cloud) — rotation automatique",
@@ -1331,7 +1575,10 @@
           "fetched_at": "2026-06-16T17:16:30.766032+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "complete"
     },
     {
       "id": "trivy",
@@ -1340,6 +1587,8 @@
       "position": "adopt",
       "since": "2024-03",
       "switching_cost": "low",
+      "experience": "unassessed",
+      "evidence": [],
       "notes": "Scanner de sécurité polyvalent — images, code, IaC, K8s",
       "pros": [
         "Scanner universel : images Docker, filesystem, Git, K8s, IaC",
@@ -1366,7 +1615,10 @@
           "fetched_at": "2026-06-16T17:16:30.783374+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "complete"
     },
     {
       "id": "snyk",
@@ -1375,6 +1627,8 @@
       "position": "assess",
       "since": "2024-09",
       "switching_cost": "low",
+      "experience": "unassessed",
+      "evidence": [],
       "notes": "Sécurité des dépendances avec fix automatiques proposés",
       "pros": [
         "Intégration IDE + GitHub PR + CI",
@@ -1398,7 +1652,10 @@
           "fetched_at": "2026-06-16T17:16:30.817946+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "partial"
     },
     {
       "id": "owasp-zap",
@@ -1407,6 +1664,8 @@
       "position": "assess",
       "since": "2024-09",
       "switching_cost": "low",
+      "experience": "unassessed",
+      "evidence": [],
       "notes": "Scanner DAST open-source — tests de pénétration automatisés OWASP Top 10",
       "pros": [
         "Gratuit et open-source — référence OWASP",
@@ -1433,7 +1692,10 @@
           "fetched_at": "2026-06-16T17:16:30.835341+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "complete"
     },
     {
       "id": "kafka",
@@ -1442,6 +1704,8 @@
       "position": "assess",
       "since": "2024-06",
       "switching_cost": "high",
+      "experience": "unassessed",
+      "evidence": [],
       "notes": "Event streaming haute performance, complexité opérationnelle à évaluer",
       "pros": [
         "Débit massif — millions d'événements/seconde",
@@ -1468,7 +1732,10 @@
           "fetched_at": "2026-06-16T17:16:30.852704+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "complete"
     },
     {
       "id": "rabbitmq",
@@ -1477,6 +1744,8 @@
       "position": "adopt",
       "since": "2024-01",
       "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
       "notes": "Broker de messages AMQP mature — référence pour les queues de tâches",
       "pros": [
         "Protocole AMQP mature et éprouvé",
@@ -1503,7 +1772,10 @@
           "fetched_at": "2026-06-16T17:16:30.870092+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "complete"
     },
     {
       "id": "nats",
@@ -1512,6 +1784,8 @@
       "position": "trial",
       "since": "2024-06",
       "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
       "notes": "Messagerie ultra-légère haute performance — pub/sub, queue groups, JetStream",
       "pros": [
         "Ultra-léger (<20 MB) et latence sub-milliseconde",
@@ -1538,7 +1812,10 @@
           "fetched_at": "2026-06-16T17:16:30.887548+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "partial"
     },
     {
       "id": "grpc",
@@ -1547,6 +1824,8 @@
       "position": "adopt",
       "since": "2024-01",
       "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
       "notes": "Communication inter-services haute performance avec contrat Protobuf fort",
       "pros": [
         "Contrat Protobuf fort — breaking changes détectés à la compilation",
@@ -1578,7 +1857,10 @@
           "fetched_at": "2026-06-16T17:16:30.939904+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "complete"
     },
     {
       "id": "pulsar",
@@ -1587,6 +1869,8 @@
       "position": "assess",
       "since": "2024-09",
       "switching_cost": "high",
+      "experience": "unassessed",
+      "evidence": [],
       "notes": "Alternative Kafka avec séparation compute/storage et multi-tenancy native",
       "pros": [
         "Séparation compute (broker) / storage (BookKeeper) — scalabilité indépendante",
@@ -1613,7 +1897,10 @@
           "fetched_at": "2026-06-16T17:16:30.957351+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "partial"
     },
     {
       "id": "ollama",
@@ -1622,6 +1909,8 @@
       "position": "assess",
       "since": "2024-06",
       "switching_cost": "low",
+      "experience": "unassessed",
+      "evidence": [],
       "notes": "LLMs locaux (Ollama) et API cloud (OpenAI) — écosystème en évolution rapide",
       "pros": [
         "OpenAI API — standard de facto, compatible avec la plupart des LLMs",
@@ -1653,7 +1942,10 @@
           "fetched_at": "2026-06-16T17:16:31.010746+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "complete"
     },
     {
       "id": "langchain",
@@ -1662,6 +1954,8 @@
       "position": "trial",
       "since": "2024-06",
       "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
       "notes": "Framework d'orchestration LLM — RAG, agents et chaînes de prompts",
       "pros": [
         "Abstractions LLM universelles — swap de provider en une ligne",
@@ -1699,7 +1993,10 @@
           "fetched_at": "2026-06-16T17:16:31.062561+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "complete"
     },
     {
       "id": "huggingface",
@@ -1708,6 +2005,8 @@
       "position": "trial",
       "since": "2024-06",
       "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
       "notes": "Hub de modèles ML open-source — fine-tuning et inférence locale",
       "pros": [
         "Accès à tous les modèles open-source (Llama, Mistral, Falcon, etc.)",
@@ -1740,7 +2039,10 @@
           "fetched_at": "2026-06-16T17:16:31.097461+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "complete"
     },
     {
       "id": "mistral-ai",
@@ -1749,6 +2051,8 @@
       "position": "assess",
       "since": "2024-09",
       "switching_cost": "low",
+      "experience": "unassessed",
+      "evidence": [],
       "notes": "LLMs européens — excellent rapport performance/coût, API compatible OpenAI",
       "pros": [
         "Hébergement européen — conformité RGPD facilitée",
@@ -1772,7 +2076,10 @@
           "fetched_at": "2026-06-16T17:16:31.132297+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "partial"
     },
     {
       "id": "llamaindex",
@@ -1781,6 +2088,8 @@
       "position": "assess",
       "since": "2024-09",
       "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
       "notes": "Framework spécialisé RAG — indexation et interrogation de bases de connaissances",
       "pros": [
         "Spécialisé RAG — connecteurs pour PDF, Notion, bases de données",
@@ -1813,7 +2122,941 @@
           "fetched_at": "2026-06-16T17:16:31.166967+00:00"
         }
       },
-      "trajectory": "stable"
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": "2026-06-16T17:18:32Z",
+      "collection_status": "complete"
+    },
+    {
+      "id": "c",
+      "name": "C",
+      "category": "languages",
+      "position": "adopt",
+      "since": "2026-08",
+      "switching_cost": "high",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "cpp",
+      "name": "C++",
+      "category": "languages",
+      "position": "adopt",
+      "since": "2026-08",
+      "switching_cost": "high",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "csharp",
+      "name": "C#",
+      "category": "languages",
+      "position": "adopt",
+      "since": "2026-08",
+      "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "kotlin",
+      "name": "Kotlin",
+      "category": "languages",
+      "position": "adopt",
+      "since": "2026-08",
+      "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "swift",
+      "name": "Swift",
+      "category": "languages",
+      "position": "adopt",
+      "since": "2026-08",
+      "switching_cost": "high",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "astro",
+      "name": "Astro",
+      "category": "frameworks_front",
+      "position": "trial",
+      "since": "2026-08",
+      "switching_cost": "low",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "vite",
+      "name": "Vite",
+      "category": "frameworks_front",
+      "position": "adopt",
+      "since": "2026-08",
+      "switching_cost": "low",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "solidjs",
+      "name": "SolidJS",
+      "category": "frameworks_front",
+      "position": "assess",
+      "since": "2026-08",
+      "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "qwik",
+      "name": "Qwik",
+      "category": "frameworks_front",
+      "position": "assess",
+      "since": "2026-08",
+      "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "remix",
+      "name": "Remix",
+      "category": "frameworks_front",
+      "position": "trial",
+      "since": "2026-08",
+      "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "django",
+      "name": "Django",
+      "category": "frameworks_back",
+      "position": "adopt",
+      "since": "2026-08",
+      "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "flask",
+      "name": "Flask",
+      "category": "frameworks_back",
+      "position": "adopt",
+      "since": "2026-08",
+      "switching_cost": "low",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "laravel",
+      "name": "Laravel",
+      "category": "frameworks_back",
+      "position": "adopt",
+      "since": "2026-08",
+      "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "rails",
+      "name": "Ruby on Rails",
+      "category": "frameworks_back",
+      "position": "adopt",
+      "since": "2026-08",
+      "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "swiftui",
+      "name": "SwiftUI",
+      "category": "mobile",
+      "position": "trial",
+      "since": "2026-08",
+      "switching_cost": "high",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "jetpack-compose",
+      "name": "Jetpack Compose",
+      "category": "mobile",
+      "position": "adopt",
+      "since": "2026-08",
+      "switching_cost": "high",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "dotnet-maui",
+      "name": ".NET MAUI",
+      "category": "mobile",
+      "position": "trial",
+      "since": "2026-08",
+      "switching_cost": "high",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "expo",
+      "name": "Expo",
+      "category": "mobile",
+      "position": "trial",
+      "since": "2026-08",
+      "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "tauri",
+      "name": "Tauri",
+      "category": "mobile",
+      "position": "trial",
+      "since": "2026-08",
+      "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "mysql",
+      "name": "MySQL",
+      "category": "databases",
+      "position": "adopt",
+      "since": "2026-08",
+      "switching_cost": "high",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "sqlite",
+      "name": "SQLite",
+      "category": "databases",
+      "position": "adopt",
+      "since": "2026-08",
+      "switching_cost": "low",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "mariadb",
+      "name": "MariaDB",
+      "category": "databases",
+      "position": "adopt",
+      "since": "2026-08",
+      "switching_cost": "high",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "cockroachdb",
+      "name": "CockroachDB",
+      "category": "databases",
+      "position": "trial",
+      "since": "2026-08",
+      "switching_cost": "high",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "cassandra",
+      "name": "Apache Cassandra",
+      "category": "databases",
+      "position": "trial",
+      "since": "2026-08",
+      "switching_cost": "high",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "ansible",
+      "name": "Ansible",
+      "category": "devops",
+      "position": "adopt",
+      "since": "2026-08",
+      "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "pulumi",
+      "name": "Pulumi",
+      "category": "devops",
+      "position": "trial",
+      "since": "2026-08",
+      "switching_cost": "high",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "helm",
+      "name": "Helm",
+      "category": "devops",
+      "position": "adopt",
+      "since": "2026-08",
+      "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "flux",
+      "name": "Flux CD",
+      "category": "devops",
+      "position": "trial",
+      "since": "2026-08",
+      "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "jenkins",
+      "name": "Jenkins",
+      "category": "devops",
+      "position": "hold",
+      "since": "2026-08",
+      "switching_cost": "high",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "victoriametrics",
+      "name": "VictoriaMetrics",
+      "category": "observability",
+      "position": "trial",
+      "since": "2026-08",
+      "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "zabbix",
+      "name": "Zabbix",
+      "category": "observability",
+      "position": "adopt",
+      "since": "2026-08",
+      "switching_cost": "high",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "sentry",
+      "name": "Sentry",
+      "category": "observability",
+      "position": "adopt",
+      "since": "2026-08",
+      "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "signoz",
+      "name": "SigNoz",
+      "category": "observability",
+      "position": "trial",
+      "since": "2026-08",
+      "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "tempo",
+      "name": "Grafana Tempo",
+      "category": "observability",
+      "position": "trial",
+      "since": "2026-08",
+      "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "open-policy-agent",
+      "name": "Open Policy Agent",
+      "category": "security",
+      "position": "adopt",
+      "since": "2026-08",
+      "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "falco",
+      "name": "Falco",
+      "category": "security",
+      "position": "trial",
+      "since": "2026-08",
+      "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "kyverno",
+      "name": "Kyverno",
+      "category": "security",
+      "position": "trial",
+      "since": "2026-08",
+      "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "cilium",
+      "name": "Cilium",
+      "category": "security",
+      "position": "trial",
+      "since": "2026-08",
+      "switching_cost": "high",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "cosign",
+      "name": "Cosign",
+      "category": "security",
+      "position": "trial",
+      "since": "2026-08",
+      "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "activemq",
+      "name": "Apache ActiveMQ",
+      "category": "messaging",
+      "position": "trial",
+      "since": "2026-08",
+      "switching_cost": "high",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "redpanda",
+      "name": "Redpanda",
+      "category": "messaging",
+      "position": "trial",
+      "since": "2026-08",
+      "switching_cost": "high",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "mosquitto",
+      "name": "Eclipse Mosquitto",
+      "category": "messaging",
+      "position": "adopt",
+      "since": "2026-08",
+      "switching_cost": "low",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "emqx",
+      "name": "EMQX",
+      "category": "messaging",
+      "position": "trial",
+      "since": "2026-08",
+      "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "temporal",
+      "name": "Temporal",
+      "category": "messaging",
+      "position": "trial",
+      "since": "2026-08",
+      "switching_cost": "high",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "pytorch",
+      "name": "PyTorch",
+      "category": "ai",
+      "position": "adopt",
+      "since": "2026-08",
+      "switching_cost": "high",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "tensorflow",
+      "name": "TensorFlow",
+      "category": "ai",
+      "position": "adopt",
+      "since": "2026-08",
+      "switching_cost": "high",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "jax",
+      "name": "JAX",
+      "category": "ai",
+      "position": "trial",
+      "since": "2026-08",
+      "switching_cost": "high",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "vllm",
+      "name": "vLLM",
+      "category": "ai",
+      "position": "trial",
+      "since": "2026-08",
+      "switching_cost": "high",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
+    },
+    {
+      "id": "langgraph",
+      "name": "LangGraph",
+      "category": "ai",
+      "position": "trial",
+      "since": "2026-08",
+      "switching_cost": "medium",
+      "experience": "unassessed",
+      "evidence": [],
+      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
+      "pros": [],
+      "cons": [],
+      "use_cases": [],
+      "metrics": {},
+      "trajectory": "stable",
+      "position_proposal": null,
+      "collected_at": null,
+      "collection_status": "pending"
     }
   ]
 }

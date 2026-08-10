@@ -3,7 +3,7 @@
 ![CI](https://github.com/Alt3k0/Radar-Jrmy/actions/workflows/ci.yml/badge.svg)
 ![Dernière collecte](https://github.com/Alt3k0/Radar-Jrmy/actions/workflows/collect.yml/badge.svg)
 
-Radar technologique personnel — 50 technologies réparties sur 4 anneaux (Adopt / Trial / Assess / Hold) dans 10 catégories. Les métriques sont collectées automatiquement toutes les 6 h via GitHub Actions et publiées sur GitHub Pages.
+Radar technologique personnel — 100 technologies réparties sur 4 anneaux (Adopt / Trial / Assess / Hold), avec 10 technologies dans chacune des 10 catégories. Les métriques sont collectées automatiquement toutes les 6 h via GitHub Actions et publiées sur GitHub Pages.
 
 **→ [Voir le radar en ligne](https://alt3k0.github.io/Radar-Jrmy/)**
 
@@ -15,9 +15,17 @@ Radar technologique personnel — 50 technologies réparties sur 4 anneaux (Adop
 |------|-------------|
 | **Radar** | SVG interactif D3.js — survol pour tooltip, clic pour détail, filtres par catégorie |
 | **Tableau** | Liste triable et filtrable avec pros/cons/cas d'usage en dépliable |
-| **Éditeur** | Outil local pour changer la position d'une techno et exporter le YAML modifié |
 
 Trajectoires calculées automatiquement (`↑` hausse / `→` stable / `↓` baisse) à partir de la variation des stars GitHub et des téléchargements npm/PyPI entre deux collectes.
+
+Le radar sépare deux dimensions :
+
+- la **position** (`adopt`, `trial`, `assess`, `hold`) exprime une recommandation technologique ;
+- l’**expérience** (`observed`, `studied`, `practiced`, `delivered`, `operated`) décrit le niveau personnel démontré par des preuves. Une technologie sans évaluation explicite reste `unassessed`.
+
+Sur le radar, les technologies pratiquées, livrées ou exploitées sont représentées par de grands points pleins. Les références sans pratique démontrée utilisent de petits points creux.
+
+Après chaque collecte, une trajectoire en hausse ou en baisse peut produire une **proposition de déplacement d’un anneau**. La proposition est affichée dans le tableau et ne modifie jamais automatiquement `technologies.yaml`. Un dépôt GitHub archivé produit également une proposition vers `hold`. Deux collectes réussies sont nécessaires avant de pouvoir mesurer l’évolution d’une nouvelle technologie.
 
 ---
 
@@ -39,8 +47,7 @@ data/data.json             ← committé par radar-bot [skip ci]
         ▼
 src/ (GitHub Pages)        ← deploy.yml copie data.json dans src/
   ├── index.html           ← radar D3.js
-  ├── table.html           ← tableau
-  └── editor.html          ← éditeur YAML
+  └── table.html           ← tableau filtrable et triable
 ```
 
 Zéro serveur, zéro base de données — l'historique des métriques vit dans Git.
@@ -63,8 +70,7 @@ echo "GITHUB_TOKEN=ghp_xxxx" > .env
 python scripts/collect.py              # génère data/data.json
 
 # 4. Lancer le site
-npm run dev                            # copie data.json dans src/
-python -m http.server 8080 --directory src
+npm run dev                            # copie data.json puis démarre le serveur local
 # → http://localhost:8080
 ```
 
@@ -83,6 +89,10 @@ python -m http.server 8080 --directory src
   position: trial           # adopt | trial | assess | hold
   since: "2025-01"
   switching_cost: medium    # low | medium | high
+  experience: practiced     # unassessed | observed | studied
+                            # practiced | delivered | operated
+  evidence:
+    - "Prototype réalisé pour valider le cas d'usage X"
   notes: "Courte description."
   pros:
     - Avantage 1
@@ -112,7 +122,7 @@ python scripts/validate_yaml.py
 | `collect.yml` | Cron 6 h + manuel | Collecte les métriques, commit `data/data.json` |
 | `deploy.yml` | Push main + fin de collect | Déploie `src/` sur GitHub Pages |
 
-**Secret requis :** `RADAR_GITHUB_TOKEN` — PAT GitHub avec scope `public_repo` (pour appeler l'API GitHub sans rate-limit dans `collect.py`).
+**Secret requis :** `RADAR_GITHUB_TOKEN` — PAT GitHub avec accès en lecture aux dépôts publics. Sans ce secret, la limite anonyme de l’API est insuffisante pour les 151 technologies et une partie des collectes GitHub apparaîtra en échec ou partielle.
 
 ---
 

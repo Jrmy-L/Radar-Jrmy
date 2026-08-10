@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "node -e \"require('fs').copyFileSync('data/data.json','src/data.json')\" && echo \"data.json copied to src/ — open src/index.html in your browser\""
+    "dev": "node -e \"require('fs').copyFileSync('data/data.json','src/data.json')\" && python -m http.server 8080 --directory src"
   },
   "devDependencies": {
     "eslint": "^8.57.0",

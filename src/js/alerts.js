@@ -1,23 +1,23 @@
 'use strict';
 
-const STORAGE_KEY = 'radar-rising-v1';
+const STORAGE_KEY = 'radar-position-proposals-v1';
 
 export function initAlerts(data) {
-  const currentRising = data.technologies
-    .filter(t => t.trajectory === 'rising')
+  const currentProposals = data.technologies
+    .filter(t => t.position_proposal)
     .map(t => t.id);
 
   const stored = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{"ids":[],"generatedAt":""}');
-  const newlyRising = currentRising.filter(id => !stored.ids.includes(id));
+  const newProposals = currentProposals.filter(id => !stored.ids.includes(id));
 
-  updateNavBadge(currentRising.length);
+  updateNavBadge(currentProposals.length);
 
-  if (newlyRising.length === 0) return;
+  if (newProposals.length === 0) return;
 
-  const newTechs = data.technologies.filter(t => newlyRising.includes(t.id));
+  const newTechs = data.technologies.filter(t => newProposals.includes(t.id));
   showBanner(newTechs, () => {
     localStorage.setItem(STORAGE_KEY, JSON.stringify({
-      ids: currentRising,
+      ids: currentProposals,
       generatedAt: data.generated_at,
     }));
   });
@@ -47,9 +47,9 @@ function showBanner(techs, onDismiss) {
     <div class="alert-content">
       <span class="alert-icon">📈</span>
       <span class="alert-text">
-        <strong>${techs.length} technologie${techs.length > 1 ? 's' : ''} en hausse depuis votre dernière visite :</strong>
+        <strong>${techs.length} nouvelle${techs.length > 1 ? 's' : ''} proposition${techs.length > 1 ? 's' : ''} à examiner :</strong>
         <span class="alert-tags">
-          ${techs.map(t => `<span class="badge badge-${t.position}">${t.name}</span>`).join('')}
+          ${techs.map(t => `<span class="proposal-badge">${t.name} : ${t.position_proposal.from} → ${t.position_proposal.to}</span>`).join('')}
         </span>
       </span>
     </div>

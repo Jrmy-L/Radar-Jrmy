@@ -82,6 +82,15 @@
       <select id="filter-category" aria-label="Filtrer par catégorie">
         <option value="">Toutes catégories</option>
       </select>
+      <select id="filter-experience" aria-label="Filtrer par expérience">
+        <option value="">Toute expérience</option>
+        <option value="unassessed">Non évalué</option>
+        <option value="observed">Observé</option>
+        <option value="studied">Étudié</option>
+        <option value="practiced">Pratiqué</option>
+        <option value="delivered">Livré</option>
+        <option value="operated">Exploité</option>
+      </select>
     </div>
 
     <div class="count-bar">
@@ -95,15 +104,17 @@
             <th data-sort="name" tabindex="0">Nom</th>
             <th data-sort="category" tabindex="0">Catégorie</th>
             <th data-sort="position" tabindex="0">Position</th>
+            <th data-sort="experience" tabindex="0">Expérience</th>
+            <th>Proposition</th>
             <th data-sort="trajectory" tabindex="0">Trajectoire</th>
             <th data-sort="stars" tabindex="0">GitHub Stars</th>
             <th data-sort="npm" tabindex="0">npm / semaine</th>
             <th data-sort="switching_cost" tabindex="0">Migration</th>
-            <th>Collecté le</th>
+            <th>Tentative de collecte</th>
           </tr>
         </thead>
         <tbody id="tbody">
-          <tr><td colspan="8" class="loading">Chargement...</td></tr>
+          <tr><td colspan="10" class="loading">Chargement...</td></tr>
         </tbody>
       </table>
     </div>

@@ -126,6 +126,24 @@ h1 {
 .badge-stable   { background: rgba(155,149,190,.12); color: var(--color-stable); }
 .badge-declining { background: rgba(94,84,131,.2);   color: var(--color-declining); }
 
+.badge-experience-unassessed { background: rgba(155,149,190,.12); color: #9B95BE; }
+.badge-experience-observed   { background: rgba(14,165,233,.12);  color: #38BDF8; }
+.badge-experience-studied    { background: rgba(168,85,247,.14);  color: #C084FC; }
+.badge-experience-practiced  { background: rgba(245,158,11,.14);  color: #FBBF24; }
+.badge-experience-delivered  { background: rgba(16,185,129,.14);  color: #34D399; }
+.badge-experience-operated   { background: rgba(242,159,82,.18);  color: var(--color-adopt); border: 1px solid rgba(242,159,82,.45); }
+
+.collection-status { display: inline-block; width: 7px; height: 7px; margin-right: 6px; border-radius: 50%; }
+.collection-status-complete { background: #34D399; }
+.collection-status-partial { background: #FBBF24; }
+.collection-status-failed { background: #F87171; }
+.collection-status-no_source { background: #9B95BE; }
+.collection-status-pending { background: #38BDF8; }
+
+.proposal-badge { display: inline-flex; padding: 2px 8px; border: 1px solid #38BDF8; border-radius: 4px; color: #7DD3FC; font-size: 11px; font-weight: 700; text-transform: uppercase; white-space: nowrap; }
+.position-proposal { display: flex; flex-direction: column; gap: 4px; margin-bottom: 14px; padding: 12px; border: 1px solid rgba(56,189,248,.4); border-radius: 6px; background: rgba(56,189,248,.08); color: #BAE6FD; }
+.position-proposal span, .position-proposal small { color: var(--text-muted); }
+
 /* ---------- Filters ---------- */
 .filters {
   display: flex;

@@ -1,6 +1,6 @@
 'use strict';
 
-import { loadData, getCategoryColor, trajectoryLabel, formatNumber } from './data-loader.js';
+import { loadData, getCategoryColor, trajectoryLabel, formatNumber, experienceLabel } from './data-loader.js';
 
 const WIDTH = 760;
 const HEIGHT = 760;
@@ -16,6 +16,7 @@ const RINGS = [
 ];
 
 const RING_INDEX = { adopt: 0, trial: 1, assess: 2, hold: 3 };
+const EXPERIENCE_INDEX = { unassessed: 0, observed: 1, studied: 2, practiced: 3, delivered: 4, operated: 5 };
 
 const CATEGORIES = [
   'languages', 'frameworks_front', 'frameworks_back',
@@ -102,17 +103,18 @@ function buildSvg() {
   visible.forEach((tech) => {
     const pos = placeDot(tech, allTechs.indexOf(tech));
     const color = getCategoryColor(tech.category);
+    const hasHandsOnExperience = (EXPERIENCE_INDEX[tech.experience] || 0) >= EXPERIENCE_INDEX.practiced;
     const g = dotsG.append('g')
       .attr('transform', `translate(${pos.x},${pos.y})`)
       .attr('class', 'dot')
       .style('cursor', 'pointer');
 
     g.append('circle')
-      .attr('r', 7)
-      .attr('fill', color)
-      .attr('fill-opacity', 0.85)
-      .attr('stroke', '#0f1117')
-      .attr('stroke-width', 1.5);
+      .attr('r', hasHandsOnExperience ? 8 : 5)
+      .attr('fill', hasHandsOnExperience ? color : '#0f1117')
+      .attr('fill-opacity', hasHandsOnExperience ? 0.9 : 0.45)
+      .attr('stroke', color)
+      .attr('stroke-width', hasHandsOnExperience ? 2.5 : 1.5);
 
     if (tech.trajectory === 'rising') {
       g.append('text').attr('y', -10).attr('text-anchor', 'middle')
@@ -141,6 +143,8 @@ function showTooltip(event, tech) {
   tooltip.innerHTML = `
     <strong>${tech.name}</strong>
     <div class="metric-row"><span>Position</span><span class="badge badge-${tech.position}">${tech.position}</span></div>
+    <div class="metric-row"><span>Expérience</span><span class="badge badge-experience-${tech.experience || 'unassessed'}">${experienceLabel(tech.experience)}</span></div>
+    ${tech.position_proposal ? `<div class="metric-row"><span>Proposition</span><span class="proposal-badge">${tech.position_proposal.from} → ${tech.position_proposal.to}</span></div>` : ''}
     <div class="metric-row"><span>Trajectoire</span><span>${traj}</span></div>
     ${gh ? `<div class="metric-row"><span>Stars GitHub</span><span>${formatNumber(gh.stars)}</span></div>` : ''}
     ${npm ? `<div class="metric-row"><span>DL/semaine</span><span>${formatNumber(npm.downloads_weekly)}</span></div>` : ''}

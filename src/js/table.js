@@ -1,6 +1,13 @@
 'use strict';
 
-import { loadData, formatNumber, trajectoryLabel, formatDate } from './data-loader.js';
+import {
+  loadData,
+  formatNumber,
+  trajectoryLabel,
+  formatDate,
+  experienceLabel,
+  collectionStatusLabel,
+} from './data-loader.js';
 import { initAlerts } from './alerts.js';
 
 const CATEGORIES = {
@@ -24,21 +31,29 @@ function positionOrder(p) {
   return { adopt: 0, trial: 1, assess: 2, hold: 3 }[p] ?? 99;
 }
 
+function experienceOrder(level) {
+  return { unassessed: 0, observed: 1, studied: 2, practiced: 3, delivered: 4, operated: 5 }[level] ?? 0;
+}
+
 function renderRow(tech) {
   const gh = tech.metrics?.github;
   const npm = tech.metrics?.npm;
   const traj = trajectoryLabel(tech.trajectory);
   const trajClass = tech.trajectory || 'stable';
+  const collectionStatus = tech.collection_status || 'failed';
+  const proposal = tech.position_proposal;
 
   return `<tr class="data-row" data-id="${tech.id}" tabindex="0" role="button" aria-expanded="false" title="Cliquer pour voir les détails">
     <td><span class="row-toggle-icon">▶</span> <strong>${tech.name}</strong></td>
     <td>${CATEGORIES[tech.category] || tech.category}</td>
     <td><span class="badge badge-${tech.position}">${tech.position}</span></td>
+    <td><span class="badge badge-experience-${tech.experience || 'unassessed'}">${experienceLabel(tech.experience)}</span></td>
+    <td>${proposal ? `<span class="proposal-badge">${proposal.from} → ${proposal.to}</span>` : '—'}</td>
     <td><span class="badge badge-${trajClass}">${traj}</span></td>
     <td>${gh ? formatNumber(gh.stars) : '—'}</td>
     <td>${npm ? formatNumber(npm.downloads_weekly) : '—'}</td>
     <td>${tech.switching_cost || '—'}</td>
-    <td>${formatDate(tech.metrics?.github?.fetched_at || tech.metrics?.npm?.fetched_at)}</td>
+    <td title="${collectionStatusLabel(collectionStatus)}"><span class="collection-status collection-status-${collectionStatus}"></span>${formatDate(tech.collected_at)}</td>
   </tr>`;
 }
 
@@ -49,9 +64,11 @@ function renderDetailRow(tech) {
   const notes = tech.notes ? `<p class="detail-notes">${tech.notes}</p>` : '';
 
   return `<tr class="detail-row" data-detail-for="${tech.id}">
-    <td colspan="8">
+    <td colspan="10">
       <div class="detail-panel">
         ${notes}
+        ${tech.position_proposal ? `<div class="position-proposal"><strong>Proposition : ${tech.position_proposal.from.toUpperCase()} → ${tech.position_proposal.to.toUpperCase()}</strong><span>${tech.position_proposal.reason}</span><small>Cette proposition ne modifie pas automatiquement le YAML.</small></div>` : ''}
+        ${(tech.evidence || []).length ? `<div class="detail-section"><h4>🧭 Preuves d’expérience</h4><ul>${tech.evidence.map(item => `<li>${item}</li>`).join('')}</ul></div>` : ''}
         <div class="detail-grid">
           <div class="detail-section detail-pros">
             <h4>✅ Avantages</h4>
@@ -106,18 +123,21 @@ function toggleDetail(row) {
 function getFilteredSorted() {
   const query = document.getElementById('search').value.toLowerCase();
   const posFilter = document.getElementById('filter-position').value;
+  const experienceFilter = document.getElementById('filter-experience').value;
   const catFilter = document.getElementById('filter-category').value;
 
   const result = allTechs.filter(t => {
     const matchText = !query || t.name.toLowerCase().includes(query) || (t.notes || '').toLowerCase().includes(query);
     const matchPos = !posFilter || t.position === posFilter;
+    const matchExperience = !experienceFilter || (t.experience || 'unassessed') === experienceFilter;
     const matchCat = !catFilter || t.category === catFilter;
-    return matchText && matchPos && matchCat;
+    return matchText && matchPos && matchExperience && matchCat;
   });
 
   result.sort((a, b) => {
     let va, vb;
     if (sortKey === 'position') { va = positionOrder(a.position); vb = positionOrder(b.position); }
+    else if (sortKey === 'experience') { va = experienceOrder(a.experience); vb = experienceOrder(b.experience); }
     else if (sortKey === 'stars') { va = a.metrics?.github?.stars ?? -1; vb = b.metrics?.github?.stars ?? -1; }
     else if (sortKey === 'npm') { va = a.metrics?.npm?.downloads_weekly ?? -1; vb = b.metrics?.npm?.downloads_weekly ?? -1; }
     else if (sortKey === 'trajectory') { va = a.trajectory || ''; vb = b.trajectory || ''; }
@@ -136,7 +156,7 @@ function render() {
   const filtered = getFilteredSorted();
   tbody.innerHTML = filtered.length
     ? filtered.map(renderRow).join('')
-    : '<tr><td colspan="8" class="loading">Aucune technologie trouvée</td></tr>';
+    : '<tr><td colspan="10" class="loading">Aucune technologie trouvée</td></tr>';
   document.getElementById('count').textContent = `${filtered.length} technologie${filtered.length > 1 ? 's' : ''}`;
 
   tbody.querySelectorAll('.data-row').forEach(row => {
@@ -186,7 +206,7 @@ async function init() {
 
     setupSortHeaders();
 
-    ['search', 'filter-position', 'filter-category'].forEach(id => {
+    ['search', 'filter-position', 'filter-experience', 'filter-category'].forEach(id => {
       document.getElementById(id).addEventListener('input', render);
       document.getElementById(id).addEventListener('change', render);
     });
@@ -194,7 +214,7 @@ async function init() {
     render();
   } catch (err) {
     document.getElementById('tbody').innerHTML =
-      `<tr><td colspan="8" class="error">Erreur de chargement : ${err.message}</td></tr>`;
+      `<tr><td colspan="10" class="error">Erreur de chargement : ${err.message}</td></tr>`;
   }
 }
 

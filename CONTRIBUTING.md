@@ -11,6 +11,8 @@
   position: assess            # adopt | trial | assess | hold
   since: "2026-01"            # YYYY-MM
   switching_cost: medium      # low | medium | high
+  experience: unassessed      # voir l'échelle d'expérience ci-dessous
+  evidence: []                # preuves concrètes, pas une auto-évaluation abstraite
   notes: "Justification en une phrase"
   sources:
     github: owner/repo        # optionnel
@@ -82,3 +84,18 @@ python scripts/validate_yaml.py
 | **TRIAL** | Mérite d'être expérimenté sur des projets réels. |
 | **ASSESS** | À explorer pour comprendre l'impact potentiel. |
 | **HOLD** | Approcher avec précaution. Éviter pour les nouveaux projets. |
+
+## Échelle d’expérience personnelle
+
+La position dans le radar et l’expérience personnelle répondent à deux questions différentes. Une technologie peut être `adopt` sur le marché tout en restant seulement `observed` personnellement.
+
+| Niveau | Critère de preuve |
+|--------|-------------------|
+| **UNASSESSED** | Niveau non évalué ; aucune conclusion ne doit être tirée. |
+| **OBSERVED** | Veille ou exposition indirecte, sans pratique significative. |
+| **STUDIED** | Documentation, formation ou compréhension théorique démontrable. |
+| **PRACTICED** | Prototype, laboratoire ou projet personnel réalisé. |
+| **DELIVERED** | Solution livrée pour un usage réel, sans exploitation personnelle durable. |
+| **OPERATED** | Solution personnellement déployée, surveillée, dépannée ou maintenue en production. |
+
+Chaque niveau autre que `unassessed` doit comporter au moins une entrée `evidence`. Une preuve décrit un résultat ou un contexte vérifiable, pas simplement « je connais cette technologie ».

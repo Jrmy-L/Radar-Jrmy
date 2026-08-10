@@ -25,6 +25,29 @@ export function trajectoryLabel(t) {
   return '→ stable';
 }
 
+export function experienceLabel(level) {
+  const labels = {
+    unassessed: 'Non évalué',
+    observed: 'Observé',
+    studied: 'Étudié',
+    practiced: 'Pratiqué',
+    delivered: 'Livré',
+    operated: 'Exploité',
+  };
+  return labels[level] || labels.unassessed;
+}
+
+export function collectionStatusLabel(status) {
+  const labels = {
+    complete: 'Collecte complète',
+    partial: 'Collecte partielle',
+    failed: 'Échec de collecte',
+    no_source: 'Aucune source automatisée',
+    pending: 'En attente de la première collecte',
+  };
+  return labels[status] || 'Statut inconnu';
+}
+
 export function formatDate(iso) {
   if (!iso) return '—';
   return new Date(iso).toLocaleDateString('fr-FR', { day: '2-digit', month: 'short', year: 'numeric' });

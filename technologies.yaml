@@ -8,6 +8,9 @@ technologies:
     position: adopt
     since: "2024-01"
     switching_cost: medium
+    experience: operated
+    evidence:
+      - "Vill'Âge Jeunes : backend TypeScript déployé et exploité personnellement sur VPS"
     notes: "Standard de facto pour tout projet Node/web"
     pros:
       - "Typage statique = moins de bugs runtime"
@@ -53,6 +56,9 @@ technologies:
     position: adopt
     since: "2024-01"
     switching_cost: medium
+    experience: operated
+    evidence:
+      - "Système d'affichage dynamique : backend Python et automatisation crontab exploités"
     notes: "Scripting, data, ML/AI — polyvalence maximale"
     pros:
       - "Productivité maximale, syntaxe lisible"
@@ -122,6 +128,9 @@ technologies:
     position: adopt
     since: "2024-01"
     switching_cost: medium
+    experience: studied
+    evidence:
+      - "Bases React acquises, sans preuve de livraison en production recensée"
     notes: "Dominant en production, écosystème Next.js solide"
     pros:
       - "Écosystème et communauté les plus larges"
@@ -255,12 +264,41 @@ technologies:
     sources:
       github: spring-projects/spring-boot
 
+  - id: fastify
+    name: Fastify
+    category: frameworks_back
+    position: adopt
+    since: "2024-01"
+    switching_cost: low
+    experience: operated
+    evidence:
+      - "Vill'Âge Jeunes : API Fastify v5 déployée et exploitée personnellement sur VPS"
+    notes: "Framework Node.js rapide, sobre et extensible, utilisé sur le projet de référence"
+    pros:
+      - "Validation et sérialisation JSON Schema intégrées"
+      - "Architecture par plugins avec encapsulation explicite"
+      - "Bonnes performances sans sacrifier la lisibilité"
+    cons:
+      - "Écosystème plus réduit qu'Express"
+      - "L'encapsulation des plugins demande un apprentissage spécifique"
+      - "Moins structurant que NestJS pour les très grandes équipes"
+    use_cases:
+      - "APIs TypeScript performantes et maintenables"
+      - "Backends modulaires avec validation de contrats"
+      - "Services Node.js nécessitant peu d'abstraction"
+    sources:
+      github: fastify/fastify
+      npm_package: fastify
+
   - id: nestjs
     name: NestJS
     category: frameworks_back
     position: trial
     since: "2024-03"
     switching_cost: medium
+    experience: studied
+    evidence:
+      - "Apprentissage en cours, sans projet livré recensé"
     notes: "Architecture modulaire Node.js, TypeScript natif"
     pros:
       - "Architecture Angular-like — familière pour les équipes front"
@@ -354,6 +392,9 @@ technologies:
     position: adopt
     since: "2024-01"
     switching_cost: high
+    experience: practiced
+    evidence:
+      - "Système d'affichage dynamique : première architecture Flutter prototypée avant pivot ESP32"
     notes: "Cross-platform iOS/Android/Web avec une seule codebase Dart"
     pros:
       - "UI 100% custom — pixel-perfect sur toutes les plateformes"
@@ -469,6 +510,9 @@ technologies:
     position: adopt
     since: "2024-01"
     switching_cost: high
+    experience: operated
+    evidence:
+      - "Vill'Âge Jeunes : plus de 30 modèles Prisma, migrations et exploitation sur VPS"
     notes: "SGBDR de référence, JSON natif, fiabilité éprouvée"
     pros:
       - "ACID complet, transactions multi-tables fiables"
@@ -491,6 +535,9 @@ technologies:
     position: adopt
     since: "2024-01"
     switching_cost: medium
+    experience: studied
+    evidence:
+      - "Notions acquises, sans usage en production recensé"
     notes: "Cache in-memory, pub/sub, sessions — indispensable en production"
     pros:
       - "Latence sub-milliseconde — cache applicatif de référence"
@@ -581,6 +628,10 @@ technologies:
     position: adopt
     since: "2024-01"
     switching_cost: low
+    experience: delivered
+    evidence:
+      - "Calendrier du Pôle Jeunesse : deux conteneurs non-root livrés à la DSI"
+      - "Exploitation finale reprise par la DSI, sans opération personnelle en production"
     notes: "Conteneurisation standard, reproductibilité des environnements"
     pros:
       - "Build once, run anywhere — reproductibilité totale"
@@ -603,6 +654,9 @@ technologies:
     position: trial
     since: "2024-03"
     switching_cost: high
+    experience: observed
+    evidence:
+      - "Déploiement Kubernetes/GitOps préparé puis pris en charge par la DSI"
     notes: "Justifié dès 5+ services. K3s pour environnements légers."
     pros:
       - "Orchestration déclarative — self-healing, auto-scaling"
@@ -648,6 +702,9 @@ technologies:
     position: adopt
     since: "2024-01"
     switching_cost: medium
+    experience: practiced
+    evidence:
+      - "Workflows CI/CD réalisés sur plusieurs projets, apprentissage opérationnel encore actif"
     notes: "CI/CD natif GitHub, marketplace d'actions riche"
     pros:
       - "Intégration GitHub native — zéro configuration initiale"
@@ -694,6 +751,9 @@ technologies:
     position: adopt
     since: "2024-01"
     switching_cost: medium
+    experience: observed
+    evidence:
+      - "Présent au radar, pas encore pratiqué"
     notes: "Standard de facto pour les métriques, intégration Grafana"
     pros:
       - "Pull model — simple à intégrer dans Kubernetes"
@@ -717,6 +777,9 @@ technologies:
     position: adopt
     since: "2024-01"
     switching_cost: medium
+    experience: observed
+    evidence:
+      - "Présent au radar, pas encore pratiqué"
     notes: "Dashboards puissants, supporte Prometheus/Loki/Tempo"
     pros:
       - "Datasources multiples (Prometheus, Loki, ClickHouse, etc.)"
@@ -739,6 +802,9 @@ technologies:
     position: trial
     since: "2024-03"
     switching_cost: medium
+    experience: observed
+    evidence:
+      - "Présent au radar, pas encore pratiqué"
     notes: "Standard émergent pour traces/métriques/logs — vendor-neutral"
     pros:
       - "Vendor-neutral — pas de lock-in Datadog / Dynatrace"
@@ -831,6 +897,9 @@ technologies:
     position: trial
     since: "2024-06"
     switching_cost: high
+    experience: operated
+    evidence:
+      - "Vill'Âge Jeunes : Transit, secrets et blind indexes HMAC exploités sur VPS"
     notes: "Gestion centralisée des secrets — rotation automatique, audit complet"
     pros:
       - "Secrets dynamiques (DB, cloud) — rotation automatique"
@@ -1146,3 +1215,512 @@ technologies:
     sources:
       github: run-llama/llama_index
       pypi_package: llama-index
+
+  # ── CATALOGUE ÉLARGI 2026 — 100 RÉFÉRENCES NON ÉVALUÉES ──────────────────
+
+  - id: c
+    name: "C"
+    category: languages
+    position: adopt
+    since: "2026-08"
+    switching_cost: high
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: gcc-mirror/gcc
+
+  - id: cpp
+    name: "C++"
+    category: languages
+    position: adopt
+    since: "2026-08"
+    switching_cost: high
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: llvm/llvm-project
+
+  - id: csharp
+    name: "C#"
+    category: languages
+    position: adopt
+    since: "2026-08"
+    switching_cost: medium
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: dotnet/roslyn
+
+  - id: kotlin
+    name: "Kotlin"
+    category: languages
+    position: adopt
+    since: "2026-08"
+    switching_cost: medium
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: JetBrains/kotlin
+
+  - id: swift
+    name: "Swift"
+    category: languages
+    position: adopt
+    since: "2026-08"
+    switching_cost: high
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: swiftlang/swift
+
+  - id: astro
+    name: "Astro"
+    category: frameworks_front
+    position: trial
+    since: "2026-08"
+    switching_cost: low
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: withastro/astro
+      npm_package: "astro"
+
+  - id: vite
+    name: "Vite"
+    category: frameworks_front
+    position: adopt
+    since: "2026-08"
+    switching_cost: low
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: vitejs/vite
+      npm_package: "vite"
+
+  - id: solidjs
+    name: "SolidJS"
+    category: frameworks_front
+    position: assess
+    since: "2026-08"
+    switching_cost: medium
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: solidjs/solid
+      npm_package: "solid-js"
+
+  - id: qwik
+    name: "Qwik"
+    category: frameworks_front
+    position: assess
+    since: "2026-08"
+    switching_cost: medium
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: QwikDev/qwik
+      npm_package: "@builder.io/qwik"
+
+  - id: remix
+    name: "Remix"
+    category: frameworks_front
+    position: trial
+    since: "2026-08"
+    switching_cost: medium
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: remix-run/remix
+      npm_package: "@remix-run/react"
+
+  - id: django
+    name: "Django"
+    category: frameworks_back
+    position: adopt
+    since: "2026-08"
+    switching_cost: medium
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: django/django
+      pypi_package: "Django"
+
+  - id: flask
+    name: "Flask"
+    category: frameworks_back
+    position: adopt
+    since: "2026-08"
+    switching_cost: low
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: pallets/flask
+      pypi_package: "Flask"
+
+  - id: laravel
+    name: "Laravel"
+    category: frameworks_back
+    position: adopt
+    since: "2026-08"
+    switching_cost: medium
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: laravel/framework
+
+  - id: rails
+    name: "Ruby on Rails"
+    category: frameworks_back
+    position: adopt
+    since: "2026-08"
+    switching_cost: medium
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: rails/rails
+
+  - id: swiftui
+    name: "SwiftUI"
+    category: mobile
+    position: trial
+    since: "2026-08"
+    switching_cost: high
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: SwiftUIX/SwiftUIX
+
+  - id: jetpack-compose
+    name: "Jetpack Compose"
+    category: mobile
+    position: adopt
+    since: "2026-08"
+    switching_cost: high
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: androidx/androidx
+
+  - id: dotnet-maui
+    name: ".NET MAUI"
+    category: mobile
+    position: trial
+    since: "2026-08"
+    switching_cost: high
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: dotnet/maui
+
+  - id: expo
+    name: "Expo"
+    category: mobile
+    position: trial
+    since: "2026-08"
+    switching_cost: medium
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: expo/expo
+      npm_package: "expo"
+
+  - id: tauri
+    name: "Tauri"
+    category: mobile
+    position: trial
+    since: "2026-08"
+    switching_cost: medium
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: tauri-apps/tauri
+      npm_package: "@tauri-apps/api"
+
+  - id: mysql
+    name: "MySQL"
+    category: databases
+    position: adopt
+    since: "2026-08"
+    switching_cost: high
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: mysql/mysql-server
+
+  - id: sqlite
+    name: "SQLite"
+    category: databases
+    position: adopt
+    since: "2026-08"
+    switching_cost: low
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: sqlite/sqlite
+
+  - id: mariadb
+    name: "MariaDB"
+    category: databases
+    position: adopt
+    since: "2026-08"
+    switching_cost: high
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: MariaDB/server
+
+  - id: cockroachdb
+    name: "CockroachDB"
+    category: databases
+    position: trial
+    since: "2026-08"
+    switching_cost: high
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: cockroachdb/cockroach
+
+  - id: cassandra
+    name: "Apache Cassandra"
+    category: databases
+    position: trial
+    since: "2026-08"
+    switching_cost: high
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: apache/cassandra
+
+  - id: ansible
+    name: "Ansible"
+    category: devops
+    position: adopt
+    since: "2026-08"
+    switching_cost: medium
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: ansible/ansible
+      pypi_package: "ansible-core"
+
+  - id: pulumi
+    name: "Pulumi"
+    category: devops
+    position: trial
+    since: "2026-08"
+    switching_cost: high
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: pulumi/pulumi
+      npm_package: "@pulumi/pulumi"
+
+  - id: helm
+    name: "Helm"
+    category: devops
+    position: adopt
+    since: "2026-08"
+    switching_cost: medium
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: helm/helm
+
+  - id: flux
+    name: "Flux CD"
+    category: devops
+    position: trial
+    since: "2026-08"
+    switching_cost: medium
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: fluxcd/flux2
+
+  - id: jenkins
+    name: "Jenkins"
+    category: devops
+    position: hold
+    since: "2026-08"
+    switching_cost: high
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: jenkinsci/jenkins
+
+  - id: victoriametrics
+    name: "VictoriaMetrics"
+    category: observability
+    position: trial
+    since: "2026-08"
+    switching_cost: medium
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: VictoriaMetrics/VictoriaMetrics
+
+  - id: zabbix
+    name: "Zabbix"
+    category: observability
+    position: adopt
+    since: "2026-08"
+    switching_cost: high
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: zabbix/zabbix
+
+  - id: sentry
+    name: "Sentry"
+    category: observability
+    position: adopt
+    since: "2026-08"
+    switching_cost: medium
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: getsentry/sentry
+      npm_package: "@sentry/node"
+
+  - id: signoz
+    name: "SigNoz"
+    category: observability
+    position: trial
+    since: "2026-08"
+    switching_cost: medium
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: SigNoz/signoz
+
+  - id: tempo
+    name: "Grafana Tempo"
+    category: observability
+    position: trial
+    since: "2026-08"
+    switching_cost: medium
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: grafana/tempo
+
+  - id: open-policy-agent
+    name: "Open Policy Agent"
+    category: security
+    position: adopt
+    since: "2026-08"
+    switching_cost: medium
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: open-policy-agent/opa
+
+  - id: falco
+    name: "Falco"
+    category: security
+    position: trial
+    since: "2026-08"
+    switching_cost: medium
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: falcosecurity/falco
+
+  - id: kyverno
+    name: "Kyverno"
+    category: security
+    position: trial
+    since: "2026-08"
+    switching_cost: medium
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: kyverno/kyverno
+
+  - id: cilium
+    name: "Cilium"
+    category: security
+    position: trial
+    since: "2026-08"
+    switching_cost: high
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: cilium/cilium
+
+  - id: cosign
+    name: "Cosign"
+    category: security
+    position: trial
+    since: "2026-08"
+    switching_cost: medium
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: sigstore/cosign
+
+  - id: activemq
+    name: "Apache ActiveMQ"
+    category: messaging
+    position: trial
+    since: "2026-08"
+    switching_cost: high
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: apache/activemq
+
+  - id: redpanda
+    name: "Redpanda"
+    category: messaging
+    position: trial
+    since: "2026-08"
+    switching_cost: high
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: redpanda-data/redpanda
+
+  - id: mosquitto
+    name: "Eclipse Mosquitto"
+    category: messaging
+    position: adopt
+    since: "2026-08"
+    switching_cost: low
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: eclipse-mosquitto/mosquitto
+
+  - id: emqx
+    name: "EMQX"
+    category: messaging
+    position: trial
+    since: "2026-08"
+    switching_cost: medium
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: emqx/emqx
+
+  - id: temporal
+    name: "Temporal"
+    category: messaging
+    position: trial
+    since: "2026-08"
+    switching_cost: high
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: temporalio/temporal
+
+  - id: pytorch
+    name: "PyTorch"
+    category: ai
+    position: adopt
+    since: "2026-08"
+    switching_cost: high
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: pytorch/pytorch
+      pypi_package: "torch"
+
+  - id: tensorflow
+    name: "TensorFlow"
+    category: ai
+    position: adopt
+    since: "2026-08"
+    switching_cost: high
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: tensorflow/tensorflow
+      pypi_package: "tensorflow"
+
+  - id: jax
+    name: "JAX"
+    category: ai
+    position: trial
+    since: "2026-08"
+    switching_cost: high
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: jax-ml/jax
+      pypi_package: "jax"
+
+  - id: vllm
+    name: "vLLM"
+    category: ai
+    position: trial
+    since: "2026-08"
+    switching_cost: high
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: vllm-project/vllm
+      pypi_package: "vllm"
+
+  - id: langgraph
+    name: "LangGraph"
+    category: ai
+    position: trial
+    since: "2026-08"
+    switching_cost: medium
+    notes: "Référence ajoutée au catalogue élargi pour évaluation architecturale."
+    sources:
+      github: langchain-ai/langgraph
+      pypi_package: "langgraph"

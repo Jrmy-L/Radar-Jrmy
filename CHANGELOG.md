@@ -9,6 +9,16 @@ Versionnement : [Semantic Versioning](https://semver.org/lang/fr/)
 
 ## [Unreleased]
 
+### Added
+- Échelle d'expérience personnelle avec preuves et distinction visuelle des technologies pratiquées
+- Catalogue doublé à 100 technologies, avec 10 références par catégorie
+- Statut explicite des tentatives de collecte
+- Propositions de déplacement d'anneau soumises à validation humaine
+
+### Changed
+- Les dépôts archivés proposent désormais un passage en `hold` au lieu de modifier automatiquement le YAML
+- Limitation de la concurrence HTTP pour fiabiliser la collecte élargie
+
 ## [0.1.0] — 2026-06-11
 
 ### Added

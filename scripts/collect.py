@@ -15,6 +15,7 @@ from scripts.sources.cncf_source import fetch_cncf_metrics
 from scripts.sources.github_source import fetch_github_metrics
 from scripts.sources.npm_source import fetch_npm_metrics
 from scripts.sources.pypi_source import fetch_pypi_metrics
+from scripts.utils.position_proposal import propose_position
 
 load_dotenv()
 
@@ -104,6 +105,16 @@ async def collect_technology(tech: dict, prev_tech: dict | None) -> dict:
                 metrics[key] = result
 
     trajectory = compute_trajectory(metrics, prev_tech)
+    position_proposal = propose_position(tech, trajectory, metrics)
+    collected_at = datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
+    if not tasks:
+        collection_status = "no_source"
+    elif not metrics:
+        collection_status = "failed"
+    elif len(metrics) < len(tasks):
+        collection_status = "partial"
+    else:
+        collection_status = "complete"
 
     return {
         "id": tech["id"],
@@ -112,56 +123,18 @@ async def collect_technology(tech: dict, prev_tech: dict | None) -> dict:
         "position": tech["position"],
         "since": tech.get("since"),
         "switching_cost": tech.get("switching_cost"),
+        "experience": tech.get("experience", "unassessed"),
+        "evidence": tech.get("evidence", []),
         "notes": tech.get("notes"),
         "pros": tech.get("pros", []),
         "cons": tech.get("cons", []),
         "use_cases": tech.get("use_cases", []),
         "metrics": metrics,
         "trajectory": trajectory,
+        "position_proposal": position_proposal,
+        "collected_at": collected_at,
+        "collection_status": collection_status,
     }
-
-
-def _set_position_hold(tech_id: str, content: str) -> str:
-    """Replace the position field with 'hold' for a given tech ID, preserving YAML formatting."""
-    lines = content.split("\n")
-    in_target = False
-    result = []
-    for line in lines:
-        stripped = line.strip()
-        if stripped.startswith("- id:"):
-            in_target = stripped.split(":", 1)[1].strip() == tech_id
-        if in_target and stripped.startswith("position:"):
-            indent = len(line) - len(line.lstrip())
-            result.append(" " * indent + "position: hold")
-            in_target = False
-        else:
-            result.append(line)
-    return "\n".join(result)
-
-
-def auto_hold_archived(collected: list[dict]) -> list[str]:
-    """
-    Move to 'hold' any tech whose GitHub repo is archived.
-    Updates both technologies.yaml and the collected results in-place.
-    Returns the list of tech IDs that were changed.
-    """
-    to_hold = [
-        t for t in collected
-        if t.get("metrics", {}).get("github", {}).get("archived")
-        and t["position"] != "hold"
-    ]
-    if not to_hold:
-        return []
-
-    content = TECH_FILE.read_text(encoding="utf-8")
-    for tech in to_hold:
-        content = _set_position_hold(tech["id"], content)
-        tech["position"] = "hold"  # keep data.json consistent
-        logger.warning("Auto-hold: %s — GitHub repo is archived", tech["id"])
-
-    TECH_FILE.write_text(content, encoding="utf-8")
-    logger.info("technologies.yaml updated — %d auto-hold(s)", len(to_hold))
-    return [t["id"] for t in to_hold]
 
 
 async def main() -> int:
@@ -191,10 +164,6 @@ async def main() -> int:
                 result["trajectory"],
             )
 
-    held = auto_hold_archived(collected)
-    if held:
-        logger.info("Auto-held: %s", ", ".join(held))
-
     total = len(technologies)
     failure_rate = failed / total if total > 0 else 0
     logger.info(
@@ -206,7 +175,7 @@ async def main() -> int:
 
     output = {
         "generated_at": datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "schema_version": "1.0",
+        "schema_version": "1.2",
         "technologies": collected,
     }
 
