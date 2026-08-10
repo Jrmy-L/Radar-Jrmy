@@ -2136,10 +2136,16 @@
       "switching_cost": "high",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Langage bas niveau incontournable pour les systèmes embarqués, noyaux et bibliothèques critiques.",
+      "pros": [
+        "Contrôle précis de la mémoire et excellente portabilité."
+      ],
+      "cons": [
+        "Sécurité mémoire manuelle et risque élevé de comportements indéfinis."
+      ],
+      "use_cases": [
+        "Firmware, pilotes et composants système contraints."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2155,10 +2161,16 @@
       "switching_cost": "high",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Langage système performant adapté aux moteurs, applications natives et infrastructures à faible latence.",
+      "pros": [
+        "Performances natives et écosystème industriel très mature."
+      ],
+      "cons": [
+        "Complexité élevée, compilation lente et sécurité mémoire manuelle."
+      ],
+      "use_cases": [
+        "Moteurs, logiciels natifs et traitements temps réel."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2174,10 +2186,16 @@
       "switching_cost": "medium",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Langage polyvalent de l’écosystème .NET, particulièrement solide pour les applications d’entreprise.",
+      "pros": [
+        "Typage robuste, excellent outillage et runtime performant."
+      ],
+      "cons": [
+        "Dépendance forte à l’écosystème .NET et modèles parfois complexes."
+      ],
+      "use_cases": [
+        "APIs, applications métier et services cloud Azure."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2193,10 +2211,16 @@
       "switching_cost": "medium",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Langage JVM moderne, concis et interopérable avec Java, également privilégié sur Android.",
+      "pros": [
+        "Null-safety et interopérabilité Java facilitant les migrations progressives."
+      ],
+      "cons": [
+        "Temps de compilation et complexité des coroutines à maîtriser."
+      ],
+      "use_cases": [
+        "Applications Android et backends JVM modernes."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2212,10 +2236,16 @@
       "switching_cost": "high",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Langage principal de l’écosystème Apple, conçu pour la sécurité et les performances natives.",
+      "pros": [
+        "Typage sûr et intégration native avec les plateformes Apple."
+      ],
+      "cons": [
+        "Écosystème principalement centré sur Apple et migrations de versions parfois coûteuses."
+      ],
+      "use_cases": [
+        "Applications iOS, macOS et services Swift natifs."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2231,10 +2261,16 @@
       "switching_cost": "low",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Framework orienté contenu qui limite le JavaScript client grâce à son architecture en îlots.",
+      "pros": [
+        "Très bonnes performances initiales et intégration de plusieurs frameworks UI."
+      ],
+      "cons": [
+        "Moins adapté aux applications fortement interactives côté client."
+      ],
+      "use_cases": [
+        "Sites éditoriaux, documentation et vitrines performantes."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2250,10 +2286,16 @@
       "switching_cost": "low",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Outil de développement et de build moderne devenu une base courante des projets front-end.",
+      "pros": [
+        "Démarrage rapide, HMR efficace et configuration légère."
+      ],
+      "cons": [
+        "Les besoins avancés exposent encore la complexité de Rollup ou des plugins."
+      ],
+      "use_cases": [
+        "SPAs, bibliothèques front-end et prototypes rapides."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2269,10 +2311,16 @@
       "switching_cost": "medium",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Bibliothèque réactive sans Virtual DOM, proche de React dans sa syntaxe mais plus fine à l’exécution.",
+      "pros": [
+        "Réactivité granulaire et faible coût runtime."
+      ],
+      "cons": [
+        "Écosystème et disponibilité des compétences plus réduits que React."
+      ],
+      "use_cases": [
+        "Interfaces très interactives sensibles aux performances."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2288,10 +2336,16 @@
       "switching_cost": "medium",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Framework conçu autour de la résumabilité afin de réduire le JavaScript exécuté au chargement.",
+      "pros": [
+        "Excellent potentiel de démarrage sur les pages riches."
+      ],
+      "cons": [
+        "Modèle mental spécifique et écosystème encore jeune."
+      ],
+      "use_cases": [
+        "Applications web complexes où le temps d’interactivité est critique."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2307,10 +2361,16 @@
       "switching_cost": "medium",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Framework web full-stack centré sur les standards du Web, les formulaires et le rendu serveur.",
+      "pros": [
+        "Gestion cohérente des données, erreurs et mutations côté serveur."
+      ],
+      "cons": [
+        "Choix d’hébergement et évolution de l’écosystème à surveiller."
+      ],
+      "use_cases": [
+        "Applications React transactionnelles avec rendu serveur."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2326,10 +2386,16 @@
       "switching_cost": "medium",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Framework Python complet intégrant ORM, administration, sécurité et conventions de projet.",
+      "pros": [
+        "Productivité élevée et nombreuses protections sécuritaires par défaut."
+      ],
+      "cons": [
+        "Architecture monolithique et ORM parfois contraignant à grande échelle."
+      ],
+      "use_cases": [
+        "Applications métier, portails et back-offices."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2345,10 +2411,16 @@
       "switching_cost": "low",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Microframework Python minimal laissant à l’équipe le choix de son architecture et de ses extensions.",
+      "pros": [
+        "Prise en main simple et grande flexibilité."
+      ],
+      "cons": [
+        "Risque d’architectures incohérentes sans conventions d’équipe explicites."
+      ],
+      "use_cases": [
+        "Petites APIs, prototypes et services Python ciblés."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2364,10 +2436,16 @@
       "switching_cost": "medium",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Framework PHP complet privilégiant la productivité, les conventions et un écosystème intégré.",
+      "pros": [
+        "Développement rapide avec ORM, files, événements et outillage mature."
+      ],
+      "cons": [
+        "Abstractions nombreuses pouvant masquer les coûts SQL ou runtime."
+      ],
+      "use_cases": [
+        "Applications métier, APIs et plateformes web PHP."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2383,10 +2461,16 @@
       "switching_cost": "medium",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Framework Ruby conventionnel optimisé pour livrer rapidement des applications web cohérentes.",
+      "pros": [
+        "Conventions fortes et productivité élevée sur les domaines CRUD."
+      ],
+      "cons": [
+        "Performances et montée en charge demandent une discipline opérationnelle."
+      ],
+      "use_cases": [
+        "Produits SaaS, back-offices et applications métier."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2402,10 +2486,16 @@
       "switching_cost": "high",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Approche déclarative native d’Apple pour construire des interfaces sur ses plateformes.",
+      "pros": [
+        "Intégration système forte et partage d’UI entre plateformes Apple."
+      ],
+      "cons": [
+        "Compatibilité liée aux versions des systèmes Apple et contrôle fin parfois limité."
+      ],
+      "use_cases": [
+        "Applications iOS et macOS natives modernes."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2421,10 +2511,16 @@
       "switching_cost": "high",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Toolkit déclaratif recommandé pour les interfaces Android modernes en Kotlin.",
+      "pros": [
+        "État UI cohérent, composants réutilisables et intégration Android native."
+      ],
+      "cons": [
+        "Recomposition et gestion d’état exigent une bonne compréhension du runtime."
+      ],
+      "use_cases": [
+        "Applications Android natives maintenables."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2440,10 +2536,16 @@
       "switching_cost": "high",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Framework .NET pour mutualiser interfaces et logique sur mobile et desktop.",
+      "pros": [
+        "Partage de code C# et accès aux APIs natives."
+      ],
+      "cons": [
+        "Écosystème plus restreint et comportements variables selon les plateformes."
+      ],
+      "use_cases": [
+        "Applications d’entreprise multiplateformes dans un SI .NET."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2459,10 +2561,16 @@
       "switching_cost": "medium",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Plateforme autour de React Native simplifiant build, mises à jour et accès aux fonctionnalités mobiles.",
+      "pros": [
+        "Expérience développeur rapide et services de build intégrés."
+      ],
+      "cons": [
+        "Dépendance aux services Expo et limites possibles pour le natif très spécifique."
+      ],
+      "use_cases": [
+        "Applications mobiles React Native et prototypes produits."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2478,10 +2586,16 @@
       "switching_cost": "medium",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Framework desktop utilisant un front web avec un backend Rust et le WebView système.",
+      "pros": [
+        "Binaires plus légers qu’Electron et surface native contrôlable."
+      ],
+      "cons": [
+        "Variations entre WebViews et apprentissage de Rust pour les extensions."
+      ],
+      "use_cases": [
+        "Applications desktop légères à interface web."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2497,10 +2611,16 @@
       "switching_cost": "high",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "SGBDR très répandu, robuste pour les applications transactionnelles classiques.",
+      "pros": [
+        "Écosystème mature, réplication éprouvée et large disponibilité des compétences."
+      ],
+      "cons": [
+        "Certaines fonctions avancées et contraintes diffèrent de PostgreSQL."
+      ],
+      "use_cases": [
+        "Applications web transactionnelles et systèmes existants."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2516,10 +2636,16 @@
       "switching_cost": "low",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Base relationnelle embarquée sans serveur, stockée dans un fichier unique.",
+      "pros": [
+        "Déploiement nul, fiabilité élevée et excellent support local."
+      ],
+      "cons": [
+        "Écritures concurrentes limitées et absence de serveur multi-utilisateur."
+      ],
+      "use_cases": [
+        "Applications mobiles, desktop, edge et caches locaux."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2535,10 +2661,16 @@
       "switching_cost": "high",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Fork communautaire de MySQL maintenant une forte compatibilité avec son écosystème.",
+      "pros": [
+        "Migration souvent simple depuis MySQL et gouvernance ouverte."
+      ],
+      "cons": [
+        "Divergences croissantes avec MySQL et choix de moteurs à maîtriser."
+      ],
+      "use_cases": [
+        "Applications LAMP et remplacement de MySQL autohébergé."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2554,10 +2686,16 @@
       "switching_cost": "high",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Base SQL distribuée visant cohérence forte, réplication et tolérance aux pannes.",
+      "pros": [
+        "SQL familier et résilience multi-nœuds intégrée."
+      ],
+      "cons": [
+        "Coût opérationnel élevé et latences liées au consensus distribué."
+      ],
+      "use_cases": [
+        "Applications critiques distribuées sur plusieurs régions."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2573,10 +2711,16 @@
       "switching_cost": "high",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Base distribuée orientée colonnes conçue pour de très gros volumes et une haute disponibilité.",
+      "pros": [
+        "Scalabilité horizontale et absence de point unique de panne."
+      ],
+      "cons": [
+        "Modélisation guidée par les requêtes et exploitation complexe."
+      ],
+      "use_cases": [
+        "Écritures massives, séries temporelles et systèmes géodistribués."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2592,10 +2736,16 @@
       "switching_cost": "medium",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Outil d’automatisation déclarative sans agent pour configurer serveurs et déploiements.",
+      "pros": [
+        "Adoption simple via SSH et playbooks lisibles."
+      ],
+      "cons": [
+        "Idempotence dépendante des modules et performances limitées sur de grands parcs."
+      ],
+      "use_cases": [
+        "Configuration système, provisioning et opérations répétables."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2611,10 +2761,16 @@
       "switching_cost": "high",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Infrastructure as Code utilisant des langages généralistes plutôt qu’un DSL dédié.",
+      "pros": [
+        "Abstractions réutilisables, tests et outillage des langages existants."
+      ],
+      "cons": [
+        "Risque de complexifier l’infrastructure avec du code trop impératif."
+      ],
+      "use_cases": [
+        "Provisionnement cloud pour équipes fortement orientées développement."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2630,10 +2786,16 @@
       "switching_cost": "medium",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Gestionnaire de paquets Kubernetes basé sur des charts et des templates YAML.",
+      "pros": [
+        "Distribution et paramétrage standardisés des applications Kubernetes."
+      ],
+      "cons": [
+        "Templates difficiles à déboguer et dette possible dans les valeurs imbriquées."
+      ],
+      "use_cases": [
+        "Packaging et déploiement reproductible sur Kubernetes."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2649,10 +2811,16 @@
       "switching_cost": "medium",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Outil GitOps Kubernetes réconciliant automatiquement l’état du cluster avec Git.",
+      "pros": [
+        "Traçabilité, déploiements déclaratifs et récupération continue de la dérive."
+      ],
+      "cons": [
+        "Diagnostic plus indirect et forte dépendance à une bonne organisation Git."
+      ],
+      "use_cases": [
+        "Déploiements Kubernetes GitOps et gestion multi-clusters."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2668,10 +2836,16 @@
       "switching_cost": "high",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Serveur CI historique extrêmement extensible, surtout présent dans les SI existants.",
+      "pros": [
+        "Écosystème immense et grande flexibilité d’intégration."
+      ],
+      "cons": [
+        "Maintenance lourde, plugins fragiles et dette de configuration fréquente."
+      ],
+      "use_cases": [
+        "Pipelines historiques nécessitant des intégrations très spécifiques."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2687,10 +2861,16 @@
       "switching_cost": "medium",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Base de métriques compatible Prometheus visant efficacité, rétention et montée en charge.",
+      "pros": [
+        "Compression efficace et exploitation relativement simple."
+      ],
+      "cons": [
+        "Écosystème plus petit et certaines capacités réservées à l’édition entreprise."
+      ],
+      "use_cases": [
+        "Stockage longue durée de métriques Prometheus."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2706,10 +2886,16 @@
       "switching_cost": "high",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Plateforme intégrée de supervision d’infrastructure avec collecte, alertes et inventaire.",
+      "pros": [
+        "Solution complète et mature pour serveurs et équipements réseau."
+      ],
+      "cons": [
+        "Configuration dense et approche moins cloud-native que Prometheus."
+      ],
+      "use_cases": [
+        "Supervision d’infrastructures, réseaux et environnements hybrides."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2725,10 +2911,16 @@
       "switching_cost": "medium",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Plateforme de suivi d’erreurs et de performances orientée contexte applicatif.",
+      "pros": [
+        "Diagnostic rapide grâce aux traces, releases et informations utilisateur."
+      ],
+      "cons": [
+        "Coûts et volumes d’événements à contrôler attentivement."
+      ],
+      "use_cases": [
+        "Surveillance d’erreurs front-end, mobile et backend."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2744,10 +2936,16 @@
       "switching_cost": "medium",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Plateforme d’observabilité open source fondée sur OpenTelemetry.",
+      "pros": [
+        "Traces, métriques et logs réunis avec une base ouverte."
+      ],
+      "cons": [
+        "Exploitation de la plateforme et stockage ClickHouse à dimensionner."
+      ],
+      "use_cases": [
+        "Observabilité unifiée autohébergée avec OpenTelemetry."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2763,10 +2961,16 @@
       "switching_cost": "medium",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Backend distribué de traces conçu pour s’intégrer à Grafana et OpenTelemetry.",
+      "pros": [
+        "Stockage objet économique et intégration native à l’écosystème Grafana."
+      ],
+      "cons": [
+        "Recherche de traces moins riche sans métadonnées et corrélations bien conçues."
+      ],
+      "use_cases": [
+        "Traçage distribué à grande échelle."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2782,10 +2986,16 @@
       "switching_cost": "medium",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Moteur de politiques généraliste séparant les règles d’autorisation du code applicatif.",
+      "pros": [
+        "Politiques centralisées, testables et réutilisables avec Rego."
+      ],
+      "cons": [
+        "Langage Rego et diagnostic des décisions demandent un apprentissage."
+      ],
+      "use_cases": [
+        "Autorisation, admission Kubernetes et conformité d’infrastructure."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2801,10 +3011,16 @@
       "switching_cost": "medium",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Détection runtime cloud-native observant les comportements système et conteneurs.",
+      "pros": [
+        "Alertes comportementales proches du noyau et règles extensibles."
+      ],
+      "cons": [
+        "Bruit important sans ajustement des règles et contraintes bas niveau."
+      ],
+      "use_cases": [
+        "Détection d’intrusions sur hôtes Linux et clusters Kubernetes."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2820,10 +3036,16 @@
       "switching_cost": "medium",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Moteur de politiques Kubernetes utilisant des ressources YAML natives.",
+      "pros": [
+        "Prise en main accessible aux équipes Kubernetes sans nouveau langage."
+      ],
+      "cons": [
+        "Couplage fort à Kubernetes et performances à surveiller avec beaucoup de règles."
+      ],
+      "use_cases": [
+        "Validation, mutation et génération de ressources Kubernetes."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2839,10 +3061,16 @@
       "switching_cost": "high",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Réseau, sécurité et observabilité Kubernetes fondés sur eBPF.",
+      "pros": [
+        "Visibilité réseau fine et politiques performantes jusqu’à la couche applicative."
+      ],
+      "cons": [
+        "Complexité eBPF et diagnostic réseau avancé exigeant."
+      ],
+      "use_cases": [
+        "CNI Kubernetes, segmentation réseau et observabilité des flux."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2858,10 +3086,16 @@
       "switching_cost": "medium",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Outil de signature et vérification d’artefacts de supply chain logicielle.",
+      "pros": [
+        "Signature sans clé persistante et intégration aux registres OCI."
+      ],
+      "cons": [
+        "Gestion des politiques de confiance et adoption organisationnelle nécessaires."
+      ],
+      "use_cases": [
+        "Signature d’images conteneur et attestations de build."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2877,10 +3111,16 @@
       "switching_cost": "high",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Broker de messages mature compatible JMS et plusieurs protocoles.",
+      "pros": [
+        "Bonne intégration Java et large compatibilité protocolaire."
+      ],
+      "cons": [
+        "Architecture plus ancienne et exploitation moins adaptée aux très gros flux."
+      ],
+      "use_cases": [
+        "Intégration d’applications d’entreprise et files JMS."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2896,10 +3136,16 @@
       "switching_cost": "high",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Plateforme de streaming compatible Kafka conçue sans JVM ni ZooKeeper.",
+      "pros": [
+        "Déploiement simplifié et performances élevées avec compatibilité Kafka."
+      ],
+      "cons": [
+        "Écosystème plus jeune et certaines fonctions avancées commerciales."
+      ],
+      "use_cases": [
+        "Streaming événementiel compatible Kafka avec exploitation réduite."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2915,10 +3161,16 @@
       "switching_cost": "low",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Broker MQTT léger très utilisé pour l’IoT et les environnements contraints.",
+      "pros": [
+        "Faible consommation, simplicité et excellente compatibilité MQTT."
+      ],
+      "cons": [
+        "Fonctionnalités de cluster et gouvernance limitées seules."
+      ],
+      "use_cases": [
+        "Capteurs, équipements embarqués et passerelles IoT."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2934,10 +3186,16 @@
       "switching_cost": "medium",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Broker MQTT distribué orienté IoT massif et intégrations de données.",
+      "pros": [
+        "Clustering, règles et nombreuses intégrations prêtes à l’emploi."
+      ],
+      "cons": [
+        "Plateforme plus lourde et frontière open source commerciale à examiner."
+      ],
+      "use_cases": [
+        "Flottes IoT, télémétrie et messagerie MQTT à grande échelle."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2953,10 +3211,16 @@
       "switching_cost": "high",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Moteur d’orchestration durable pour workflows longs et distribués.",
+      "pros": [
+        "Reprises automatiques, état durable et logique métier testable."
+      ],
+      "cons": [
+        "Nouveau modèle mental et plateforme supplémentaire à exploiter."
+      ],
+      "use_cases": [
+        "Processus métier longs, sagas et tâches distribuées fiables."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2972,10 +3236,16 @@
       "switching_cost": "high",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Framework de deep learning flexible dominant dans la recherche et très présent en production.",
+      "pros": [
+        "API Python expressive, écosystème riche et accélération GPU mature."
+      ],
+      "cons": [
+        "Dépendances lourdes et optimisation de production spécialisée."
+      ],
+      "use_cases": [
+        "Entraînement, fine-tuning et inférence de modèles neuronaux."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -2991,10 +3261,16 @@
       "switching_cost": "high",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Plateforme ML complète couvrant entraînement, déploiement et périphériques.",
+      "pros": [
+        "Écosystème de production mature avec Serving, Lite et outils associés."
+      ],
+      "cons": [
+        "API vaste, complexité élevée et dynamique communautaire moins forte qu’avant."
+      ],
+      "use_cases": [
+        "Pipelines ML industriels et inférence mobile ou embarquée."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -3010,10 +3286,16 @@
       "switching_cost": "high",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Bibliothèque de calcul numérique différentiable compilée avec XLA.",
+      "pros": [
+        "Vectorisation, transformations fonctionnelles et performances accélérées."
+      ],
+      "cons": [
+        "Modèle fonctionnel exigeant et écosystème plus spécialisé."
+      ],
+      "use_cases": [
+        "Recherche ML, calcul scientifique et modèles haute performance."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -3029,10 +3311,16 @@
       "switching_cost": "high",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Moteur d’inférence LLM optimisé pour le débit et l’utilisation mémoire GPU.",
+      "pros": [
+        "Serving compatible OpenAI et gestion efficace du cache KV."
+      ],
+      "cons": [
+        "Besoins GPU importants et réglages dépendants des modèles."
+      ],
+      "use_cases": [
+        "Exposition de modèles open weights à fort trafic."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
@@ -3048,10 +3336,16 @@
       "switching_cost": "medium",
       "experience": "unassessed",
       "evidence": [],
-      "notes": "Référence ajoutée au catalogue élargi pour évaluation architecturale.",
-      "pros": [],
-      "cons": [],
-      "use_cases": [],
+      "notes": "Framework de workflows d’agents sous forme de graphes avec état et contrôle explicite.",
+      "pros": [
+        "Orchestration inspectable, persistance et boucles humain-dans-la-boucle."
+      ],
+      "cons": [
+        "Écosystème très mouvant et complexité inutile pour les agents simples."
+      ],
+      "use_cases": [
+        "Agents multi-étapes, workflows supervisés et processus LLM durables."
+      ],
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
