@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T02:35:50Z",
+  "generated_at": "2026-08-12T07:45:32Z",
   "schema_version": "1.0",
   "technologies": [
     {
@@ -29,7 +29,7 @@
         "npm": {
           "downloads_weekly": 260311793,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-12T02:33:48.607126+00:00"
+          "fetched_at": "2026-08-12T07:43:29.810957+00:00"
         }
       },
       "trajectory": "stable"
@@ -83,7 +83,14 @@
         "Scripts DevOps, automatisation CI/CD",
         "APIs FastAPI / Django pour équipes data"
       ],
-      "metrics": {},
+      "metrics": {
+        "pypi": {
+          "downloads_last_month": 682101663,
+          "downloads_last_week": 192262130,
+          "downloads_delta_pct": null,
+          "fetched_at": "2026-08-12T07:43:29.844745+00:00"
+        }
+      },
       "trajectory": "stable"
     },
     {
@@ -165,7 +172,7 @@
         "npm": {
           "downloads_weekly": 163083190,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-12T02:33:48.728924+00:00"
+          "fetched_at": "2026-08-12T07:43:29.889747+00:00"
         }
       },
       "trajectory": "stable"
@@ -197,7 +204,7 @@
         "npm": {
           "downloads_weekly": 5983187,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-12T02:33:48.765359+00:00"
+          "fetched_at": "2026-08-12T07:43:29.911959+00:00"
         }
       },
       "trajectory": "stable"
@@ -229,7 +236,7 @@
         "npm": {
           "downloads_weekly": 14550122,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-12T02:33:48.800755+00:00"
+          "fetched_at": "2026-08-12T07:43:29.934475+00:00"
         }
       },
       "trajectory": "stable"
@@ -261,7 +268,7 @@
         "npm": {
           "downloads_weekly": 52350971,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-12T02:33:48.835347+00:00"
+          "fetched_at": "2026-08-12T07:43:29.957114+00:00"
         }
       },
       "trajectory": "stable"
@@ -293,7 +300,7 @@
         "npm": {
           "downloads_weekly": 5273631,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-12T02:33:48.870027+00:00"
+          "fetched_at": "2026-08-12T07:43:29.979893+00:00"
         }
       },
       "trajectory": "stable"
@@ -351,7 +358,7 @@
         "npm": {
           "downloads_weekly": 13578827,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-12T02:33:48.922205+00:00"
+          "fetched_at": "2026-08-12T07:43:30.013501+00:00"
         }
       },
       "trajectory": "stable"
@@ -379,14 +386,7 @@
         "Microservices Python haute performance",
         "Prototypes rapides avec documentation API gratuite"
       ],
-      "metrics": {
-        "pypi": {
-          "downloads_last_month": 595751505,
-          "downloads_last_week": 147593169,
-          "downloads_delta_pct": -0.62,
-          "fetched_at": "2026-08-12T02:33:48.957482+00:00"
-        }
-      },
+      "metrics": {},
       "trajectory": "stable"
     },
     {
@@ -442,7 +442,7 @@
         "npm": {
           "downloads_weekly": 127296948,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-12T02:33:49.010140+00:00"
+          "fetched_at": "2026-08-12T07:43:30.069204+00:00"
         }
       },
       "trajectory": "stable"
@@ -500,7 +500,7 @@
         "npm": {
           "downloads_weekly": 11426507,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-12T02:33:49.062444+00:00"
+          "fetched_at": "2026-08-12T07:43:30.102909+00:00"
         }
       },
       "trajectory": "stable"
@@ -558,7 +558,7 @@
         "npm": {
           "downloads_weekly": 3828717,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-12T02:33:49.114875+00:00"
+          "fetched_at": "2026-08-12T07:43:30.136841+00:00"
         }
       },
       "trajectory": "stable"
@@ -590,7 +590,7 @@
         "npm": {
           "downloads_weekly": 438218,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-12T02:33:49.149929+00:00"
+          "fetched_at": "2026-08-12T07:43:30.159395+00:00"
         }
       },
       "trajectory": "stable"
@@ -1090,7 +1090,7 @@
         "npm": {
           "downloads_weekly": 727759,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-12T02:33:49.568446+00:00"
+          "fetched_at": "2026-08-12T07:43:30.428468+00:00"
         }
       },
       "trajectory": "stable"
@@ -1226,7 +1226,7 @@
         "npm": {
           "downloads_weekly": 48923961,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-12T02:33:49.690187+00:00"
+          "fetched_at": "2026-08-12T07:43:30.506784+00:00"
         }
       },
       "trajectory": "stable"
@@ -1284,7 +1284,7 @@
         "npm": {
           "downloads_weekly": 31996762,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-12T02:33:49.760858+00:00"
+          "fetched_at": "2026-08-12T07:43:30.552364+00:00"
         }
       },
       "trajectory": "stable"
@@ -1316,13 +1316,13 @@
         "npm": {
           "downloads_weekly": 2862732,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-12T02:33:49.795800+00:00"
+          "fetched_at": "2026-08-12T07:43:30.574631+00:00"
         },
         "pypi": {
           "downloads_last_month": 284211873,
           "downloads_last_week": 60586225,
-          "downloads_delta_pct": -0.79,
-          "fetched_at": "2026-08-12T02:33:49.813421+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-08-12T07:43:30.585795+00:00"
         }
       },
       "trajectory": "stable"
@@ -1350,7 +1350,14 @@
         "NLP : classification, extraction, résumé",
         "Déploiement de modèles open-source on-premise"
       ],
-      "metrics": {},
+      "metrics": {
+        "pypi": {
+          "downloads_last_month": 191209277,
+          "downloads_last_week": 47630583,
+          "downloads_delta_pct": null,
+          "fetched_at": "2026-08-12T07:43:30.608277+00:00"
+        }
+      },
       "trajectory": "stable"
     },
     {
@@ -1380,7 +1387,7 @@
         "npm": {
           "downloads_weekly": 6519537,
           "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-08-12T02:33:49.883136+00:00"
+          "fetched_at": "2026-08-12T07:43:30.630686+00:00"
         }
       },
       "trajectory": "stable"
@@ -1408,7 +1415,14 @@
         "RAG production-grade avec sources hétérogènes",
         "Agents d'analyse documentaire"
       ],
-      "metrics": {},
+      "metrics": {
+        "pypi": {
+          "downloads_last_month": 7203303,
+          "downloads_last_week": 1634337,
+          "downloads_delta_pct": null,
+          "fetched_at": "2026-08-12T07:43:30.652937+00:00"
+        }
+      },
       "trajectory": "stable"
     }
   ]
