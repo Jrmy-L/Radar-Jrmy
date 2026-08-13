@@ -6,6 +6,7 @@ import {
   trajectoryLabel,
   formatDate,
   experienceLabel,
+  experienceGroup,
   collectionStatusLabel,
 } from './data-loader.js';
 import { initAlerts } from './alerts.js';
@@ -32,7 +33,7 @@ function positionOrder(p) {
 }
 
 function experienceOrder(level) {
-  return { unassessed: 0, observed: 1, studied: 2, practiced: 3, delivered: 4, operated: 5 }[level] ?? 0;
+  return { unassessed: 0, observed: 1, practiced: 2 }[experienceGroup(level)] ?? 0;
 }
 
 function renderRow(tech) {
@@ -129,7 +130,7 @@ function getFilteredSorted() {
   const result = allTechs.filter(t => {
     const matchText = !query || t.name.toLowerCase().includes(query) || (t.notes || '').toLowerCase().includes(query);
     const matchPos = !posFilter || t.position === posFilter;
-    const matchExperience = !experienceFilter || (t.experience || 'unassessed') === experienceFilter;
+    const matchExperience = !experienceFilter || experienceGroup(t.experience) === experienceFilter;
     const matchCat = !catFilter || t.category === catFilter;
     return matchText && matchPos && matchExperience && matchCat;
   });

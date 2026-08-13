@@ -29,12 +29,17 @@ export function experienceLabel(level) {
   const labels = {
     unassessed: 'Non évalué',
     observed: 'Observé',
-    studied: 'Étudié',
+    studied: 'Pratiqué',
     practiced: 'Pratiqué',
-    delivered: 'Livré',
-    operated: 'Exploité',
+    delivered: 'Pratiqué',
+    operated: 'Pratiqué',
   };
   return labels[level] || labels.unassessed;
+}
+
+export function experienceGroup(level) {
+  if (['studied', 'practiced', 'delivered', 'operated'].includes(level)) return 'practiced';
+  return level || 'unassessed';
 }
 
 export function collectionStatusLabel(status) {

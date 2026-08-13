@@ -1,6 +1,6 @@
 'use strict';
 
-import { loadData, getCategoryColor, trajectoryLabel, formatNumber, experienceLabel } from './data-loader.js';
+import { loadData, getCategoryColor, trajectoryLabel, formatNumber, experienceLabel, experienceGroup } from './data-loader.js';
 
 const WIDTH = 760;
 const HEIGHT = 760;
@@ -16,7 +16,6 @@ const RINGS = [
 ];
 
 const RING_INDEX = { adopt: 0, trial: 1, assess: 2, hold: 3 };
-const EXPERIENCE_INDEX = { unassessed: 0, observed: 1, studied: 2, practiced: 3, delivered: 4, operated: 5 };
 
 const CATEGORIES = [
   'languages', 'frameworks_front', 'frameworks_back',
@@ -103,7 +102,7 @@ function buildSvg() {
   visible.forEach((tech) => {
     const pos = placeDot(tech, allTechs.indexOf(tech));
     const color = getCategoryColor(tech.category);
-    const hasHandsOnExperience = (EXPERIENCE_INDEX[tech.experience] || 0) >= EXPERIENCE_INDEX.practiced;
+    const hasHandsOnExperience = experienceGroup(tech.experience) === 'practiced';
     const g = dotsG.append('g')
       .attr('transform', `translate(${pos.x},${pos.y})`)
       .attr('class', 'dot')
