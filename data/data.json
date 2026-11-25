@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T08:12:24Z",
+  "generated_at": "2026-11-25T21:33:38Z",
   "schema_version": "1.2",
   "technologies": [
     {
@@ -31,14 +31,14 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 449380935,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-11-25T08:12:16.527950+00:00"
+          "downloads_weekly": 447758264,
+          "downloads_delta_pct": -0.36,
+          "fetched_at": "2026-11-25T21:33:30.583793+00:00"
         }
       },
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "partial"
     },
     {
@@ -69,7 +69,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -103,13 +103,13 @@
         "pypi": {
           "downloads_last_month": 622894809,
           "downloads_last_week": 138926937,
-          "downloads_delta_pct": -0.33,
-          "fetched_at": "2026-11-25T08:12:16.544271+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-11-25T21:33:30.596017+00:00"
         }
       },
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "partial"
     },
     {
@@ -140,7 +140,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -171,7 +171,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -203,14 +203,14 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 274654160,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-11-25T08:12:16.566176+00:00"
+          "downloads_weekly": 272822385,
+          "downloads_delta_pct": -0.67,
+          "fetched_at": "2026-11-25T21:33:30.611896+00:00"
         }
       },
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "partial"
     },
     {
@@ -240,14 +240,14 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 8552994,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-11-25T08:12:16.576925+00:00"
+          "downloads_weekly": 8564067,
+          "downloads_delta_pct": 0.13,
+          "fetched_at": "2026-11-25T21:33:30.619891+00:00"
         }
       },
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "partial"
     },
     {
@@ -277,14 +277,14 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 26698975,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-11-25T08:12:16.587549+00:00"
+          "downloads_weekly": 26572550,
+          "downloads_delta_pct": -0.47,
+          "fetched_at": "2026-11-25T21:33:30.627866+00:00"
         }
       },
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "partial"
     },
     {
@@ -314,14 +314,14 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 97089813,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-11-25T08:12:16.598190+00:00"
+          "downloads_weekly": 94714881,
+          "downloads_delta_pct": -2.45,
+          "fetched_at": "2026-11-25T21:33:30.635739+00:00"
         }
       },
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "partial"
     },
     {
@@ -351,14 +351,14 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 10405786,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-11-25T08:12:16.608914+00:00"
+          "downloads_weekly": 10309456,
+          "downloads_delta_pct": -0.93,
+          "fetched_at": "2026-11-25T21:33:30.643677+00:00"
         }
       },
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "partial"
     },
     {
@@ -389,7 +389,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -421,14 +421,14 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 23742561,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-11-25T08:12:16.624926+00:00"
+          "downloads_weekly": 23753821,
+          "downloads_delta_pct": 0.05,
+          "fetched_at": "2026-11-25T21:33:30.655594+00:00"
         }
       },
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "partial"
     },
     {
@@ -460,14 +460,14 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 25329236,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-11-25T08:12:16.630265+00:00"
+          "downloads_weekly": 25247879,
+          "downloads_delta_pct": -0.32,
+          "fetched_at": "2026-11-25T21:33:30.659545+00:00"
         }
       },
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "partial"
     },
     {
@@ -499,13 +499,13 @@
         "pypi": {
           "downloads_last_month": 561810795,
           "downloads_last_week": 136000212,
-          "downloads_delta_pct": -0.1,
-          "fetched_at": "2026-11-25T08:12:16.630285+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-11-25T21:33:30.659559+00:00"
         }
       },
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "partial"
     },
     {
@@ -536,7 +536,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -566,14 +566,14 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 209606178,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-11-25T08:12:16.630315+00:00"
+          "downloads_weekly": 209877980,
+          "downloads_delta_pct": 0.13,
+          "fetched_at": "2026-11-25T21:33:30.659580+00:00"
         }
       },
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "partial"
     },
     {
@@ -606,7 +606,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -636,14 +636,14 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 22323896,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-11-25T08:12:16.630341+00:00"
+          "downloads_weekly": 22289576,
+          "downloads_delta_pct": -0.15,
+          "fetched_at": "2026-11-25T21:33:30.659597+00:00"
         }
       },
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "partial"
     },
     {
@@ -674,7 +674,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -704,14 +704,14 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 8048154,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-11-25T08:12:16.630362+00:00"
+          "downloads_weekly": 8022145,
+          "downloads_delta_pct": -0.32,
+          "fetched_at": "2026-11-25T21:33:30.659612+00:00"
         }
       },
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "partial"
     },
     {
@@ -741,14 +741,14 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 636957,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-11-25T08:12:16.630379+00:00"
+          "downloads_weekly": 652394,
+          "downloads_delta_pct": 2.42,
+          "fetched_at": "2026-11-25T21:33:30.659626+00:00"
         }
       },
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "partial"
     },
     {
@@ -781,7 +781,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -814,7 +814,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -845,7 +845,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -876,7 +876,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -907,7 +907,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -941,7 +941,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -974,7 +974,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -1005,7 +1005,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -1038,7 +1038,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:16Z",
+      "collected_at": "2026-11-25T21:33:30Z",
       "collection_status": "no_source"
     },
     {
@@ -1069,7 +1069,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -1102,7 +1102,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -1135,7 +1135,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -1168,7 +1168,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -1199,7 +1199,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -1230,7 +1230,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -1261,7 +1261,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -1294,7 +1294,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -1325,7 +1325,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -1355,14 +1355,14 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 785577,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-11-25T08:12:16.630531+00:00"
+          "downloads_weekly": 788780,
+          "downloads_delta_pct": 0.41,
+          "fetched_at": "2026-11-25T21:33:30.659738+00:00"
         }
       },
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "partial"
     },
     {
@@ -1393,7 +1393,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -1424,7 +1424,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -1455,7 +1455,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -1486,7 +1486,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -1516,14 +1516,14 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 88432612,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-11-25T08:12:16.630648+00:00"
+          "downloads_weekly": 88285472,
+          "downloads_delta_pct": -0.17,
+          "fetched_at": "2026-11-25T21:33:30.659834+00:00"
         }
       },
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "partial"
     },
     {
@@ -1554,7 +1554,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -1584,14 +1584,14 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 62335801,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-11-25T08:12:16.630672+00:00"
+          "downloads_weekly": 62217782,
+          "downloads_delta_pct": -0.19,
+          "fetched_at": "2026-11-25T21:33:30.659852+00:00"
         }
       },
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "partial"
     },
     {
@@ -1621,20 +1621,20 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 4108680,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-11-25T08:12:16.630683+00:00"
+          "downloads_weekly": 4056955,
+          "downloads_delta_pct": -1.26,
+          "fetched_at": "2026-11-25T21:33:30.659859+00:00"
         },
         "pypi": {
           "downloads_last_month": 156923126,
           "downloads_last_week": 37572809,
-          "downloads_delta_pct": -0.04,
-          "fetched_at": "2026-11-25T08:12:16.630687+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-11-25T21:33:30.659862+00:00"
         }
       },
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "partial"
     },
     {
@@ -1666,13 +1666,13 @@
         "pypi": {
           "downloads_last_month": 121994561,
           "downloads_last_week": 27957632,
-          "downloads_delta_pct": 0.56,
-          "fetched_at": "2026-11-25T08:12:16.630697+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-11-25T21:33:30.659872+00:00"
         }
       },
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "partial"
     },
     {
@@ -1702,14 +1702,14 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 6530612,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-11-25T08:12:16.630711+00:00"
+          "downloads_weekly": 6557896,
+          "downloads_delta_pct": 0.42,
+          "fetched_at": "2026-11-25T21:33:30.659882+00:00"
         }
       },
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "partial"
     },
     {
@@ -1741,13 +1741,13 @@
         "pypi": {
           "downloads_last_month": 1772238,
           "downloads_last_week": 404079,
-          "downloads_delta_pct": -0.59,
-          "fetched_at": "2026-11-25T08:12:16.630721+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-11-25T21:33:30.659889+00:00"
         }
       },
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "partial"
     },
     {
@@ -1778,7 +1778,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -1809,7 +1809,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -1840,7 +1840,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -1871,7 +1871,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -1902,7 +1902,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -1932,14 +1932,14 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 12482392,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-11-25T08:12:16.630765+00:00"
+          "downloads_weekly": 12466963,
+          "downloads_delta_pct": -0.12,
+          "fetched_at": "2026-11-25T21:33:30.659921+00:00"
         }
       },
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "partial"
     },
     {
@@ -1969,14 +1969,14 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 286510880,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-11-25T08:12:16.630777+00:00"
+          "downloads_weekly": 285111487,
+          "downloads_delta_pct": -0.49,
+          "fetched_at": "2026-11-25T21:33:30.659929+00:00"
         }
       },
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "partial"
     },
     {
@@ -2006,14 +2006,14 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 12499825,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-11-25T08:12:16.630788+00:00"
+          "downloads_weekly": 12523177,
+          "downloads_delta_pct": 0.19,
+          "fetched_at": "2026-11-25T21:33:30.659937+00:00"
         }
       },
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "partial"
     },
     {
@@ -2043,14 +2043,14 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 78078,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-11-25T08:12:16.630808+00:00"
+          "downloads_weekly": 76220,
+          "downloads_delta_pct": -2.38,
+          "fetched_at": "2026-11-25T21:33:30.659953+00:00"
         }
       },
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "partial"
     },
     {
@@ -2080,14 +2080,14 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 967724,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-11-25T08:12:16.630846+00:00"
+          "downloads_weekly": 981270,
+          "downloads_delta_pct": 1.4,
+          "fetched_at": "2026-11-25T21:33:30.659966+00:00"
         }
       },
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "partial"
     },
     {
@@ -2118,7 +2118,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:23Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -2149,7 +2149,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -2180,7 +2180,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -2211,7 +2211,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -2242,7 +2242,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -2273,7 +2273,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -2304,7 +2304,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -2334,14 +2334,14 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 17371087,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-11-25T08:12:16.630909+00:00"
+          "downloads_weekly": 17356276,
+          "downloads_delta_pct": -0.09,
+          "fetched_at": "2026-11-25T21:33:30.660012+00:00"
         }
       },
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "partial"
     },
     {
@@ -2371,14 +2371,14 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 5101645,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-11-25T08:12:16.630924+00:00"
+          "downloads_weekly": 5043821,
+          "downloads_delta_pct": -1.13,
+          "fetched_at": "2026-11-25T21:33:30.660022+00:00"
         }
       },
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "partial"
     },
     {
@@ -2409,7 +2409,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -2440,7 +2440,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -2471,7 +2471,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -2502,7 +2502,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -2533,7 +2533,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -2565,13 +2565,13 @@
         "pypi": {
           "downloads_last_month": 18509558,
           "downloads_last_week": 4603374,
-          "downloads_delta_pct": 0.85,
-          "fetched_at": "2026-11-25T08:12:16.630963+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-11-25T21:33:30.660049+00:00"
         }
       },
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "partial"
     },
     {
@@ -2601,14 +2601,14 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 6096178,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-11-25T08:12:16.630977+00:00"
+          "downloads_weekly": 6168455,
+          "downloads_delta_pct": 1.19,
+          "fetched_at": "2026-11-25T21:33:30.660060+00:00"
         }
       },
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "partial"
     },
     {
@@ -2639,7 +2639,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -2670,7 +2670,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -2701,7 +2701,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -2732,7 +2732,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -2763,7 +2763,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:38Z",
       "collection_status": "failed"
     },
     {
@@ -2793,14 +2793,14 @@
       ],
       "metrics": {
         "npm": {
-          "downloads_weekly": 59560185,
-          "downloads_delta_pct": 0.0,
-          "fetched_at": "2026-11-25T08:12:16.631024+00:00"
+          "downloads_weekly": 59260694,
+          "downloads_delta_pct": -0.5,
+          "fetched_at": "2026-11-25T21:33:30.660096+00:00"
         }
       },
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "partial"
     },
     {
@@ -2831,7 +2831,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -2862,7 +2862,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:37Z",
       "collection_status": "failed"
     },
     {
@@ -2893,7 +2893,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:38Z",
       "collection_status": "failed"
     },
     {
@@ -2924,7 +2924,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:38Z",
       "collection_status": "failed"
     },
     {
@@ -2955,7 +2955,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:38Z",
       "collection_status": "failed"
     },
     {
@@ -2986,7 +2986,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:38Z",
       "collection_status": "failed"
     },
     {
@@ -3017,7 +3017,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:38Z",
       "collection_status": "failed"
     },
     {
@@ -3048,7 +3048,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:38Z",
       "collection_status": "failed"
     },
     {
@@ -3079,7 +3079,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:38Z",
       "collection_status": "failed"
     },
     {
@@ -3110,7 +3110,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:38Z",
       "collection_status": "failed"
     },
     {
@@ -3141,7 +3141,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:38Z",
       "collection_status": "failed"
     },
     {
@@ -3172,7 +3172,7 @@
       "metrics": {},
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:38Z",
       "collection_status": "failed"
     },
     {
@@ -3204,13 +3204,13 @@
         "pypi": {
           "downloads_last_month": 57741188,
           "downloads_last_week": 12580399,
-          "downloads_delta_pct": 0.46,
-          "fetched_at": "2026-11-25T08:12:16.631099+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-11-25T21:33:30.660151+00:00"
         }
       },
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:38Z",
       "collection_status": "partial"
     },
     {
@@ -3242,13 +3242,13 @@
         "pypi": {
           "downloads_last_month": 11767579,
           "downloads_last_week": 2531446,
-          "downloads_delta_pct": 2.02,
-          "fetched_at": "2026-11-25T08:12:16.631110+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-11-25T21:33:30.660160+00:00"
         }
       },
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:38Z",
       "collection_status": "partial"
     },
     {
@@ -3280,13 +3280,13 @@
         "pypi": {
           "downloads_last_month": 13671614,
           "downloads_last_week": 3374798,
-          "downloads_delta_pct": -3.06,
-          "fetched_at": "2026-11-25T08:12:16.631120+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-11-25T21:33:30.660167+00:00"
         }
       },
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:38Z",
       "collection_status": "partial"
     },
     {
@@ -3318,13 +3318,13 @@
         "pypi": {
           "downloads_last_month": 2831155,
           "downloads_last_week": 698242,
-          "downloads_delta_pct": 1.79,
-          "fetched_at": "2026-11-25T08:12:16.631129+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-11-25T21:33:30.660176+00:00"
         }
       },
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:38Z",
       "collection_status": "partial"
     },
     {
@@ -3356,13 +3356,13 @@
         "pypi": {
           "downloads_last_month": 62006377,
           "downloads_last_week": 15006913,
-          "downloads_delta_pct": -1.48,
-          "fetched_at": "2026-11-25T08:12:16.631138+00:00"
+          "downloads_delta_pct": 0.0,
+          "fetched_at": "2026-11-25T21:33:30.660182+00:00"
         }
       },
       "trajectory": "stable",
       "position_proposal": null,
-      "collected_at": "2026-11-25T08:12:24Z",
+      "collected_at": "2026-11-25T21:33:38Z",
       "collection_status": "partial"
     }
   ]
